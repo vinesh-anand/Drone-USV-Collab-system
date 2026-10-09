@@ -1,0 +1,78 @@
+<launch>
+
+    <!-- ============================================================
+         DRONE MAVROS
+         Pixhawk / FMUv3
+         Namespace: /mavros_drone
+         ============================================================ -->
+
+    <group ns="/mavros_drone">
+
+        <!--
+            MAVROS node is deliberately renamed to "mavros".
+            Because it is inside /mavros_drone, the node becomes:
+
+                /mavros_drone/mavros
+
+            Its relative topics become:
+
+                /mavros_drone/state
+                /mavros_drone/imu/data
+                /mavros_drone/vfr_hud
+                ...
+        -->
+
+        <node
+            pkg="mavros"
+            type="mavros_node"
+            name="mavros"
+            output="screen"
+            clear_params="true"
+        >
+
+            <!-- Pixhawk stable USB path -->
+            <param
+                name="fcu_url"
+                value="udp://:14540@127.0.0.1:14540"
+            />
+
+            <!-- No GCS forwarding for now -->
+            <param
+                name="gcs_url"
+                value=""
+            />
+
+            <!-- Drone MAVLink system ID -->
+            <param
+                name="target_system_id"
+                value="1"
+            />
+
+            <!-- Autopilot component ID -->
+            <param
+                name="target_component_id"
+                value="1"
+            />
+
+            <!-- MAVLink 2 -->
+            <param
+                name="fcu_protocol"
+                value="v2.0"
+            />
+
+            <!-- MAVROS ArduPilot configuration -->
+            <rosparam
+                command="load"
+                file="$(find mavros)/launch/apm_pluginlists.yaml"
+            />
+
+            <rosparam
+                command="load"
+                file="$(find mavros)/launch/apm_config.yaml"
+            />
+
+        </node>
+
+    </group>
+
+</launch>

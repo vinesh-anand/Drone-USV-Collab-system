@@ -1,0 +1,157 @@
+
+> tanstack_start_ts@0.1.0 electron:dev
+> concurrently -k -n vite,electron "vite dev --host 127.0.0.1 --port 1420 --strictPort" "wait-on tcp:127.0.0.1:1420 && electron ."
+
+[vite] 
+[vite]   VITE v8.1.5  ready in 927 ms
+[vite] 
+[vite]   ➜  Local:   http://127.0.0.1:1420/
+[electron] MESA-INTEL: warning: Performance support disabled, consider sysctl dev.i915.perf_stream_paranoid=0
+[electron] 
+[electron] libva error: /usr/lib/x86_64-linux-gnu/dri/iHD_drv_video.so init failed
+[electron] libva error: /usr/lib/x86_64-linux-gnu/dri/i965_drv_video.so init failed
+[electron] [104138:1005/165548.466318:ERROR:media/gpu/vaapi/vaapi_wrapper.cc:1640] vaInitialize failed: unknown libva error
+[electron] src/gbm_drv_common.c:131: GBM-DRV error (get_bytes_per_component): Unknown or not supported format: 808530000
+[electron] 
+[electron] src/gbm_drv_common.c:131: GBM-DRV error (get_bytes_per_component): Unknown or not supported format: 808530000
+[electron] 
+[electron] src/gbm_drv_common.c:131: GBM-DRV error (get_bytes_per_component): Unknown or not supported format: 808530000
+[electron] 
+[electron] src/gbm_drv_common.c:131: GBM-DRV error (get_bytes_per_component): Unknown or not supported format: 808530000
+[electron] 
+[electron] src/gbm_drv_common.c:131: GBM-DRV error (get_bytes_per_component): Unknown or not supported format: 808530000
+[electron] 
+[electron] src/gbm_drv_common.c:131: GBM-DRV error (get_bytes_per_component): Unknown or not supported format: 808530000
+[electron] 
+[electron] src/gbm_drv_common.c:131: GBM-DRV error (get_bytes_per_component): Unknown or not supported format: 808530000
+[electron] 
+[electron] src/gbm_drv_common.c:131: GBM-DRV error (get_bytes_per_component): Unknown or not supported format: 808530000
+[electron] 
+[electron] src/gbm_drv_common.c:131: GBM-DRV error (get_bytes_per_component): Unknown or not supported format: 808530000
+[electron] 
+[electron] src/gbm_drv_common.c:131: GBM-DRV error (get_bytes_per_component): Unknown or not supported format: 808530000
+[electron] 
+[vite] [tanstack-router] These exports from "/home/potential/Drone-OS/src/routes/index.tsx" will not be code-split and will increase your bundle size:
+[vite] - Cockpit
+[vite] For the best optimization, these items should either have their export statements removed, or be imported from another location that is not a route file.
+
+> tanstack_start_ts@0.1.0 electron:dev
+> concurrently -k -n vite,electron "vite dev --host 127.0.0.1 --port 1420 --strictPort" "wait-on tcp:127.0.0.1:1420 && electron ."
+
+[electron] wait-on tcp:127.0.0.1:1420 && electron . exited with code 0
+--> Sending SIGTERM to other processes..
+[vite] vite dev --host 127.0.0.1 --port 1420 --strictPort exited with code SIGTERM
+
+> tanstack_start_ts@0.1.0 electron:dev
+> concurrently -k -n vite,electron "vite dev --host 127.0.0.1 --port 1420 --strictPort" "wait-on tcp:127.0.0.1:1420 && electron ."
+
+[vite] 
+[vite]   VITE v8.1.5  ready in 860 ms
+[vite] 
+[vite]   ➜  Local:   http://127.0.0.1:1420/
+[electron] MESA-INTEL: warning: Performance support disabled, consider sysctl dev.i915.perf_stream_paranoid=0
+[electron] 
+[electron] libva error: /usr/lib/x86_64-linux-gnu/dri/iHD_drv_video.so init failed
+[electron] libva error: /usr/lib/x86_64-linux-gnu/dri/i965_drv_video.so init failed
+[electron] [118046:1005/181634.542421:ERROR:media/gpu/vaapi/vaapi_wrapper.cc:1640] vaInitialize failed: unknown libva error
+[electron] src/gbm_drv_common.c:131: GBM-DRV error (get_bytes_per_component): Unknown or not supported format: 808530000
+[electron] 
+[electron] src/gbm_drv_common.c:131: GBM-DRV error (get_bytes_per_component): Unknown or not supported format: 808530000
+[electron] 
+[electron] src/gbm_drv_common.c:131: GBM-DRV error (get_bytes_per_component): Unknown or not supported format: 808530000
+[electron] 
+[electron] src/gbm_drv_common.c:131: GBM-DRV error (get_bytes_per_component): Unknown or not supported format: 808530000
+[electron] 
+[electron] src/gbm_drv_common.c:131: GBM-DRV error (get_bytes_per_component): Unknown or not supported format: 808530000
+[electron] 
+[electron] src/gbm_drv_common.c:131: GBM-DRV error (get_bytes_per_component): Unknown or not supported format: 808530000
+[electron] 
+[electron] src/gbm_drv_common.c:131: GBM-DRV error (get_bytes_per_component): Unknown or not supported format: 808530000
+[electron] 
+[electron] src/gbm_drv_common.c:131: GBM-DRV error (get_bytes_per_component): Unknown or not supported format: 808530000
+[electron] 
+[electron] src/gbm_drv_common.c:131: GBM-DRV error (get_bytes_per_component): Unknown or not supported format: 808530000
+[electron] 
+[electron] src/gbm_drv_common.c:131: GBM-DRV error (get_bytes_per_component): Unknown or not supported format: 808530000
+[electron] 
+[vite] [tanstack-router] These exports from "/home/potential/Drone-OS/src/routes/index.tsx" will not be code-split and will increase your bundle size:
+[vite] - Cockpit
+[vite] For the best optimization, these items should either have their export statements removed, or be imported from another location that is not a route file.
+[electron] wait-on tcp:127.0.0.1:1420 && electron . exited with code 0
+--> Sending SIGTERM to other processes..
+[vite] vite dev --host 127.0.0.1 --port 1420 --strictPort exited with code SIGTERM
+
+> tanstack_start_ts@0.1.0 electron:dev
+> concurrently -k -n vite,electron "vite dev --host 127.0.0.1 --port 1420 --strictPort" "wait-on tcp:127.0.0.1:1420 && electron ."
+
+[vite] Warning: Route file "/home/potential/Drone-OS/src/routes/splashscreen.tsx" does not export a Route. This file will not be included in the route tree.
+[vite] 
+[vite] If this file is not intended to be a route, you can exclude it using one of these options:
+[vite]   1. Rename the file to "/home/potential/Drone-OS/src/routes/-splashscreen.tsx" (prefix with "-")
+[vite]   2. Use 'routeFileIgnorePattern' in your config to match this file
+[vite] 
+[vite] Current configuration:
+[vite]   routeFileIgnorePrefix: "-"
+[vite]   routeFileIgnorePattern: undefined
+[vite] 
+[vite]   VITE v8.1.5  ready in 794 ms
+[vite] 
+[vite]   ➜  Local:   http://127.0.0.1:1420/
+[electron] App threw an error during load
+[electron] /home/potential/Drone-OS/electron/main.cjs:9
+[electron] const URL = `http://${HOST}:${PORT}`;
+[electron]              ^^^^
+[electron] 
+[electron] SyntaxError: Unexpected identifier 'http'
+[electron]     at wrapSafe (node:internal/modules/cjs/loader:1770:18)
+[electron]     at Module._compile (node:internal/modules/cjs/loader:1811:20)
+[electron]     at Module._extensions..js (node:internal/modules/cjs/loader:1971:10)
+[electron]     at Module.load (node:internal/modules/cjs/loader:1560:32)
+[electron]     at Module._load (node:internal/modules/cjs/loader:1362:12)
+[electron]     at c._load (node:electron/js2c/node_init:2:18060)
+[electron]     at wrapModuleLoad (node:internal/modules/cjs/loader:262:19)
+[electron]     at loadCJSModuleWithModuleLoad (node:internal/modules/esm/translators:332:3)
+[electron]     at ModuleWrap.<anonymous> (node:internal/modules/esm/translators:233:7)
+[electron]     at ModuleJob.run (node:internal/modules/esm/module_job:437:25)
+[electron] [1m[47m[31mA JavaScript error occurred in the main process
+[electron] [30mUncaught Exception:
+[electron] /home/potential/Drone-OS/electron/main.cjs:9
+[electron] const URL = `http://${HOST}:${PORT}`;
+[electron]              ^^^^
+[electron] 
+[electron] SyntaxError: Unexpected identifier 'http'
+[electron]     at wrapSafe (node:internal/modules/cjs/loader:1770:18)
+[electron]     at Module._compile (node:internal/modules/cjs/loader:1811:20)
+[electron]     at Module._extensions..js (node:internal/modules/cjs/loader:1971:10)
+[electron]     at Module.load (node:internal/modules/cjs/loader:1560:32)
+[electron]     at Module._load (node:internal/modules/cjs/loader:1362:12)
+[electron]     at c._load (node:electron/js2c/node_init:2:18060)
+[electron]     at wrapModuleLoad (node:internal/modules/cjs/loader:262:19)
+[electron]     at loadCJSModuleWithModuleLoad (node:internal/modules/esm/translators:332:3)
+[electron]     at ModuleWrap.<anonymous> (node:internal/modules/esm/translators:233:7)
+[electron]     at ModuleJob.run (node:internal/modules/esm/module_job:437:25)
+[electron] [0mMESA-INTEL: warning: Performance support disabled, consider sysctl dev.i915.perf_stream_paranoid=0
+[electron] 
+[electron] libva error: /usr/lib/x86_64-linux-gnu/dri/iHD_drv_video.so init failed
+[electron] libva error: /usr/lib/x86_64-linux-gnu/dri/i965_drv_video.so init failed
+[electron] [121445:1005/182056.860872:ERROR:media/gpu/vaapi/vaapi_wrapper.cc:1640] vaInitialize failed: unknown libva error
+[electron] src/gbm_drv_common.c:131: GBM-DRV error (get_bytes_per_component): Unknown or not supported format: 808530000
+[electron] 
+[electron] src/gbm_drv_common.c:131: GBM-DRV error (get_bytes_per_component): Unknown or not supported format: 808530000
+[electron] 
+[electron] src/gbm_drv_common.c:131: GBM-DRV error (get_bytes_per_component): Unknown or not supported format: 808530000
+[electron] 
+[electron] src/gbm_drv_common.c:131: GBM-DRV error (get_bytes_per_component): Unknown or not supported format: 808530000
+[electron] 
+[electron] src/gbm_drv_common.c:131: GBM-DRV error (get_bytes_per_component): Unknown or not supported format: 808530000
+[electron] 
+[electron] src/gbm_drv_common.c:131: GBM-DRV error (get_bytes_per_component): Unknown or not supported format: 808530000
+[electron] 
+[electron] src/gbm_drv_common.c:131: GBM-DRV error (get_bytes_per_component): Unknown or not supported format: 808530000
+[electron] 
+[electron] src/gbm_drv_common.c:131: GBM-DRV error (get_bytes_per_component): Unknown or not supported format: 808530000
+[electron] 
+[electron] src/gbm_drv_common.c:131: GBM-DRV error (get_bytes_per_component): Unknown or not supported format: 808530000
+[electron] 
+[electron] src/gbm_drv_common.c:131: GBM-DRV error (get_bytes_per_component): Unknown or not supported format: 808530000
+[electron] 

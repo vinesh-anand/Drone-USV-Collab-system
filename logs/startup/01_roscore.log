@@ -1,0 +1,606 @@
+[31mWARNING: disk usage in log directory [/home/kunal/.ros/log] is over 1GB.
+It's recommended that you use the 'rosclean' command.[0m
+... logging to /home/kunal/.ros/log/ecdcd704-bef8-11f1-9973-296846b94d3b/roslaunch-DESKTOP-PIICDOO-53150.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+]2;roscore
+[1mstarted roslaunch server http://DESKTOP-PIICDOO:33421/[0m
+ros_comm version 1.17.4
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: noetic
+ * /rosversion: 1.17.4
+
+NODES
+
+auto-starting new master
+[1mprocess[master]: started with pid [53226][0m
+[1mROS_MASTER_URI=http://DESKTOP-PIICDOO:11311/[0m
+]2;roscore http://DESKTOP-PIICDOO:11311/
+[1msetting /run_id to ecdcd704-bef8-11f1-9973-296846b94d3b[0m
+[1mprocess[rosout-1]: started with pid [53251][0m
+started core service [/rosout]
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+[31mWARNING: disk usage in log directory [/home/potential/.ros/log] is over 1GB.
+It's recommended that you use the 'rosclean' command.[0m
+[31mRLException: roscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://potential-Dell-G15-5520:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/potential/.ros/log/ef5a0d5c-c075-11f1-a86a-b976a448591e/roslaunch-potential-Dell-G15-5520-47084.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+]2;roscore
+[1mstarted roslaunch server http://potential-Dell-G15-5520:35953/[0m
+ros_comm version 1.16.666
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: noetic
+ * /rosversion: 1.16.666
+
+NODES
+
+[31mWARNING: disk usage in log directory [/home/potential/.ros/log] is over 1GB.
+It's recommended that you use the 'rosclean' command.[0m
+[31mRLException: roscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://potential-Dell-G15-5520:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/potential/.ros/log/ef5a0d5c-c075-11f1-a86a-b976a448591e/roslaunch-potential-Dell-G15-5520-48151.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+]2;roscore
+[1mstarted roslaunch server http://potential-Dell-G15-5520:45995/[0m
+ros_comm version 1.16.666
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: noetic
+ * /rosversion: 1.16.666
+
+NODES
+
+[31mWARNING: disk usage in log directory [/home/potential/.ros/log] is over 1GB.
+It's recommended that you use the 'rosclean' command.[0m
+[31mRLException: roscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://potential-Dell-G15-5520:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/potential/.ros/log/ef5a0d5c-c075-11f1-a86a-b976a448591e/roslaunch-potential-Dell-G15-5520-49455.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+]2;roscore
+[1mstarted roslaunch server http://potential-Dell-G15-5520:36611/[0m
+ros_comm version 1.16.666
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: noetic
+ * /rosversion: 1.16.666
+
+NODES
+
+[31mWARNING: disk usage in log directory [/home/potential/.ros/log] is over 1GB.
+It's recommended that you use the 'rosclean' command.[0m
+[31mRLException: roscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://potential-Dell-G15-5520:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/potential/.ros/log/ef5a0d5c-c075-11f1-a86a-b976a448591e/roslaunch-potential-Dell-G15-5520-53589.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+]2;roscore
+[1mstarted roslaunch server http://potential-Dell-G15-5520:37035/[0m
+ros_comm version 1.16.666
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: noetic
+ * /rosversion: 1.16.666
+
+NODES
+
+[31mWARNING: disk usage in log directory [/home/potential/.ros/log] is over 1GB.
+It's recommended that you use the 'rosclean' command.[0m
+[31mRLException: roscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://potential-Dell-G15-5520:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/potential/.ros/log/ef5a0d5c-c075-11f1-a86a-b976a448591e/roslaunch-potential-Dell-G15-5520-56354.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+]2;roscore
+[1mstarted roslaunch server http://potential-Dell-G15-5520:35921/[0m
+ros_comm version 1.16.666
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: noetic
+ * /rosversion: 1.16.666
+
+NODES
+
+[31mWARNING: disk usage in log directory [/home/potential/.ros/log] is over 1GB.
+It's recommended that you use the 'rosclean' command.[0m
+[31mRLException: roscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://potential-Dell-G15-5520:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/potential/.ros/log/ef5a0d5c-c075-11f1-a86a-b976a448591e/roslaunch-potential-Dell-G15-5520-58794.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+]2;roscore
+[1mstarted roslaunch server http://potential-Dell-G15-5520:40439/[0m
+ros_comm version 1.16.666
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: noetic
+ * /rosversion: 1.16.666
+
+NODES
+
+[31mWARNING: disk usage in log directory [/home/potential/.ros/log] is over 1GB.
+It's recommended that you use the 'rosclean' command.[0m
+[31mRLException: roscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://potential-Dell-G15-5520:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/potential/.ros/log/ef5a0d5c-c075-11f1-a86a-b976a448591e/roslaunch-potential-Dell-G15-5520-60162.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+]2;roscore
+[1mstarted roslaunch server http://potential-Dell-G15-5520:38721/[0m
+ros_comm version 1.16.666
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: noetic
+ * /rosversion: 1.16.666
+
+NODES
+
+[31mWARNING: disk usage in log directory [/home/potential/.ros/log] is over 1GB.
+It's recommended that you use the 'rosclean' command.[0m
+[31mRLException: roscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://potential-Dell-G15-5520:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/potential/.ros/log/ef5a0d5c-c075-11f1-a86a-b976a448591e/roslaunch-potential-Dell-G15-5520-62249.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+]2;roscore
+[1mstarted roslaunch server http://potential-Dell-G15-5520:33121/[0m
+ros_comm version 1.16.666
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: noetic
+ * /rosversion: 1.16.666
+
+NODES
+
+[31mWARNING: disk usage in log directory [/home/potential/.ros/log] is over 1GB.
+It's recommended that you use the 'rosclean' command.[0m
+[31mRLException: roscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://potential-Dell-G15-5520:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/potential/.ros/log/ef5a0d5c-c075-11f1-a86a-b976a448591e/roslaunch-potential-Dell-G15-5520-63906.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+]2;roscore
+[1mstarted roslaunch server http://potential-Dell-G15-5520:37195/[0m
+ros_comm version 1.16.666
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: noetic
+ * /rosversion: 1.16.666
+
+NODES
+
+[31mWARNING: disk usage in log directory [/home/potential/.ros/log] is over 1GB.
+It's recommended that you use the 'rosclean' command.[0m
+[31mRLException: roscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://potential-Dell-G15-5520:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/potential/.ros/log/ef5a0d5c-c075-11f1-a86a-b976a448591e/roslaunch-potential-Dell-G15-5520-64693.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+]2;roscore
+[1mstarted roslaunch server http://potential-Dell-G15-5520:39295/[0m
+ros_comm version 1.16.666
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: noetic
+ * /rosversion: 1.16.666
+
+NODES
+
+[31mWARNING: disk usage in log directory [/home/potential/.ros/log] is over 1GB.
+It's recommended that you use the 'rosclean' command.[0m
+[31mRLException: roscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://potential-Dell-G15-5520:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/potential/.ros/log/ef5a0d5c-c075-11f1-a86a-b976a448591e/roslaunch-potential-Dell-G15-5520-65591.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+]2;roscore
+[1mstarted roslaunch server http://potential-Dell-G15-5520:34669/[0m
+ros_comm version 1.16.666
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: noetic
+ * /rosversion: 1.16.666
+
+NODES
+
+[31mWARNING: disk usage in log directory [/home/potential/.ros/log] is over 1GB.
+It's recommended that you use the 'rosclean' command.[0m
+[31mRLException: roscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://potential-Dell-G15-5520:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/potential/.ros/log/ef5a0d5c-c075-11f1-a86a-b976a448591e/roslaunch-potential-Dell-G15-5520-72681.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+]2;roscore
+[1mstarted roslaunch server http://potential-Dell-G15-5520:37109/[0m
+ros_comm version 1.16.666
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: noetic
+ * /rosversion: 1.16.666
+
+NODES
+
+[31mWARNING: disk usage in log directory [/home/potential/.ros/log] is over 1GB.
+It's recommended that you use the 'rosclean' command.[0m
+[31mRLException: roscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://potential-Dell-G15-5520:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/potential/.ros/log/ef5a0d5c-c075-11f1-a86a-b976a448591e/roslaunch-potential-Dell-G15-5520-74482.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+]2;roscore
+[1mstarted roslaunch server http://potential-Dell-G15-5520:34155/[0m
+ros_comm version 1.16.666
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: noetic
+ * /rosversion: 1.16.666
+
+NODES
+
+[31mWARNING: disk usage in log directory [/home/potential/.ros/log] is over 1GB.
+It's recommended that you use the 'rosclean' command.[0m
+[31mRLException: roscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://potential-Dell-G15-5520:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/potential/.ros/log/ef5a0d5c-c075-11f1-a86a-b976a448591e/roslaunch-potential-Dell-G15-5520-75721.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+]2;roscore
+[1mstarted roslaunch server http://potential-Dell-G15-5520:41223/[0m
+ros_comm version 1.16.666
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: noetic
+ * /rosversion: 1.16.666
+
+NODES
+
+[31mWARNING: disk usage in log directory [/home/potential/.ros/log] is over 1GB.
+It's recommended that you use the 'rosclean' command.[0m
+[31mRLException: roscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://potential-Dell-G15-5520:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/potential/.ros/log/ef5a0d5c-c075-11f1-a86a-b976a448591e/roslaunch-potential-Dell-G15-5520-77630.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+]2;roscore
+[1mstarted roslaunch server http://potential-Dell-G15-5520:46429/[0m
+ros_comm version 1.16.666
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: noetic
+ * /rosversion: 1.16.666
+
+NODES
+
+[31mWARNING: disk usage in log directory [/home/potential/.ros/log] is over 1GB.
+It's recommended that you use the 'rosclean' command.[0m
+[31mRLException: roscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://potential-Dell-G15-5520:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/potential/.ros/log/ef5a0d5c-c075-11f1-a86a-b976a448591e/roslaunch-potential-Dell-G15-5520-79832.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+]2;roscore
+[1mstarted roslaunch server http://potential-Dell-G15-5520:45077/[0m
+ros_comm version 1.16.666
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: noetic
+ * /rosversion: 1.16.666
+
+NODES
+
+[31mWARNING: disk usage in log directory [/home/potential/.ros/log] is over 1GB.
+It's recommended that you use the 'rosclean' command.[0m
+[31mRLException: roscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://potential-Dell-G15-5520:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/potential/.ros/log/ef5a0d5c-c075-11f1-a86a-b976a448591e/roslaunch-potential-Dell-G15-5520-83314.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+]2;roscore
+[1mstarted roslaunch server http://potential-Dell-G15-5520:45753/[0m
+ros_comm version 1.16.666
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: noetic
+ * /rosversion: 1.16.666
+
+NODES
+
+[31mWARNING: disk usage in log directory [/home/potential/.ros/log] is over 1GB.
+It's recommended that you use the 'rosclean' command.[0m
+[31mRLException: roscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://potential-Dell-G15-5520:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/potential/.ros/log/ef5a0d5c-c075-11f1-a86a-b976a448591e/roslaunch-potential-Dell-G15-5520-84618.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+]2;roscore
+[1mstarted roslaunch server http://potential-Dell-G15-5520:35069/[0m
+ros_comm version 1.16.666
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: noetic
+ * /rosversion: 1.16.666
+
+NODES
+
+[31mWARNING: disk usage in log directory [/home/potential/.ros/log] is over 1GB.
+It's recommended that you use the 'rosclean' command.[0m
+[31mRLException: roscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://potential-Dell-G15-5520:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/potential/.ros/log/ef5a0d5c-c075-11f1-a86a-b976a448591e/roslaunch-potential-Dell-G15-5520-87386.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+]2;roscore
+[1mstarted roslaunch server http://potential-Dell-G15-5520:46807/[0m
+ros_comm version 1.16.666
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: noetic
+ * /rosversion: 1.16.666
+
+NODES
+
+[31mWARNING: disk usage in log directory [/home/potential/.ros/log] is over 1GB.
+It's recommended that you use the 'rosclean' command.[0m
+[31mRLException: roscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://potential-Dell-G15-5520:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/potential/.ros/log/ef5a0d5c-c075-11f1-a86a-b976a448591e/roslaunch-potential-Dell-G15-5520-89721.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+]2;roscore
+[1mstarted roslaunch server http://potential-Dell-G15-5520:45735/[0m
+ros_comm version 1.16.666
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: noetic
+ * /rosversion: 1.16.666
+
+NODES
+
+[31mWARNING: disk usage in log directory [/home/potential/.ros/log] is over 1GB.
+It's recommended that you use the 'rosclean' command.[0m
+[31mRLException: roscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://potential-Dell-G15-5520:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/potential/.ros/log/ef5a0d5c-c075-11f1-a86a-b976a448591e/roslaunch-potential-Dell-G15-5520-91466.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+]2;roscore
+[1mstarted roslaunch server http://potential-Dell-G15-5520:35549/[0m
+ros_comm version 1.16.666
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: noetic
+ * /rosversion: 1.16.666
+
+NODES
+
+[31mWARNING: disk usage in log directory [/home/potential/.ros/log] is over 1GB.
+It's recommended that you use the 'rosclean' command.[0m
+[31mRLException: roscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://potential-Dell-G15-5520:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/potential/.ros/log/ef5a0d5c-c075-11f1-a86a-b976a448591e/roslaunch-potential-Dell-G15-5520-93736.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+]2;roscore
+[1mstarted roslaunch server http://potential-Dell-G15-5520:40325/[0m
+ros_comm version 1.16.666
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: noetic
+ * /rosversion: 1.16.666
+
+NODES
+
+[31mWARNING: disk usage in log directory [/home/potential/.ros/log] is over 1GB.
+It's recommended that you use the 'rosclean' command.[0m
+[31mRLException: roscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://potential-Dell-G15-5520:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/potential/.ros/log/ef5a0d5c-c075-11f1-a86a-b976a448591e/roslaunch-potential-Dell-G15-5520-95670.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+]2;roscore
+[1mstarted roslaunch server http://potential-Dell-G15-5520:46797/[0m
+ros_comm version 1.16.666
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: noetic
+ * /rosversion: 1.16.666
+
+NODES
+
+[31mWARNING: disk usage in log directory [/home/potential/.ros/log] is over 1GB.
+It's recommended that you use the 'rosclean' command.[0m
+[31mRLException: roscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://potential-Dell-G15-5520:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/potential/.ros/log/ef5a0d5c-c075-11f1-a86a-b976a448591e/roslaunch-potential-Dell-G15-5520-98142.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+]2;roscore
+[1mstarted roslaunch server http://potential-Dell-G15-5520:33393/[0m
+ros_comm version 1.16.666
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: noetic
+ * /rosversion: 1.16.666
+
+NODES
+
+[31mWARNING: disk usage in log directory [/home/potential/.ros/log] is over 1GB.
+It's recommended that you use the 'rosclean' command.[0m
+[31mRLException: roscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://potential-Dell-G15-5520:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/potential/.ros/log/ef5a0d5c-c075-11f1-a86a-b976a448591e/roslaunch-potential-Dell-G15-5520-99086.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+]2;roscore
+[1mstarted roslaunch server http://potential-Dell-G15-5520:36211/[0m
+ros_comm version 1.16.666
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: noetic
+ * /rosversion: 1.16.666
+
+NODES
+

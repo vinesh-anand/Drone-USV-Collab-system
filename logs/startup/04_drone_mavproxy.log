@@ -1,0 +1,775 @@
+Connect tcp:127.0.0.1:5760 source_system=255
+Log Directory: 
+Telemetry log: mav.tlog
+Waiting for heartbeat from tcp:127.0.0.1:5760
+MAV> Unloading module link
+Unloading module log
+Unloading module signing
+Unloading module wp
+Unloading module rally
+Unloading module fence
+Unloading module ftp
+Unloading module param
+Unloading module relay
+Unloading module tuneopt
+Unloading module arm
+Unloading module mode
+Unloading module calibration
+Unloading module rc
+Unloading module auxopt
+Unloading module misc
+Unloading module cmdlong
+Unloading module battery
+Unloading module terrain
+Unloading module output
+Unloading module adsb
+Unloading module layout
+Connect tcp:127.0.0.1:5760 source_system=255
+[Errno 111] Connection refused sleeping
+[Errno 111] Connection refused sleeping
+[Errno 111] Connection refused sleeping
+[Errno 111] Connection refused sleeping
+[Errno 111] Connection refused sleeping
+[Errno 111] Connection refused sleeping
+[Errno 111] Connection refused sleeping
+[Errno 111] Connection refused sleeping
+Failed to connect to tcp:127.0.0.1:5760 : [Errno 111] Connection refused
+Connect tcp:127.0.0.1:5760 source_system=255
+Log Directory: 
+Telemetry log: mav.tlog
+Waiting for heartbeat from tcp:127.0.0.1:5760
+Detected vehicle 1:1 on link 0
+online system 1
+INITIALISING> Mode INITIALISING
+AP: Barometer 1 calibration complete
+AP: Barometer 2 calibration complete
+AP: Beginning INS calibration. Do not move vehicle
+Init Gyro*AP: ArduRover V4.5.7 (2a3dc4b7)
+AP: 87fdb9de3105441997b62817a3fedd3d
+*
+AP: INS: alloc 6144 bytes for ISB (free=131072)
+MANUAL> AP: ArduPilot Ready
+AP: AHRS: DCM active
+Received 1281 parameters (ftp)
+Saved 1281 parameters to mav.parm
+fence present
+Flight battery 100 percent
+Mode MANUAL
+AP: EKF3 IMU0 initialised
+AP: EKF3 IMU1 initialised
+Got COMMAND_ACK: REQUEST_AUTOPILOT_CAPABILITIES: ACCEPTED
+AP: EKF3 IMU0 tilt alignment complete
+AP: EKF3 IMU1 tilt alignment complete
+AP: EKF3 IMU0 MAG0 initial yaw alignment complete
+AP: EKF3 IMU1 MAG0 initial yaw alignment complete
+AP: GPS 1: detected as u-blox at 230400 baud
+AP: ArduRover V4.5.7 (2a3dc4b7)
+AP: 87fdb9de3105441997b62817a3fedd3d
+AP: EKF3 IMU0 origin set
+AP: EKF3 IMU1 origin set
+AP: Field Elevation Set: 584m
+height 589
+AP: EKF3 IMU0 is using GPS
+AP: EKF3 IMU1 is using GPS
+AP: AHRS: EKF3 active
+Flight battery 100 percent
+Flight battery 100 percent
+Flight battery 100 percent
+Flight battery 100 percent
+Flight battery 100 percent
+Flight battery 100 percent
+EOF on TCP socket
+Attempting reconnect
+[Errno 111] Connection refused sleeping
+Unloading module link
+Unloading module log
+Unloading module signing
+Unloading module wp
+Unloading module rally
+Unloading module fence
+Unloading module ftp
+Unloading module param
+Unloading module relay
+Unloading module tuneopt
+Unloading module arm
+Unloading module mode
+Unloading module calibration
+Unloading module rc
+Unloading module auxopt
+Unloading module misc
+Unloading module cmdlong
+Unloading module battery
+Unloading module terrain
+Unloading module output
+Unloading module adsb
+Unloading module layout
+Exception in thread log_writer:
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+Connect tcp:127.0.0.1:5760 source_system=255
+Log Directory: 
+Telemetry log: mav.tlog
+Waiting for heartbeat from tcp:127.0.0.1:5760
+Detected vehicle 1:1 on link 0
+online system 1
+INITIALISING> Mode INITIALISING
+AP: Barometer 1 calibration complete
+AP: Barometer 2 calibration complete
+AP: Beginning INS calibration. Do not move vehicle
+Init Gyro*AP: ArduRover V4.5.7 (2a3dc4b7)
+AP: 87fdb9de3105441997b62817a3fedd3d
+*
+AP: INS: alloc 6144 bytes for ISB (free=131072)
+MANUAL> AP: ArduPilot Ready
+AP: AHRS: DCM active
+fence present
+Received 1281 parameters (ftp)
+Saved 1281 parameters to mav.parm
+Flight battery 100 percent
+Mode MANUAL
+AP: EKF3 IMU0 initialised
+AP: EKF3 IMU1 initialised
+Got COMMAND_ACK: REQUEST_AUTOPILOT_CAPABILITIES: ACCEPTED
+AP: EKF3 IMU0 tilt alignment complete
+AP: EKF3 IMU1 tilt alignment complete
+AP: EKF3 IMU0 MAG0 initial yaw alignment complete
+AP: EKF3 IMU1 MAG0 initial yaw alignment complete
+AP: GPS 1: detected as u-blox at 230400 baud
+AP: ArduRover V4.5.7 (2a3dc4b7)
+AP: 87fdb9de3105441997b62817a3fedd3d
+AP: EKF3 IMU0 origin set
+AP: EKF3 IMU1 origin set
+AP: Field Elevation Set: 584m
+Connection reset or closed by peer on TCP socket
+Attempting reconnect
+[Errno 111] Connection refused sleeping
+Unloading module link
+Unloading module log
+Unloading module signing
+Unloading module wp
+Unloading module rally
+Unloading module fence
+Unloading module ftp
+Unloading module param
+Unloading module relay
+Unloading module tuneopt
+Unloading module arm
+Unloading module mode
+Unloading module calibration
+Unloading module rc
+Unloading module auxopt
+Unloading module misc
+Unloading module cmdlong
+Unloading module battery
+Unloading module terrain
+Unloading module output
+Unloading module adsb
+Unloading module layout
+Exception in thread log_writer:
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+Connect tcp:127.0.0.1:5760 source_system=255
+Log Directory: 
+Telemetry log: mav.tlog
+Waiting for heartbeat from tcp:127.0.0.1:5760
+Detected vehicle 1:1 on link 0
+online system 1
+INITIALISING> Mode INITIALISING
+AP: Barometer 1 calibration complete
+AP: Barometer 2 calibration complete
+AP: Beginning INS calibration. Do not move vehicle
+Init Gyro*AP: ArduRover V4.5.7 (2a3dc4b7)
+AP: 87fdb9de3105441997b62817a3fedd3d
+*
+AP: INS: alloc 6144 bytes for ISB (free=131072)
+MANUAL> AP: ArduPilot Ready
+AP: AHRS: DCM active
+fence present
+Received 1281 parameters (ftp)
+Saved 1281 parameters to mav.parm
+Flight battery 100 percent
+Mode MANUAL
+AP: EKF3 IMU0 initialised
+AP: EKF3 IMU1 initialised
+Got COMMAND_ACK: REQUEST_AUTOPILOT_CAPABILITIES: ACCEPTED
+AP: EKF3 IMU0 tilt alignment complete
+AP: EKF3 IMU1 tilt alignment complete
+AP: EKF3 IMU0 MAG0 initial yaw alignment complete
+AP: EKF3 IMU1 MAG0 initial yaw alignment complete
+AP: GPS 1: detected as u-blox at 230400 baud
+AP: ArduRover V4.5.7 (2a3dc4b7)
+AP: 87fdb9de3105441997b62817a3fedd3d
+AP: EKF3 IMU0 origin set
+AP: EKF3 IMU1 origin set
+AP: Field Elevation Set: 584m
+AP: EKF3 IMU0 is using GPS
+AP: EKF3 IMU1 is using GPS
+AP: AHRS: EKF3 active
+height 589
+Flight battery 100 percent
+Got MAVLink msg: COMMAND_ACK {command : 11, result : 0, progress : 0, result_param2 : 0, target_system : 1, target_component : 240}
+GUIDED> Mode GUIDED
+Got COMMAND_ACK: COMPONENT_ARM_DISARM: ACCEPTED
+AP: Throttle armed
+ARMED
+Got MAVLink msg: COMMAND_ACK {command : 11, result : 0, progress : 0, result_param2 : 0, target_system : 1, target_component : 240}
+Got COMMAND_ACK: NAV_TAKEOFF: UNSUPPORTED
+Got MAVLink msg: COMMAND_ACK {command : 11, result : 0, progress : 0, result_param2 : 0, target_system : 1, target_component : 240}
+Flight battery 100 percent
+Flight battery 100 percent
+Flight battery 100 percent
+Flight battery 100 percent
+EOF on TCP socket
+Attempting reconnect
+[Errno 111] Connection refused sleeping
+Unloading module link
+Unloading module log
+Unloading module signing
+Unloading module wp
+Unloading module rally
+Unloading module fence
+Unloading module ftp
+Unloading module param
+Unloading module relay
+Unloading module tuneopt
+Unloading module arm
+Unloading module mode
+Unloading module calibration
+Unloading module rc
+Unloading module auxopt
+Unloading module misc
+Unloading module cmdlong
+Unloading module battery
+Unloading module terrain
+Unloading module output
+Unloading module adsb
+Unloading module layout
+Exception in thread log_writer:
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/potential/.local/bin/mavproxy.py", line 914, in log_writer
+Connect tcp:127.0.0.1:5760 source_system=255
+Log Directory: 
+Telemetry log: mav.tlog
+Waiting for heartbeat from tcp:127.0.0.1:5760
+Detected vehicle 1:1 on link 0
+online system 1
+INITIALISING> Mode INITIALISING
+AP: Barometer 1 calibration complete
+AP: Barometer 2 calibration complete
+AP: Beginning INS calibration. Do not move vehicle
+Init Gyro*AP: ArduRover V4.5.7 (2a3dc4b7)
+AP: 87fdb9de3105441997b62817a3fedd3d
+*
+AP: INS: alloc 6144 bytes for ISB (free=131072)
+MANUAL> AP: ArduPilot Ready
+AP: AHRS: DCM active
+fence present
+Received 1281 parameters (ftp)
+Saved 1281 parameters to mav.parm
+Flight battery 100 percent
+Mode MANUAL
+AP: EKF3 IMU0 initialised
+AP: EKF3 IMU1 initialised
+Got COMMAND_ACK: REQUEST_AUTOPILOT_CAPABILITIES: ACCEPTED
+AP: EKF3 IMU0 tilt alignment complete
+AP: EKF3 IMU1 tilt alignment complete
+AP: EKF3 IMU0 MAG0 initial yaw alignment complete
+AP: EKF3 IMU1 MAG0 initial yaw alignment complete
+AP: GPS 1: detected as u-blox at 230400 baud
+AP: ArduRover V4.5.7 (2a3dc4b7)
+AP: 87fdb9de3105441997b62817a3fedd3d
+AP: EKF3 IMU0 origin set
+AP: EKF3 IMU1 origin set
+AP: Field Elevation Set: 584m
+AP: EKF3 IMU0 is using GPS
+AP: EKF3 IMU1 is using GPS
+AP: AHRS: EKF3 active
+height 589
+Flight battery 100 percent
+Flight battery 100 percent
+EOF on TCP socket
+Attempting reconnect
+[Errno 111] Connection refused sleeping
+Unloading module link
+Unloading module log
+Unloading module signing
+Unloading module wp
+Unloading module rally
+Unloading module fence
+Unloading module ftp
+Unloading module param
+Unloading module relay
+Unloading module tuneopt
+Unloading module arm
+Unloading module mode
+Unloading module calibration
+Unloading module rc
+Unloading module auxopt
+Unloading module misc
+Unloading module cmdlong
+Unloading module battery
+Unloading module terrain
+Unloading module output
+Unloading module adsb
+Unloading module layout
+Connect tcp:127.0.0.1:5760 source_system=255
+Log Directory: 
+Telemetry log: mav.tlog
+Waiting for heartbeat from tcp:127.0.0.1:5760
+Detected vehicle 1:1 on link 0
+online system 1
+INITIALISING> Mode INITIALISING
+AP: Barometer 1 calibration complete
+AP: Barometer 2 calibration complete
+AP: Beginning INS calibration. Do not move vehicle
+Init Gyro*AP: ArduRover V4.5.7 (2a3dc4b7)
+AP: 87fdb9de3105441997b62817a3fedd3d
+*
+AP: INS: alloc 6144 bytes for ISB (free=131072)
+MANUAL> AP: ArduPilot Ready
+AP: AHRS: DCM active
+Got COMMAND_ACK: REQUEST_AUTOPILOT_CAPABILITIES: ACCEPTED
+fence present
+Received 1281 parameters (ftp)
+Saved 1281 parameters to mav.parm
+Flight battery 100 percent
+Mode MANUAL
+AP: EKF3 IMU0 initialised
+AP: EKF3 IMU1 initialised
+AP: EKF3 IMU0 tilt alignment complete
+AP: EKF3 IMU1 tilt alignment complete
+AP: EKF3 IMU0 MAG0 initial yaw alignment complete
+AP: EKF3 IMU1 MAG0 initial yaw alignment complete
+AP: GPS 1: detected as u-blox at 230400 baud
+AP: ArduRover V4.5.7 (2a3dc4b7)
+AP: 87fdb9de3105441997b62817a3fedd3d
+AP: EKF3 IMU0 origin set
+AP: EKF3 IMU1 origin set
+AP: Field Elevation Set: 584m
+AP: EKF3 IMU0 is using GPS
+AP: EKF3 IMU1 is using GPS
+AP: AHRS: EKF3 active
+height 589
+Flight battery 100 percent
+Flight battery 100 percent
+Flight battery 100 percent
+Flight battery 100 percent
+Flight battery 100 percent
+Flight battery 100 percent
+Flight battery 100 percent
+Flight battery 100 percent
+Flight battery 100 percent
+Flight battery 100 percent
+Flight battery 100 percent
+Flight battery 100 percent
+Flight battery 100 percent
+Flight battery 100 percent
+Flight battery 100 percent
+Flight battery 100 percent
+Flight battery 100 percent
+Flight battery 100 percent
+Flight battery 100 percent
+Flight battery 100 percent
+Flight battery 100 percent
+Flight battery 100 percent
+Flight battery 100 percent
+Flight battery 100 percent
+Flight battery 100 percent
+Flight battery 100 percent
+Flight battery 100 percent
+Flight battery 100 percent
+Flight battery 100 percent
+Flight battery 100 percent
+Flight battery 100 percent
+Flight battery 100 percent
+Flight battery 100 percent
+Flight battery 100 percent
+Flight battery 100 percent
+Flight battery 100 percent
+Flight battery 100 percent
+Flight battery 100 percent
+Flight battery 100 percent
+Flight battery 100 percent
+Flight battery 100 percent
+Flight battery 100 percent
+Flight battery 100 percent
+Flight battery 100 percent
+Flight battery 100 percent
+Flight battery 100 percent
+Flight battery 100 percent
+Flight battery 100 percent
+Flight battery 100 percent
+Flight battery 100 percent
+Flight battery 100 percent
+Flight battery 100 percent
+Flight battery 100 percent
+Flight battery 100 percent
+Flight battery 100 percent
+Flight battery 100 percent
+Flight battery 100 percent
+Flight battery 100 percent
+Unloading module link
+Unloading module log
+Unloading module signing
+Unloading module wp
+Unloading module rally
+Unloading module fence
+Unloading module ftp
+Unloading module param
+Unloading module relay
+Unloading module tuneopt
+Unloading module arm
+Unloading module mode
+Unloading module calibration
+Unloading module rc
+Unloading module auxopt
+Unloading module misc
+Unloading module cmdlong
+Unloading module battery
+Unloading module terrain
+Unloading module output
+Unloading module adsb
+Unloading module layout
+Exception in thread log_writer:
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+Connect tcp:127.0.0.1:5760 source_system=255
+Log Directory: 
+Telemetry log: mav.tlog
+Waiting for heartbeat from tcp:127.0.0.1:5760
+Detected vehicle 1:1 on link 0
+online system 1
+INITIALISING> Mode INITIALISING
+AP: Barometer 1 calibration complete
+AP: Barometer 2 calibration complete
+AP: Beginning INS calibration. Do not move vehicle
+Init Gyro*AP: ArduRover V4.5.7 (2a3dc4b7)
+AP: 87fdb9de3105441997b62817a3fedd3d
+*
+AP: INS: alloc 6144 bytes for ISB (free=131072)
+MANUAL> AP: ArduPilot Ready
+AP: AHRS: DCM active
+Got COMMAND_ACK: REQUEST_AUTOPILOT_CAPABILITIES: ACCEPTED
+fence present
+Received 1281 parameters (ftp)
+Saved 1281 parameters to mav.parm
+Flight battery 100 percent
+Mode MANUAL
+AP: EKF3 IMU0 initialised
+AP: EKF3 IMU1 initialised
+AP: EKF3 IMU0 tilt alignment complete
+AP: EKF3 IMU1 tilt alignment complete
+AP: EKF3 IMU0 MAG0 initial yaw alignment complete
+AP: EKF3 IMU1 MAG0 initial yaw alignment complete
+AP: GPS 1: detected as u-blox at 230400 baud
+AP: ArduRover V4.5.7 (2a3dc4b7)
+AP: 87fdb9de3105441997b62817a3fedd3d
+AP: EKF3 IMU0 origin set
+AP: EKF3 IMU1 origin set
+AP: Field Elevation Set: 584m
+AP: EKF3 IMU0 is using GPS
+AP: EKF3 IMU1 is using GPS
+AP: AHRS: EKF3 active
+height 589
+Flight battery 100 percent
+Flight battery 100 percent
+EOF on TCP socket
+Attempting reconnect
+[Errno 111] Connection refused sleeping
+Unloading module link
+Unloading module log
+Unloading module signing
+Unloading module wp
+Unloading module rally
+Unloading module fence
+Unloading module ftp
+Unloading module param
+Unloading module relay
+Unloading module tuneopt
+Unloading module arm
+Unloading module mode
+Unloading module calibration
+Unloading module rc
+Unloading module auxopt
+Unloading module misc
+Unloading module cmdlong
+Unloading module battery
+Unloading module terrain
+Unloading module output
+Unloading module adsb
+Unloading module layout
+Connect tcp:127.0.0.1:5760 source_system=255
+Log Directory: 
+Telemetry log: mav.tlog
+Waiting for heartbeat from tcp:127.0.0.1:5760
+Detected vehicle 1:1 on link 0
+online system 1
+INITIALISING> Mode INITIALISING
+AP: Barometer 1 calibration complete
+AP: Barometer 2 calibration complete
+AP: Beginning INS calibration. Do not move vehicle
+Init Gyro*AP: ArduRover V4.5.7 (2a3dc4b7)
+AP: 87fdb9de3105441997b62817a3fedd3d
+*
+AP: INS: alloc 6144 bytes for ISB (free=131072)
+MANUAL> AP: ArduPilot Ready
+AP: AHRS: DCM active
+Got COMMAND_ACK: REQUEST_AUTOPILOT_CAPABILITIES: ACCEPTED
+fence present
+Received 1281 parameters (ftp)
+Saved 1281 parameters to mav.parm
+Flight battery 100 percent
+Mode MANUAL
+AP: EKF3 IMU0 initialised
+AP: EKF3 IMU1 initialised
+AP: EKF3 IMU0 tilt alignment complete
+AP: EKF3 IMU1 tilt alignment complete
+AP: EKF3 IMU0 MAG0 initial yaw alignment complete
+AP: EKF3 IMU1 MAG0 initial yaw alignment complete
+AP: GPS 1: detected as u-blox at 230400 baud
+AP: ArduRover V4.5.7 (2a3dc4b7)
+AP: 87fdb9de3105441997b62817a3fedd3d
+AP: EKF3 IMU0 origin set
+AP: EKF3 IMU1 origin set
+AP: Field Elevation Set: 584m
+AP: EKF3 IMU0 is using GPS
+AP: EKF3 IMU1 is using GPS
+AP: AHRS: EKF3 active
+height 589
+EOF on TCP socket
+Attempting reconnect
+[Errno 111] Connection refused sleeping
+Unloading module link
+Unloading module log
+Unloading module signing
+Unloading module wp
+Unloading module rally
+Unloading module fence
+Unloading module ftp
+Unloading module param
+Unloading module relay
+Unloading module tuneopt
+Unloading module arm
+Unloading module mode
+Unloading module calibration
+Unloading module rc
+Unloading module auxopt
+Unloading module misc
+Unloading module cmdlong
+Unloading module battery
+Unloading module terrain
+Unloading module output
+Unloading module adsb
+Unloading module layout
+Exception in thread log_writer:
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.8/threading.py", line 870, in run
+Connect tcp:127.0.0.1:5760 source_system=255
+Log Directory: 
+Telemetry log: mav.tlog
+Waiting for heartbeat from tcp:127.0.0.1:5760
+Detected vehicle 1:1 on link 0
+online system 1
+INITIALISING> Mode INITIALISING
+AP: Barometer 1 calibration complete
+AP: Barometer 2 calibration complete
+AP: Beginning INS calibration. Do not move vehicle
+Init Gyro*AP: ArduRover V4.5.7 (2a3dc4b7)
+AP: 87fdb9de3105441997b62817a3fedd3d
+*
+AP: INS: alloc 6144 bytes for ISB (free=131072)
+MANUAL> AP: ArduPilot Ready
+AP: AHRS: DCM active
+Got COMMAND_ACK: REQUEST_AUTOPILOT_CAPABILITIES: ACCEPTED
+fence present
+Received 1281 parameters (ftp)
+Saved 1281 parameters to mav.parm
+Flight battery 100 percent
+Mode MANUAL
+AP: EKF3 IMU0 initialised
+AP: EKF3 IMU1 initialised
+AP: EKF3 IMU0 tilt alignment complete
+AP: EKF3 IMU1 tilt alignment complete
+AP: EKF3 IMU0 MAG0 initial yaw alignment complete
+AP: EKF3 IMU1 MAG0 initial yaw alignment complete
+AP: GPS 1: detected as u-blox at 230400 baud
+AP: ArduRover V4.5.7 (2a3dc4b7)
+AP: 87fdb9de3105441997b62817a3fedd3d
+AP: EKF3 IMU0 origin set
+AP: EKF3 IMU1 origin set
+AP: Field Elevation Set: 584m
+AP: EKF3 IMU0 is using GPS
+AP: EKF3 IMU1 is using GPS
+AP: AHRS: EKF3 active
+height 589
+Flight battery 100 percent
+EOF on TCP socket
+Attempting reconnect
+[Errno 111] Connection refused sleeping
+Unloading module link
+Unloading module log
+Unloading module signing
+Unloading module wp
+Unloading module rally
+Unloading module fence
+Unloading module ftp
+Unloading module param
+Unloading module relay
+Unloading module tuneopt
+Unloading module arm
+Unloading module mode
+Unloading module calibration
+Unloading module rc
+Unloading module auxopt
+Unloading module misc
+Unloading module cmdlong
+Unloading module battery
+Unloading module terrain
+Unloading module output
+Unloading module adsb
+Unloading module layout
+Exception in thread log_writer:
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+Connect tcp:127.0.0.1:5760 source_system=255
+Log Directory: 
+Telemetry log: mav.tlog
+Waiting for heartbeat from tcp:127.0.0.1:5760
+Detected vehicle 1:1 on link 0
+online system 1
+INITIALISING> Mode INITIALISING
+AP: Barometer 1 calibration complete
+AP: Barometer 2 calibration complete
+AP: Beginning INS calibration. Do not move vehicle
+Init Gyro*AP: ArduRover V4.5.7 (2a3dc4b7)
+AP: 87fdb9de3105441997b62817a3fedd3d
+*
+AP: INS: alloc 6144 bytes for ISB (free=131072)
+MANUAL> AP: ArduPilot Ready
+AP: AHRS: DCM active
+Got COMMAND_ACK: REQUEST_AUTOPILOT_CAPABILITIES: ACCEPTED
+fence present
+Received 1281 parameters (ftp)
+Saved 1281 parameters to mav.parm
+Flight battery 100 percent
+Mode MANUAL
+AP: EKF3 IMU0 initialised
+AP: EKF3 IMU1 initialised
+AP: EKF3 IMU0 tilt alignment complete
+AP: EKF3 IMU1 tilt alignment complete
+AP: EKF3 IMU0 MAG0 initial yaw alignment complete
+AP: EKF3 IMU1 MAG0 initial yaw alignment complete
+AP: GPS 1: detected as u-blox at 230400 baud
+AP: ArduRover V4.5.7 (2a3dc4b7)
+AP: 87fdb9de3105441997b62817a3fedd3d
+AP: EKF3 IMU0 origin set
+AP: EKF3 IMU1 origin set
+AP: Field Elevation Set: 584m
+AP: EKF3 IMU0 is using GPS
+AP: EKF3 IMU1 is using GPS
+AP: AHRS: EKF3 active
+height 589
+EOF on TCP socket
+Attempting reconnect
+[Errno 111] Connection refused sleeping
+Unloading module link
+Unloading module log
+Unloading module signing
+Unloading module wp
+Unloading module rally
+Unloading module fence
+Unloading module ftp
+Unloading module param
+Unloading module relay
+Unloading module tuneopt
+Unloading module arm
+Unloading module mode
+Unloading module calibration
+Unloading module rc
+Unloading module auxopt
+Unloading module misc
+Unloading module cmdlong
+Unloading module battery
+Unloading module terrain
+Unloading module output
+Unloading module adsb
+Unloading module layout
+Exception in thread log_writer:
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+Connect tcp:127.0.0.1:5760 source_system=255
+Log Directory: 
+Telemetry log: mav.tlog
+Waiting for heartbeat from tcp:127.0.0.1:5760
+Detected vehicle 1:1 on link 0
+online system 1
+INITIALISING> Mode INITIALISING
+AP: Barometer 1 calibration complete
+AP: Barometer 2 calibration complete
+AP: Beginning INS calibration. Do not move vehicle
+Init Gyro*AP: ArduRover V4.5.7 (2a3dc4b7)
+AP: 87fdb9de3105441997b62817a3fedd3d
+*
+AP: INS: alloc 6144 bytes for ISB (free=131072)
+MANUAL> AP: ArduPilot Ready
+AP: AHRS: DCM active
+Got COMMAND_ACK: REQUEST_AUTOPILOT_CAPABILITIES: ACCEPTED
+fence present
+Received 1281 parameters (ftp)
+Saved 1281 parameters to mav.parm
+Flight battery 100 percent
+Mode MANUAL
+AP: EKF3 IMU0 initialised
+AP: EKF3 IMU1 initialised
+AP: EKF3 IMU0 tilt alignment complete
+AP: EKF3 IMU1 tilt alignment complete
+AP: EKF3 IMU0 MAG0 initial yaw alignment complete
+AP: EKF3 IMU1 MAG0 initial yaw alignment complete
+AP: GPS 1: detected as u-blox at 230400 baud
+AP: ArduRover V4.5.7 (2a3dc4b7)
+AP: 87fdb9de3105441997b62817a3fedd3d
+AP: EKF3 IMU0 origin set
+AP: EKF3 IMU1 origin set
+AP: Field Elevation Set: 584m
+AP: EKF3 IMU0 is using GPS
+AP: EKF3 IMU1 is using GPS
+AP: AHRS: EKF3 active
+height 589
+EOF on TCP socket
+Attempting reconnect
+[Errno 111] Connection refused sleeping
+Unloading module link
+Unloading module log
+Unloading module signing
+Unloading module wp
+Unloading module rally
+Unloading module fence
+Unloading module ftp
+Unloading module param
+Unloading module relay
+Unloading module tuneopt
+Unloading module arm
+Unloading module mode
+Unloading module calibration
+Unloading module rc
+Unloading module auxopt
+Unloading module misc
+Unloading module cmdlong
+Unloading module battery
+Unloading module terrain
+Unloading module output
+Unloading module adsb
+Unloading module layout
+Exception in thread log_writer:
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/potential/.local/bin/mavproxy.py", line 914, in log_writer

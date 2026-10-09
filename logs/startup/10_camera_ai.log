@@ -1,0 +1,55 @@
+[INFO] [1791198819.748302]: Loading YOLO model from: /home/potential/Drone-OS/ros_ws/src/srota_control/src/bestperson_85.pt
+[INFO] [1791198819.956221]: HTTP Output Stream published at: http://192.168.2.192:8080/
+[INFO] [1791198819.957815]: ROS Compressed Image Topic published at: /drone/camera/image_annotated/compressed
+ * Serving Flask app 'person_detection_publisher'
+ * Debug mode: off
+[INFO] [1791199143.039108]: Loading YOLO model from: /home/potential/Drone-OS/ros_ws/src/srota_control/src/bestperson_85.pt
+[INFO] [1791199143.277088]: HTTP Output Stream published at: http://192.168.2.192:8080/
+[INFO] [1791199143.278795]: ROS Compressed Image Topic published at: /drone/camera/image_annotated/compressed
+ * Serving Flask app 'person_detection_publisher'
+ * Debug mode: off
+[INFO] [1791199545.220452]: Loading YOLO model from: /home/potential/Drone-OS/ros_ws/src/srota_control/src/bestperson_85.pt
+[INFO] [1791199545.451756]: HTTP Output Stream published at: http://192.168.2.192:8080/
+[INFO] [1791199545.453354]: ROS Compressed Image Topic published at: /drone/camera/image_annotated/compressed
+ * Serving Flask app 'person_detection_publisher'
+ * Debug mode: off
+[INFO] [1791200069.946237]: Loading YOLO model from: /home/potential/Drone-OS/ros_ws/src/srota_control/src/bestperson_85.pt
+[INFO] [1791200070.186870]: HTTP Output Stream published at: http://192.168.2.192:8080/
+[INFO] [1791200070.187451]: ROS Compressed Image Topic published at: /drone/camera/image_annotated/compressed
+ * Serving Flask app 'person_detection_publisher'
+ * Debug mode: off
+[INFO] [1791200424.555756]: Loading YOLO model from: /home/potential/Drone-OS/ros_ws/src/srota_control/src/bestperson_85.pt
+[INFO] [1791200424.799367]: HTTP Output Stream published at: http://192.168.2.192:8080/
+[INFO] [1791200424.801149]: ROS Compressed Image Topic published at: /drone/camera/image_annotated/compressed
+ * Serving Flask app 'person_detection_publisher'
+ * Debug mode: off
+[INFO] [1791200650.115970]: Loading YOLO model from: /home/potential/Drone-OS/ros_ws/src/srota_control/src/bestperson_85.pt
+[INFO] [1791200650.470360]: HTTP Output Stream published at: http://192.168.2.192:8080/
+[INFO] [1791200650.472315]: ROS Compressed Image Topic published at: /drone/camera/image_annotated/compressed
+ * Serving Flask app 'person_detection_publisher'
+ * Debug mode: off
+[INFO] [1791204210.046384]: Loading YOLO model from: /home/potential/Drone-OS/ros_ws/src/srota_control/src/bestperson_85.pt
+[INFO] [1791204210.378239]: HTTP Output Stream published at: http://192.168.2.192:8080/
+[INFO] [1791204210.379241]: ROS Compressed Image Topic published at: /drone/camera/image_annotated/compressed
+ * Serving Flask app 'person_detection_publisher'
+ * Debug mode: off
+[INFO] [1791204393.409366]: Loading YOLO model from: /home/potential/Drone-OS/ros_ws/src/srota_control/src/bestperson_85.pt
+[INFO] [1791204393.669445]: HTTP Output Stream published at: http://192.168.2.192:8080/
+[INFO] [1791204393.670427]: ROS Compressed Image Topic published at: /drone/camera/image_annotated/compressed
+ * Serving Flask app 'person_detection_publisher'
+ * Debug mode: off
+[INFO] [1791204497.886036]: Loading YOLO model from: /home/potential/Drone-OS/ros_ws/src/srota_control/src/bestperson_85.pt
+[INFO] [1791204498.175729]: HTTP Output Stream published at: http://192.168.2.192:8080/
+[INFO] [1791204498.177560]: ROS Compressed Image Topic published at: /drone/camera/image_annotated/compressed
+ * Serving Flask app 'person_detection_publisher'
+ * Debug mode: off
+[INFO] [1791204655.557287]: Loading YOLO model from: /home/potential/Drone-OS/ros_ws/src/srota_control/src/bestperson_85.pt
+[INFO] [1791204655.836372]: HTTP Output Stream published at: http://192.168.2.192:8080/
+[INFO] [1791204655.838044]: ROS Compressed Image Topic published at: /drone/camera/image_annotated/compressed
+ * Serving Flask app 'person_detection_publisher'
+ * Debug mode: off
+[INFO] [1791204864.592031]: Loading YOLO model from: /home/potential/Drone-OS/ros_ws/src/srota_control/src/bestperson_85.pt
+[INFO] [1791204864.904079]: HTTP Output Stream published at: http://192.168.2.192:8080/
+[INFO] [1791204864.906296]: ROS Compressed Image Topic published at: /drone/camera/image_annotated/compressed
+ * Serving Flask app 'person_detection_publisher'
+ * Debug mode: off

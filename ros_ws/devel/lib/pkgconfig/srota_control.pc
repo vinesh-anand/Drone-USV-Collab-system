@@ -1,0 +1,8 @@
+prefix=/home/potential/Drone-OS/ros_ws/devel
+
+Name: srota_control
+Description: Description of srota_control
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: roscpp mavros_msgs rospy sensor_msgs std_srvs cv_bridge

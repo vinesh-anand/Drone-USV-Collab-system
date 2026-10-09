@@ -1,0 +1,37 @@
+<launch>
+
+  <!-- MAVROS namespaces (override on the command line if yours differ) -->
+  <arg name="rover1_ns" default="/mavros_drone/mavros"/>
+  <arg name="rover2_ns" default="/mavros_fasty/mavros"/>
+
+  <group ns="mavros_drone">
+    <include file="$(find mavros)/launch/apm.launch">
+      <arg name="fcu_url" value="udp://:19856@192.168.144.20:19856"/>
+      <arg name="tgt_system" value="1"/>
+      <arg name="tgt_component" value="1"/>
+    </include>
+  </group>
+
+  <group ns="mavros_fasty">
+    <include file="$(find mavros)/launch/apm.launch">
+      <arg name="fcu_url" value="/dev/ttyUSB0:57600"/>
+      <arg name="tgt_system" value="2"/>
+      <arg name="tgt_component" value="1"/>
+    </include>
+  </group>
+
+  
+  <!-- Rover2 service node (C++): /srota/goto_drone, return_home, stop, status.
+       required="true": if it exits (e.g. arming failed), the whole launch shuts down. -->
+  <node pkg="srota_control" type="srota_control_node" name="srota_control_node"
+        output="screen" required="true">
+    <param name="rover1_ns" value="$(arg rover1_ns)"/>
+    <param name="rover2_ns" value="$(arg rover2_ns)"/>
+  </node>
+  
+  <node pkg="video_publisher_pkg" name="person_detection_publisher" type="person_detection_publisher.py" output="screen" />
+  
+  <include file="$(find rosbridge_server)/launch/rosbridge_websocket.launch"/> 
+
+
+</launch>

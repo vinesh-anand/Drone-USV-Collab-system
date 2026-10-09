@@ -1,0 +1,101 @@
+Traceback (most recent call last):
+  File "/home/kunal/Drone-OS/ros_ws/devel/lib/srota_control/person_detection_publisher.py", line 15, in <module>
+    exec(compile(fh.read(), python_script, 'exec'), context)
+  File "/home/kunal/Drone-OS/ros_ws/src/srota_control/scripts/person_detection_publisher.py", line 2
+    import rosbridge from "./rosbridge";
+                     ^
+SyntaxError: invalid syntax
+/home/potential/Drone-OS/ros_ws/devel/setup.sh: line 61: /home/potential/Drone-OS/ros_ws/devel/_setup_util.py: Permission denied
+Failed to run '"/home/potential/Drone-OS/ros_ws/devel/_setup_util.py" ': return code 126
+/home/potential/Drone-OS/ros_ws/devel/setup.sh: line 61: /home/potential/Drone-OS/ros_ws/devel/_setup_util.py: Permission denied
+Failed to run '"/home/potential/Drone-OS/ros_ws/devel/_setup_util.py" ': return code 126
+/home/potential/Drone-OS/ros_ws/devel/setup.sh: line 61: /home/potential/Drone-OS/ros_ws/devel/_setup_util.py: Permission denied
+Failed to run '"/home/potential/Drone-OS/ros_ws/devel/_setup_util.py" ': return code 126
+/home/potential/Drone-OS/ros_ws/devel/setup.sh: line 61: /home/potential/Drone-OS/ros_ws/devel/_setup_util.py: Permission denied
+Failed to run '"/home/potential/Drone-OS/ros_ws/devel/_setup_util.py" ': return code 126
+/home/potential/Drone-OS/ros_ws/devel/setup.sh: line 61: /home/potential/Drone-OS/ros_ws/devel/_setup_util.py: Permission denied
+Failed to run '"/home/potential/Drone-OS/ros_ws/devel/_setup_util.py" ': return code 126
+/home/potential/Drone-OS/ros_ws/devel/setup.sh: line 61: /home/potential/Drone-OS/ros_ws/devel/_setup_util.py: Permission denied
+Failed to run '"/home/potential/Drone-OS/ros_ws/devel/_setup_util.py" ': return code 126
+[INFO] [1791191954.991939]: Loading YOLO model from: /home/potential/Drone-OS/ros_ws/src/srota_control/src/bestperson_85.pt
+[INFO] [1791191955.362550]: HTTP Output Stream published at: http://192.168.2.192:8080/
+[INFO] [1791191955.363321]: ROS Compressed Image Topic published at: /drone/camera/image_annotated/compressed
+ * Serving Flask app 'person_detection_publisher'
+ * Debug mode: off
+[INFO] [1791192345.014302]: Loading YOLO model from: /home/potential/Drone-OS/ros_ws/src/srota_control/src/bestperson_85.pt
+[INFO] [1791192345.236738]: HTTP Output Stream published at: http://192.168.2.192:8080/
+[INFO] [1791192345.237557]: ROS Compressed Image Topic published at: /drone/camera/image_annotated/compressed
+ * Serving Flask app 'person_detection_publisher'
+ * Debug mode: off
+[INFO] [1791192690.709822]: Loading YOLO model from: /home/potential/Drone-OS/ros_ws/src/srota_control/src/bestperson_85.pt
+[INFO] [1791192690.932624]: HTTP Output Stream published at: http://192.168.2.192:8080/
+[INFO] [1791192690.934490]: ROS Compressed Image Topic published at: /drone/camera/image_annotated/compressed
+ * Serving Flask app 'person_detection_publisher'
+ * Debug mode: off
+[INFO] [1791192749.069466]: Loading YOLO model from: /home/potential/Drone-OS/ros_ws/src/srota_control/src/bestperson_85.pt
+[INFO] [1791192749.270572]: HTTP Output Stream published at: http://192.168.2.192:8080/
+[INFO] [1791192749.272382]: ROS Compressed Image Topic published at: /drone/camera/image_annotated/compressed
+ * Serving Flask app 'person_detection_publisher'
+ * Debug mode: off
+[INFO] [1791194099.717007]: Loading YOLO model from: /home/potential/Drone-OS/ros_ws/src/srota_control/src/bestperson_85.pt
+[INFO] [1791194100.048762]: HTTP Output Stream published at: http://192.168.2.192:8080/
+[INFO] [1791194100.049459]: ROS Compressed Image Topic published at: /drone/camera/image_annotated/compressed
+ * Serving Flask app 'person_detection_publisher'
+ * Debug mode: off
+[INFO] [1791194388.501283]: Loading YOLO model from: /home/potential/Drone-OS/ros_ws/src/srota_control/src/bestperson_85.pt
+[INFO] [1791194388.724145]: HTTP Output Stream published at: http://192.168.2.192:8080/
+[INFO] [1791194388.725016]: ROS Compressed Image Topic published at: /drone/camera/image_annotated/compressed
+ * Serving Flask app 'person_detection_publisher'
+ * Debug mode: off
+[INFO] [1791194451.502845]: Loading YOLO model from: /home/potential/Drone-OS/ros_ws/src/srota_control/src/bestperson_85.pt
+[INFO] [1791194451.759667]: HTTP Output Stream published at: http://192.168.2.192:8080/
+[INFO] [1791194451.760919]: ROS Compressed Image Topic published at: /drone/camera/image_annotated/compressed
+ * Serving Flask app 'person_detection_publisher'
+ * Debug mode: off
+[INFO] [1791194639.618592]: Loading YOLO model from: /home/potential/Drone-OS/ros_ws/src/srota_control/src/bestperson_85.pt
+[INFO] [1791194639.900482]: HTTP Output Stream published at: http://192.168.2.192:8080/
+[INFO] [1791194639.902343]: ROS Compressed Image Topic published at: /drone/camera/image_annotated/compressed
+ * Serving Flask app 'person_detection_publisher'
+ * Debug mode: off
+[INFO] [1791195037.815838]: Loading YOLO model from: /home/potential/Drone-OS/ros_ws/src/srota_control/src/bestperson_85.pt
+[INFO] [1791195038.096967]: HTTP Output Stream published at: http://192.168.2.192:8080/
+[INFO] [1791195038.097730]: ROS Compressed Image Topic published at: /drone/camera/image_annotated/compressed
+ * Serving Flask app 'person_detection_publisher'
+ * Debug mode: off
+[INFO] [1791196436.722025]: Loading YOLO model from: /home/potential/Drone-OS/ros_ws/src/srota_control/src/bestperson_85.pt
+[INFO] [1791196437.012153]: HTTP Output Stream published at: http://192.168.2.192:8080/
+[INFO] [1791196437.012945]: ROS Compressed Image Topic published at: /drone/camera/image_annotated/compressed
+ * Serving Flask app 'person_detection_publisher'
+ * Debug mode: off
+[INFO] [1791196526.388808]: Loading YOLO model from: /home/potential/Drone-OS/ros_ws/src/srota_control/src/bestperson_85.pt
+[INFO] [1791196526.649366]: HTTP Output Stream published at: http://192.168.2.192:8080/
+[INFO] [1791196526.649948]: ROS Compressed Image Topic published at: /drone/camera/image_annotated/compressed
+ * Serving Flask app 'person_detection_publisher'
+ * Debug mode: off
+[INFO] [1791197195.225329]: Loading YOLO model from: /home/potential/Drone-OS/ros_ws/src/srota_control/src/bestperson_85.pt
+[INFO] [1791197195.432534]: HTTP Output Stream published at: http://192.168.2.192:8080/
+[INFO] [1791197195.434283]: ROS Compressed Image Topic published at: /drone/camera/image_annotated/compressed
+ * Serving Flask app 'person_detection_publisher'
+ * Debug mode: off
+[INFO] [1791197424.451649]: Loading YOLO model from: /home/potential/Drone-OS/ros_ws/src/srota_control/src/bestperson_85.pt
+[INFO] [1791197424.731042]: HTTP Output Stream published at: http://192.168.2.192:8080/
+[INFO] [1791197424.731807]: ROS Compressed Image Topic published at: /drone/camera/image_annotated/compressed
+ * Serving Flask app 'person_detection_publisher'
+ * Debug mode: off
+[INFO] [1791197632.644030]: Loading YOLO model from: /home/potential/Drone-OS/ros_ws/src/srota_control/src/bestperson_85.pt
+[INFO] [1791197632.937029]: HTTP Output Stream published at: http://192.168.2.192:8080/
+[INFO] [1791197632.937739]: ROS Compressed Image Topic published at: /drone/camera/image_annotated/compressed
+ * Serving Flask app 'person_detection_publisher'
+ * Debug mode: off
+[INFO] [1791198030.553523]: Loading YOLO model from: /home/potential/Drone-OS/ros_ws/src/srota_control/src/bestperson_85.pt
+[INFO] [1791198030.849807]: HTTP Output Stream published at: http://192.168.2.192:8080/
+[INFO] [1791198030.850552]: ROS Compressed Image Topic published at: /drone/camera/image_annotated/compressed
+ * Serving Flask app 'person_detection_publisher'
+ * Debug mode: off
+[INFO] [1791198205.312282]: Loading YOLO model from: /home/potential/Drone-OS/ros_ws/src/srota_control/src/bestperson_85.pt
+[INFO] [1791198205.637946]: HTTP Output Stream published at: http://192.168.2.192:8080/
+[INFO] [1791198205.639740]: ROS Compressed Image Topic published at: /drone/camera/image_annotated/compressed
+ * Serving Flask app 'person_detection_publisher'
+ * Debug mode: off
+Address already in use
+Port 8080 is in use by another program. Either identify and stop that program, or start the server with a different port.

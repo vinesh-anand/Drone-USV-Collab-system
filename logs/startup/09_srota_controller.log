@@ -1,0 +1,339 @@
+[33m[WARN] [1791199140.392658204]: SROTA ARDUPILOT: severity=6 | GPS 1: detected as u-blox at 230400 baud[0m
+[33m[WARN] [1791199144.772999926]: SROTA ARDUPILOT: severity=6 | ArduRover V4.5.7 (2a3dc4b7)[0m
+[33m[WARN] [1791199144.773810435]: SROTA ARDUPILOT: severity=6 | 97fdb9de3105441997b62817a3fedd3d[0m
+[33m[WARN] [1791199145.026038257]: SROTA ARDUPILOT: severity=2 | Arm: Gyros inconsistent[0m
+[33m[WARN] [1791199145.026058210]: SROTA ARDUPILOT: severity=2 | Arm: AHRS: not using configured AHRS type[0m
+[33m[WARN] [1791199149.516915462]: SROTA ARDUPILOT: severity=2 | Arm: Gyros inconsistent[0m
+[33m[WARN] [1791199149.517400612]: SROTA ARDUPILOT: severity=2 | Arm: AHRS: not using configured AHRS type[0m
+[33m[WARN] [1791199150.595334456]: SROTA ARDUPILOT: severity=6 | EKF3 IMU0 origin set[0m
+[33m[WARN] [1791199150.595644213]: SROTA ARDUPILOT: severity=6 | EKF3 IMU1 origin set[0m
+[33m[WARN] [1791199150.676752314]: SROTA ARDUPILOT: severity=6 | Field Elevation Set: 584m[0m
+[33m[WARN] [1791199154.037732426]: SROTA ARDUPILOT: severity=2 | Arm: Gyros inconsistent[0m
+[33m[WARN] [1791199154.038236615]: SROTA ARDUPILOT: severity=2 | Arm: AHRS: not using configured AHRS type[0m
+[33m[WARN] [1791199158.557210063]: SROTA ARDUPILOT: severity=2 | Arm: AHRS: not using configured AHRS type[0m
+[33m[WARN] [1791199161.098151362]: SROTA ARDUPILOT: severity=2 | PreArm: AHRS: not using configured AHRS type[0m
+[33m[WARN] [1791199163.076741823]: SROTA ARDUPILOT: severity=2 | Arm: AHRS: not using configured AHRS type[0m
+[33m[WARN] [1791199167.594658736]: SROTA ARDUPILOT: severity=2 | Arm: AHRS: not using configured AHRS type[0m
+[33m[WARN] [1791199172.115709499]: SROTA ARDUPILOT: severity=2 | Arm: AHRS: not using configured AHRS type[0m
+[33m[WARN] [1791199172.645529391]: SROTA ARDUPILOT: severity=6 | EKF3 IMU0 is using GPS[0m
+[33m[WARN] [1791199172.646329422]: SROTA ARDUPILOT: severity=6 | EKF3 IMU1 is using GPS[0m
+[33m[WARN] [1791199172.646551306]: SROTA ARDUPILOT: severity=6 | AHRS: EKF3 active[0m
+[33m[WARN] [1791199176.647577276]: SROTA ARDUPILOT: severity=6 | Throttle armed[0m
+[33m[WARN] [1791199542.608954861]: SROTA ARDUPILOT: severity=6 | GPS 1: detected as u-blox at 230400 baud[0m
+[33m[WARN] [1791199546.412038480]: SROTA ARDUPILOT: severity=2 | Arm: Gyros inconsistent[0m
+[33m[WARN] [1791199546.412493938]: SROTA ARDUPILOT: severity=2 | Arm: AHRS: not using configured AHRS type[0m
+[33m[WARN] [1791199547.009609852]: SROTA ARDUPILOT: severity=6 | ArduRover V4.5.7 (2a3dc4b7)[0m
+[33m[WARN] [1791199547.009739474]: SROTA ARDUPILOT: severity=6 | 97fdb9de3105441997b62817a3fedd3d[0m
+[33m[WARN] [1791199550.929162224]: SROTA ARDUPILOT: severity=2 | Arm: Gyros inconsistent[0m
+[33m[WARN] [1791199550.929203070]: SROTA ARDUPILOT: severity=2 | Arm: AHRS: not using configured AHRS type[0m
+[33m[WARN] [1791199552.812560217]: SROTA ARDUPILOT: severity=6 | EKF3 IMU0 origin set[0m
+[33m[WARN] [1791199552.812696351]: SROTA ARDUPILOT: severity=6 | EKF3 IMU1 origin set[0m
+[33m[WARN] [1791199552.888545548]: SROTA ARDUPILOT: severity=6 | Field Elevation Set: 584m[0m
+[33m[WARN] [1791199555.448589744]: SROTA ARDUPILOT: severity=2 | Arm: Gyros inconsistent[0m
+[33m[WARN] [1791199555.448615618]: SROTA ARDUPILOT: severity=2 | Arm: AHRS: not using configured AHRS type[0m
+[33m[WARN] [1791199559.967977655]: SROTA ARDUPILOT: severity=2 | Arm: AHRS: not using configured AHRS type[0m
+[33m[WARN] [1791199563.309187267]: SROTA ARDUPILOT: severity=2 | PreArm: AHRS: not using configured AHRS type[0m
+[33m[WARN] [1791199564.493185720]: SROTA ARDUPILOT: severity=2 | Arm: AHRS: not using configured AHRS type[0m
+[33m[WARN] [1791200067.327960235]: SROTA ARDUPILOT: severity=6 | GPS 1: detected as u-blox at 230400 baud[0m
+[33m[WARN] [1791200071.131191103]: SROTA ARDUPILOT: severity=2 | Arm: Gyros inconsistent[0m
+[33m[WARN] [1791200071.131938708]: SROTA ARDUPILOT: severity=2 | Arm: AHRS: not using configured AHRS type[0m
+[33m[WARN] [1791200071.728567526]: SROTA ARDUPILOT: severity=6 | ArduRover V4.5.7 (2a3dc4b7)[0m
+[33m[WARN] [1791200071.728791480]: SROTA ARDUPILOT: severity=6 | 97fdb9de3105441997b62817a3fedd3d[0m
+[33m[WARN] [1791200075.647910079]: SROTA ARDUPILOT: severity=2 | Arm: Gyros inconsistent[0m
+[33m[WARN] [1791200075.648119541]: SROTA ARDUPILOT: severity=2 | Arm: AHRS: not using configured AHRS type[0m
+[33m[WARN] [1791200077.530893769]: SROTA ARDUPILOT: severity=6 | EKF3 IMU0 origin set[0m
+[33m[WARN] [1791200077.531287525]: SROTA ARDUPILOT: severity=6 | EKF3 IMU1 origin set[0m
+[33m[WARN] [1791200077.607584877]: SROTA ARDUPILOT: severity=6 | Field Elevation Set: 584m[0m
+[33m[WARN] [1791200080.166955822]: SROTA ARDUPILOT: severity=2 | Arm: Gyros inconsistent[0m
+[33m[WARN] [1791200080.167456432]: SROTA ARDUPILOT: severity=2 | Arm: AHRS: not using configured AHRS type[0m
+[33m[WARN] [1791200084.687690077]: SROTA ARDUPILOT: severity=2 | Arm: AHRS: not using configured AHRS type[0m
+[33m[WARN] [1791200088.028264946]: SROTA ARDUPILOT: severity=2 | PreArm: AHRS: not using configured AHRS type[0m
+[33m[WARN] [1791200089.212363250]: SROTA ARDUPILOT: severity=2 | Arm: AHRS: not using configured AHRS type[0m
+[33m[WARN] [1791200093.731813648]: SROTA ARDUPILOT: severity=2 | Arm: AHRS: not using configured AHRS type[0m
+[33m[WARN] [1791200098.251081869]: SROTA ARDUPILOT: severity=2 | Arm: AHRS: not using configured AHRS type[0m
+[33m[WARN] [1791200099.568781583]: SROTA ARDUPILOT: severity=6 | EKF3 IMU0 is using GPS[0m
+[33m[WARN] [1791200099.568934009]: SROTA ARDUPILOT: severity=6 | EKF3 IMU1 is using GPS[0m
+[33m[WARN] [1791200099.568966787]: SROTA ARDUPILOT: severity=6 | AHRS: EKF3 active[0m
+[33m[WARN] [1791200102.771370317]: SROTA ARDUPILOT: severity=6 | Throttle armed[0m
+[0m[INFO] [1791200065.800042022]: Rover2 (/mavros_fasty/mavros) service node -- target is Rover1 (/mavros_drone/mavros)[0m
+[0m[INFO] [1791200065.800503893]: Follow mode: standoff=3.0 m, timeout=none[0m
+[0m[INFO] [1791200065.807117293]: Waiting for Srota FCU...[0m
+[0m[INFO] [1791200066.107322431]: Waiting for Srota GPS and Drone GPS...[0m
+[0m[INFO] [1791200066.107376128]: Srota gps=false | Drone gps=true[0m
+[0m[INFO] [1791200068.007269926]: Waiting for a good Srota fix to record launch point (std <= 1.50 m)...[0m
+[0m[INFO] [1791200071.007311581]: SROTA LAUNCH POINT  lat=19.16849990  lon=73.00389980  (averaged over 30 samples)[0m
+[0m[INFO] [1791200071.110841051]: Arming attempt 1/10...[0m
+[0m[INFO] [1791200075.630614228]: Arming attempt 2/10...[0m
+[0m[INFO] [1791200080.147509084]: Arming attempt 3/10...[0m
+[0m[INFO] [1791200084.666740287]: Arming attempt 4/10...[0m
+[0m[INFO] [1791200089.186955313]: Arming attempt 5/10...[0m
+[0m[INFO] [1791200093.711869753]: Arming attempt 6/10...[0m
+[0m[INFO] [1791200098.231575801]: Arming attempt 7/10...[0m
+[0m[INFO] [1791200102.750910480]: Arming attempt 8/10...[0m
+[0m[INFO] [1791200104.373192584]: SROTA ARMED and ready, holding in HOLD.[0m
+[0m[INFO] [1791200104.375377534]: ==========================================[0m
+[0m[INFO] [1791200104.375395833]: Services ready:[0m
+[0m[INFO] [1791200104.375403858]:   rosservice call /srota/goto_drone[0m
+[0m[INFO] [1791200104.375411065]:   rosservice call /srota/return_home[0m
+[0m[INFO] [1791200104.375417919]:   rosservice call /srota/follow[0m
+[0m[INFO] [1791200104.375424647]:   rosservice call /srota/stop[0m
+[0m[INFO] [1791200104.375431125]:   rosservice call /srota/status[0m
+[0m[INFO] [1791200104.375437718]: ==========================================[0m
+[0m[INFO] [1791200163.689743594]: Service call: goto_drone -> lat=19.16899940 lon=73.00389870[0m
+[0m[INFO] [1791200163.791752846]: TO_ROVER1 | dist=55.6 m | mode=GUIDED | armed=true[0m
+[0m[INFO] [1791200165.791909039]: TO_ROVER1 | dist=55.0 m | mode=GUIDED | armed=true[0m
+[0m[INFO] [1791200167.891843475]: TO_ROVER1 | dist=49.7 m | mode=GUIDED | armed=true[0m
+[0m[INFO] [1791200169.991880774]: TO_ROVER1 | dist=40.8 m | mode=GUIDED | armed=true[0m
+[0m[INFO] [1791200171.991896718]: TO_ROVER1 | dist=30.8 m | mode=GUIDED | armed=true[0m
+[0m[INFO] [1791200174.091918616]: TO_ROVER1 | dist=21.0 m | mode=GUIDED | armed=true[0m
+[0m[INFO] [1791200176.191898898]: TO_ROVER1 | dist=11.1 m | mode=GUIDED | armed=true[0m
+[0m[INFO] [1791200178.291901532]: TO_ROVER1 | dist=4.8 m | mode=GUIDED | armed=true[0m
+[0m[INFO] [1791200179.691834319]: TO_ROVER1 REACHED (1.6 m).[0m
+[0m[INFO] [1791200183.928949696]: Service call: return_home -> lat=19.16849990 lon=73.00389980[0m
+[0m[INFO] [1791200184.030922148]: RETURN_HOME | dist=56.8 m | mode=GUIDED | armed=true[0m
+[0m[INFO] [1791200186.030989052]: RETURN_HOME | dist=57.4 m | mode=GUIDED | armed=true[0m
+[0m[INFO] [1791200188.030990122]: RETURN_HOME | dist=60.0 m | mode=GUIDED | armed=true[0m
+[0m[INFO] [1791200190.031019044]: RETURN_HOME | dist=55.7 m | mode=GUIDED | armed=true[0m
+[0m[INFO] [1791200192.031018653]: RETURN_HOME | dist=46.6 m | mode=GUIDED | armed=true[0m
+[0m[INFO] [1791200194.031018138]: RETURN_HOME | dist=36.2 m | mode=GUIDED | armed=true[0m
+[0m[INFO] [1791200196.031125303]: RETURN_HOME | dist=26.3 m | mode=GUIDED | armed=true[0m
+[0m[INFO] [1791200198.130985951]: RETURN_HOME | dist=14.9 m | mode=GUIDED | armed=true[0m
+[0m[INFO] [1791200200.131016955]: RETURN_HOME | dist=7.2 m | mode=GUIDED | armed=true[0m
+[0m[INFO] [1791200202.131017853]: RETURN_HOME | dist=3.7 m | mode=GUIDED | armed=true[0m
+[0m[INFO] [1791200204.231009411]: RETURN_HOME | dist=2.4 m | mode=GUIDED | armed=true[0m
+[0m[INFO] [1791200205.431020839]: RETURN_HOME REACHED (1.9 m).[0m
+[0m[INFO] [1791200290.919796539]: Service call: follow (standoff=3.0 m). Call /srota/stop to end.[0m
+[0m[INFO] [1791200291.022059497]: FOLLOW_Drone | CHASING | dist_to_rover1=88.1 m (standoff 3.0 m)[0m
+[0m[INFO] [1791200293.022240389]: FOLLOW_Drone | CHASING | dist_to_rover1=88.7 m (standoff 3.0 m)[0m
+[0m[INFO] [1791200295.122144235]: FOLLOW_Drone | CHASING | dist_to_rover1=87.9 m (standoff 3.0 m)[0m
+[0m[INFO] [1791200297.122158897]: FOLLOW_Drone | CHASING | dist_to_rover1=81.1 m (standoff 3.0 m)[0m
+[0m[INFO] [1791200299.122165134]: FOLLOW_Drone | CHASING | dist_to_rover1=70.8 m (standoff 3.0 m)[0m
+[0m[INFO] [1791200301.222230143]: FOLLOW_Drone | CHASING | dist_to_rover1=60.7 m (standoff 3.0 m)[0m
+[0m[INFO] [1791200303.322279800]: FOLLOW_Drone | CHASING | dist_to_rover1=50.7 m (standoff 3.0 m)[0m
+[0m[INFO] [1791200305.422250201]: FOLLOW_Drone | CHASING | dist_to_rover1=39.4 m (standoff 3.0 m)[0m
+[0m[INFO] [1791200307.522226048]: FOLLOW_Drone | CHASING | dist_to_rover1=29.4 m (standoff 3.0 m)[0m
+[0m[INFO] [1791200309.622160669]: FOLLOW_Drone | CHASING | dist_to_rover1=18.1 m (standoff 3.0 m)[0m
+[0m[INFO] [1791200311.722126455]: FOLLOW_Drone | CHASING | dist_to_rover1=10.2 m (standoff 3.0 m)[0m
+[0m[INFO] [1791200313.722263799]: FOLLOW_Drone | CHASING | dist_to_rover1=5.9 m (standoff 3.0 m)[0m
+[0m[INFO] [1791200315.822157132]: FOLLOW_Drone | CHASING | dist_to_rover1=4.4 m (standoff 3.0 m)[0m
+[0m[INFO] [1791200317.822211031]: FOLLOW_Drone | CHASING | dist_to_rover1=4.0 m (standoff 3.0 m)[0m
+[0m[INFO] [1791200319.922158474]: FOLLOW_Drone | CHASING | dist_to_rover1=3.7 m (standoff 3.0 m)[0m
+[0m[INFO] [1791200322.022156506]: FOLLOW_Drone | CHASING | dist_to_rover1=3.5 m (standoff 3.0 m)[0m
+[0m[INFO] [1791200324.022225234]: FOLLOW_Drone | CHASING | dist_to_rover1=3.1 m (standoff 3.0 m)[0m
+[0m[INFO] [1791200326.122149904]: FOLLOW_Drone | IN RANGE | dist_to_rover1=2.9 m (standoff 3.0 m)[0m
+[0m[INFO] [1791200328.222236259]: FOLLOW_Drone | IN RANGE | dist_to_rover1=2.9 m (standoff 3.0 m)[0m
+[0m[INFO] [1791200330.322127639]: FOLLOW_Drone | IN RANGE | dist_to_rover1=2.8 m (standoff 3.0 m)[0m
+[0m[INFO] [1791200332.322244959]: FOLLOW_Drone | IN RANGE | dist_to_rover1=2.7 m (standoff 3.0 m)[0m
+[0m[INFO] [1791200334.422125889]: FOLLOW_Drone | IN RANGE | dist_to_rover1=2.7 m (standoff 3.0 m)[0m
+[0m[INFO] [1791200336.422211211]: FOLLOW_Drone | IN RANGE | dist_to_rover1=2.6 m (standoff 3.0 m)[0m
+[0m[INFO] [1791200338.522181569]: FOLLOW_Drone | IN RANGE | dist_to_rover1=2.5 m (standoff 3.0 m)[0m
+[0m[INFO] [1791200340.522214339]: FOLLOW_Drone | IN RANGE | dist_to_rover1=2.4 m (standoff 3.0 m)[0m
+[0m[INFO] [1791200342.622270617]: FOLLOW_Drone | IN RANGE | dist_to_rover1=2.4 m (standoff 3.0 m)[0m
+[0m[INFO] [1791200344.722260581]: FOLLOW_Drone | IN RANGE | dist_to_rover1=2.3 m (standoff 3.0 m)[0m
+[0m[INFO] [1791200346.822225003]: FOLLOW_Drone | IN RANGE | dist_to_rover1=2.2 m (standoff 3.0 m)[0m
+[0m[INFO] [1791200348.922181829]: FOLLOW_Drone | IN RANGE | dist_to_rover1=2.1 m (standoff 3.0 m)[0m
+[0m[INFO] [1791200351.022154740]: FOLLOW_Drone | IN RANGE | dist_to_rover1=2.0 m (standoff 3.0 m)[0m
+[0m[INFO] [1791200353.022219922]: FOLLOW_Drone | IN RANGE | dist_to_rover1=1.9 m (standoff 3.0 m)[0m
+[0m[INFO] [1791200355.122239911]: FOLLOW_Drone | IN RANGE | dist_to_rover1=1.8 m (standoff 3.0 m)[0m
+[0m[INFO] [1791200357.222165839]: FOLLOW_Drone | IN RANGE | dist_to_rover1=1.8 m (standoff 3.0 m)[0m
+[0m[INFO] [1791200359.222251079]: FOLLOW_Drone | IN RANGE | dist_to_rover1=1.7 m (standoff 3.0 m)[0m
+[0m[INFO] [1791200361.322176575]: FOLLOW_Drone | IN RANGE | dist_to_rover1=1.6 m (standoff 3.0 m)[0m
+[0m[INFO] [1791200363.322215771]: FOLLOW_Drone | IN RANGE | dist_to_rover1=1.5 m (standoff 3.0 m)[0m
+[0m[INFO] [1791200365.422128104]: FOLLOW_Drone | IN RANGE | dist_to_rover1=1.4 m (standoff 3.0 m)[0m
+[0m[INFO] [1791200367.422158111]: FOLLOW_Drone | IN RANGE | dist_to_rover1=1.4 m (standoff 3.0 m)[0m
+[0m[INFO] [1791200369.422248511]: FOLLOW_Drone | IN RANGE | dist_to_rover1=1.3 m (standoff 3.0 m)[0m
+[0m[INFO] [1791200371.522220225]: FOLLOW_Drone | IN RANGE | dist_to_rover1=1.3 m (standoff 3.0 m)[0m
+[0m[INFO] [1791200373.522280542]: FOLLOW_Drone | IN RANGE | dist_to_rover1=1.3 m (standoff 3.0 m)[0m
+[0m[[33m[WARN] [1791200421.928074064]: SROTA ARDUPILOT: severity=6 | GPS 1: detected as u-blox at 230400 baud[0m
+[33m[WARN] [1791200425.706931678]: SROTA ARDUPILOT: severity=2 | Arm: Gyros inconsistent[0m
+[33m[WARN] [1791200425.707055040]: SROTA ARDUPILOT: severity=2 | Arm: AHRS: not using configured AHRS type[0m
+[33m[WARN] [1791200426.308690618]: SROTA ARDUPILOT: severity=6 | ArduRover V4.5.7 (2a3dc4b7)[0m
+[33m[WARN] [1791200426.308815848]: SROTA ARDUPILOT: severity=6 | 97fdb9de3105441997b62817a3fedd3d[0m
+[33m[WARN] [1791200430.210613533]: SROTA ARDUPILOT: severity=2 | Arm: Gyros inconsistent[0m
+[33m[WARN] [1791200430.210892637]: SROTA ARDUPILOT: severity=2 | Arm: AHRS: not using configured AHRS type[0m
+[33m[WARN] [1791200432.129545780]: SROTA ARDUPILOT: severity=6 | EKF3 IMU0 origin set[0m
+[33m[WARN] [1791200432.129817724]: SROTA ARDUPILOT: severity=6 | EKF3 IMU1 origin set[0m
+[33m[WARN] [1791200432.210720919]: SROTA ARDUPILOT: severity=6 | Field Elevation Set: 584m[0m
+[33m[WARN] [1791200434.730288446]: SROTA ARDUPILOT: severity=2 | Arm: Gyros inconsistent[0m
+[33m[WARN] [1791200434.730332364]: SROTA ARDUPILOT: severity=2 | Arm: AHRS: not using configured AHRS type[0m
+[33m[WARN] [1791200439.250918560]: SROTA ARDUPILOT: severity=2 | Arm: AHRS: not using configured AHRS type[0m
+[33m[WARN] [1791200442.632233618]: SROTA ARDUPILOT: severity=2 | PreArm: AHRS: not using configured AHRS type[0m
+[33m[WARN] [1791200443.769475575]: SROTA ARDUPILOT: severity=2 | Arm: AHRS: not using configured AHRS type[0m
+[33m[WARN] [1791200448.288838774]: SROTA ARDUPILOT: severity=2 | Arm: AHRS: not using configured AHRS type[0m
+[33m[WARN] [1791200452.807655874]: SROTA ARDUPILOT: severity=2 | Arm: AHRS: not using configured AHRS type[0m
+[33m[WARN] [1791200454.172137927]: SROTA ARDUPILOT: severity=6 | EKF3 IMU0 is using GPS[0m
+[33m[WARN] [1791200454.172369212]: SROTA ARDUPILOT: severity=6 | EKF3 IMU1 is using GPS[0m
+[33m[WARN] [1791200454.172931110]: SROTA ARDUPILOT: severity=6 | AHRS: EKF3 active[0m
+[33m[WARN] [1791200457.333396356]: SROTA ARDUPILOT: severity=6 | Throttle armed[0m
+[33m[WARN] [1791200648.145626565]: SROTA ARDUPILOT: severity=7 | INS: alloc 6144 bytes for ISB (free=131072)[0m
+[33m[WARN] [1791200648.147615529]: SROTA ARDUPILOT: severity=6 | ArduPilot Ready[0m
+[33m[WARN] [1791200648.148136633]: SROTA ARDUPILOT: severity=6 | AHRS: DCM active[0m
+[33m[WARN] [1791200650.168279373]: SROTA ARDUPILOT: severity=6 | EKF3 IMU0 initialised[0m
+[33m[WARN] [1791200650.168555163]: SROTA ARDUPILOT: severity=6 | EKF3 IMU1 initialised[0m
+[33m[WARN] [1791200651.766304795]: SROTA ARDUPILOT: severity=6 | EKF3 IMU0 tilt alignment complete[0m
+[33m[WARN] [1791200651.766431000]: SROTA ARDUPILOT: severity=6 | EKF3 IMU1 tilt alignment complete[0m
+[33m[WARN] [1791200651.851993003]: SROTA ARDUPILOT: severity=6 | EKF3 IMU0 MAG0 initial yaw alignment complete[0m
+[33m[WARN] [1791200651.852153410]: SROTA ARDUPILOT: severity=6 | EKF3 IMU1 MAG0 initial yaw alignment complete[0m
+[33m[WARN] [1791200655.445677179]: SROTA ARDUPILOT: severity=6 | GPS 1: detected as u-blox at 230400 baud[0m
+[33m[WARN] [1791200657.825457918]: SROTA ARDUPILOT: severity=6 | ArduRover V4.5.7 (2a3dc4b7)[0m
+[33m[WARN] [1791200657.825500318]: SROTA ARDUPILOT: severity=6 | 97fdb9de3105441997b62817a3fedd3d[0m
+[33m[WARN] [1791200659.247992723]: SROTA ARDUPILOT: severity=2 | Arm: Gyros inconsistent[0m
+[33m[WARN] [1791200659.248197384]: SROTA ARDUPILOT: severity=2 | Arm: AHRS: not using configured AHRS type[0m
+[33m[WARN] [1791200663.769167732]: SROTA ARDUPILOT: severity=2 | Arm: Gyros inconsistent[0m
+[33m[WARN] [1791200663.769563044]: SROTA ARDUPILOT: severity=2 | Arm: AHRS: not using configured AHRS type[0m
+[33m[WARN] [1791200665.646359895]: SROTA ARDUPILOT: severity=6 | EKF3 IMU0 origin set[0m
+[33m[WARN] [1791200665.646410185]: SROTA ARDUPILOT: severity=6 | EKF3 IMU1 origin set[0m
+[33m[WARN] [1791200665.727970772]: SROTA ARDUPILOT: severity=6 | Field Elevation Set: 584m[0m
+[33m[WARN] [1791200668.288215809]: SROTA ARDUPILOT: severity=2 | Arm: Gyros inconsistent[0m
+[33m[WARN] [1791200668.288249672]: SROTA ARDUPILOT: severity=2 | Arm: AHRS: not using configured AHRS type[0m
+[33m[WARN] [1791200672.807763618]: SROTA ARDUPILOT: severity=2 | Arm: AHRS: not using configured AHRS type[0m
+[33m[WARN] [1791200676.148660634]: SROTA ARDUPILOT: severity=2 | PreArm: AHRS: not using configured AHRS type[0m
+[33m[WARN] [1791200677.326970225]: SROTA ARDUPILOT: severity=2 | Arm: AHRS: not using configured AHRS type[0m
+[33m[WARN] [1791200681.846773073]: SROTA ARDUPILOT: severity=2 | Arm: AHRS: not using configured AHRS type[0m
+[33m[WARN] [1791200686.371891318]: SROTA ARDUPILOT: severity=2 | Arm: AHRS: not using configured AHRS type[0m
+[33m[WARN] [1791200687.689569200]: SROTA ARDUPILOT: severity=6 | EKF3 IMU0 is using GPS[0m
+[33m[WARN] [1791200687.689614763]: SROTA ARDUPILOT: severity=6 | EKF3 IMU1 is using GPS[0m
+[33m[WARN] [1791200687.689877644]: SROTA ARDUPILOT: severity=6 | AHRS: EKF3 active[0m
+[33m[WARN] [1791200690.890433231]: SROTA ARDUPILOT: severity=6 | Throttle armed[0m
+[33m[WARN] [1791204208.096759556]: SROTA ARDUPILOT: severity=7 | INS: alloc 6144 bytes for ISB (free=131072)[0m
+[33m[WARN] [1791204208.097548701]: SROTA ARDUPILOT: severity=6 | ArduPilot Ready[0m
+[33m[WARN] [1791204208.098136411]: SROTA ARDUPILOT: severity=6 | AHRS: DCM active[0m
+[33m[WARN] [1791204210.113980353]: SROTA ARDUPILOT: severity=6 | EKF3 IMU0 initialised[0m
+[33m[WARN] [1791204210.114210903]: SROTA ARDUPILOT: severity=6 | EKF3 IMU1 initialised[0m
+[33m[WARN] [1791204211.717784465]: SROTA ARDUPILOT: severity=6 | EKF3 IMU0 tilt alignment complete[0m
+[33m[WARN] [1791204211.717832486]: SROTA ARDUPILOT: severity=6 | EKF3 IMU1 tilt alignment complete[0m
+[33m[WARN] [1791204211.795812261]: SROTA ARDUPILOT: severity=6 | EKF3 IMU0 MAG0 initial yaw alignment complete[0m
+[33m[WARN] [1791204211.795970701]: SROTA ARDUPILOT: severity=6 | EKF3 IMU1 MAG0 initial yaw alignment complete[0m
+[33m[WARN] [1791204215.397266723]: SROTA ARDUPILOT: severity=6 | GPS 1: detected as u-blox at 230400 baud[0m
+[33m[WARN] [1791204217.776895303]: SROTA ARDUPILOT: severity=6 | ArduRover V4.5.7 (2a3dc4b7)[0m
+[33m[WARN] [1791204217.776931874]: SROTA ARDUPILOT: severity=6 | 97fdb9de3105441997b62817a3fedd3d[0m
+[33m[WARN] [1791204219.199722830]: SROTA ARDUPILOT: severity=2 | Arm: Gyros inconsistent[0m
+[33m[WARN] [1791204219.200086066]: SROTA ARDUPILOT: severity=2 | Arm: AHRS: not using configured AHRS type[0m
+[33m[WARN] [1791204223.719542530]: SROTA ARDUPILOT: severity=2 | Arm: Gyros inconsistent[0m
+[33m[WARN] [1791204223.719580586]: SROTA ARDUPILOT: severity=2 | Arm: AHRS: not using configured AHRS type[0m
+[33m[WARN] [1791204225.597233656]: SROTA ARDUPILOT: severity=6 | EKF3 IMU0 origin set[0m
+[33m[WARN] [1791204225.597369992]: SROTA ARDUPILOT: severity=6 | EKF3 IMU1 origin set[0m
+[33m[WARN] [1791204225.679064999]: SROTA ARDUPILOT: severity=6 | Field Elevation Set: 584m[0m
+[33m[WARN] [1791204228.239311332]: SROTA ARDUPILOT: severity=2 | Arm: Gyros inconsistent[0m
+[33m[WARN] [1791204228.239328888]: SROTA ARDUPILOT: severity=2 | Arm: AHRS: not using configured AHRS type[0m
+[33m[WARN] [1791204232.759863008]: SROTA ARDUPILOT: severity=2 | Arm: AHRS: not using configured AHRS type[0m
+[33m[WARN] [1791204236.095197750]: SROTA ARDUPILOT: severity=2 | PreArm: AHRS: not using configured AHRS type[0m
+[33m[WARN] [1791204237.279701000]: SROTA ARDUPILOT: severity=2 | Arm: AHRS: not using configured AHRS type[0m
+[33m[WARN] [1791204241.798906584]: SROTA ARDUPILOT: severity=2 | Arm: AHRS: not using configured AHRS type[0m
+[33m[WARN] [1791204246.318549942]: SROTA ARDUPILOT: severity=2 | Arm: AHRS: not using configured AHRS type[0m
+[33m[WARN] [1791204247.636100709]: SROTA ARDUPILOT: severity=6 | EKF3 IMU0 is using GPS[0m
+[33m[WARN] [1791204247.636285187]: SROTA ARDUPILOT: severity=6 | EKF3 IMU1 is using GPS[0m
+[33m[WARN] [1791204247.636422307]: SROTA ARDUPILOT: severity=6 | AHRS: EKF3 active[0m
+[33m[WARN] [1791204250.837291471]: SROTA ARDUPILOT: severity=6 | Throttle armed[0m
+[33m[WARN] [1791204391.600396807]: SROTA ARDUPILOT: severity=7 | INS: alloc 6144 bytes for ISB (free=131072)[0m
+[33m[WARN] [1791204391.601781618]: SROTA ARDUPILOT: severity=6 | ArduPilot Ready[0m
+[33m[WARN] [1791204391.602745734]: SROTA ARDUPILOT: severity=6 | AHRS: DCM active[0m
+[33m[WARN] [1791204393.623337173]: SROTA ARDUPILOT: severity=6 | EKF3 IMU0 initialised[0m
+[33m[WARN] [1791204393.623380070]: SROTA ARDUPILOT: severity=6 | EKF3 IMU1 initialised[0m
+[33m[WARN] [1791204395.221247918]: SROTA ARDUPILOT: severity=6 | EKF3 IMU0 tilt alignment complete[0m
+[33m[WARN] [1791204395.221601673]: SROTA ARDUPILOT: severity=6 | EKF3 IMU1 tilt alignment complete[0m
+[33m[WARN] [1791204395.308034172]: SROTA ARDUPILOT: severity=6 | EKF3 IMU0 MAG0 initial yaw alignment complete[0m
+[33m[WARN] [1791204395.308177123]: SROTA ARDUPILOT: severity=6 | EKF3 IMU1 MAG0 initial yaw alignment complete[0m
+[33m[WARN] [1791204398.901083559]: SROTA ARDUPILOT: severity=6 | GPS 1: detected as u-blox at 230400 baud[0m
+[33m[WARN] [1791204401.280584921]: SROTA ARDUPILOT: severity=6 | ArduRover V4.5.7 (2a3dc4b7)[0m
+[33m[WARN] [1791204401.280842685]: SROTA ARDUPILOT: severity=6 | 97fdb9de3105441997b62817a3fedd3d[0m
+[33m[WARN] [1791204402.703736367]: SROTA ARDUPILOT: severity=2 | Arm: Gyros inconsistent[0m
+[33m[WARN] [1791204402.704389048]: SROTA ARDUPILOT: severity=2 | Arm: AHRS: not using configured AHRS type[0m
+[33m[WARN] [1791204407.224211834]: SROTA ARDUPILOT: severity=2 | Arm: Gyros inconsistent[0m
+[33m[WARN] [1791204407.224245765]: SROTA ARDUPILOT: severity=2 | Arm: AHRS: not using configured AHRS type[0m
+[33m[WARN] [1791204409.102358854]: SROTA ARDUPILOT: severity=6 | EKF3 IMU0 origin set[0m
+[33m[WARN] [1791204409.102484334]: SROTA ARDUPILOT: severity=6 | EKF3 IMU1 origin set[0m
+[33m[WARN] [1791204409.183861324]: SROTA ARDUPILOT: severity=6 | Field Elevation Set: 584m[0m
+[33m[WARN] [1791204411.745183289]: SROTA ARDUPILOT: severity=2 | Arm: Gyros inconsistent[0m
+[33m[WARN] [1791204411.745299191]: SROTA ARDUPILOT: severity=2 | Arm: AHRS: not using configured AHRS type[0m
+[33m[WARN] [1791204416.264073159]: SROTA ARDUPILOT: severity=2 | Arm: AHRS: not using configured AHRS type[0m
+[33m[WARN] [1791204419.605466108]: SROTA ARDUPILOT: severity=2 | PreArm: AHRS: not using configured AHRS type[0m
+[33m[WARN] [1791204420.783631581]: SROTA ARDUPILOT: severity=2 | Arm: AHRS: not using configured AHRS type[0m
+[33m[WARN] [1791204425.304736685]: SROTA ARDUPILOT: severity=2 | Arm: AHRS: not using configured AHRS type[0m
+[33m[WARN] [1791204429.824929505]: SROTA ARDUPILOT: severity=2 | Arm: AHRS: not using configured AHRS type[0m
+[33m[WARN] [1791204431.146695929]: SROTA ARDUPILOT: severity=6 | EKF3 IMU0 is using GPS[0m
+[33m[WARN] [1791204431.147063729]: SROTA ARDUPILOT: severity=6 | EKF3 IMU1 is using GPS[0m
+[33m[WARN] [1791204431.147201953]: SROTA ARDUPILOT: severity=6 | AHRS: EKF3 active[0m
+[33m[WARN] [1791204434.348694260]: SROTA ARDUPILOT: severity=6 | Throttle armed[0m
+[33m[WARN] [1791204495.857297858]: SROTA ARDUPILOT: severity=7 | INS: alloc 6144 bytes for ISB (free=131072)[0m
+[33m[WARN] [1791204495.857520697]: SROTA ARDUPILOT: severity=6 | ArduPilot Ready[0m
+[33m[WARN] [1791204495.857634157]: SROTA ARDUPILOT: severity=6 | AHRS: DCM active[0m
+[33m[WARN] [1791204497.879556088]: SROTA ARDUPILOT: severity=6 | EKF3 IMU0 initialised[0m
+[33m[WARN] [1791204497.879752216]: SROTA ARDUPILOT: severity=6 | EKF3 IMU1 initialised[0m
+[33m[WARN] [1791204499.477444562]: SROTA ARDUPILOT: severity=6 | EKF3 IMU0 tilt alignment complete[0m
+[33m[WARN] [1791204499.477706992]: SROTA ARDUPILOT: severity=6 | EKF3 IMU1 tilt alignment complete[0m
+[33m[WARN] [1791204499.563569772]: SROTA ARDUPILOT: severity=6 | EKF3 IMU0 MAG0 initial yaw alignment complete[0m
+[33m[WARN] [1791204499.563773179]: SROTA ARDUPILOT: severity=6 | EKF3 IMU1 MAG0 initial yaw alignment complete[0m
+[33m[WARN] [1791204503.157096391]: SROTA ARDUPILOT: severity=6 | GPS 1: detected as u-blox at 230400 baud[0m
+[33m[WARN] [1791204505.542387643]: SROTA ARDUPILOT: severity=6 | ArduRover V4.5.7 (2a3dc4b7)[0m
+[33m[WARN] [1791204505.542574005]: SROTA ARDUPILOT: severity=6 | 97fdb9de3105441997b62817a3fedd3d[0m
+[33m[WARN] [1791204506.959831835]: SROTA ARDUPILOT: severity=2 | Arm: Gyros inconsistent[0m
+[33m[WARN] [1791204506.959936155]: SROTA ARDUPILOT: severity=2 | Arm: AHRS: not using configured AHRS type[0m
+[33m[WARN] [1791204511.479592230]: SROTA ARDUPILOT: severity=2 | Arm: Gyros inconsistent[0m
+[33m[WARN] [1791204511.479637339]: SROTA ARDUPILOT: severity=2 | Arm: AHRS: not using configured AHRS type[0m
+[33m[WARN] [1791204513.363164798]: SROTA ARDUPILOT: severity=6 | EKF3 IMU0 origin set[0m
+[33m[WARN] [1791204513.363273041]: SROTA ARDUPILOT: severity=6 | EKF3 IMU1 origin set[0m
+[33m[WARN] [1791204513.438912853]: SROTA ARDUPILOT: severity=6 | Field Elevation Set: 584m[0m
+[33m[WARN] [1791204515.999094052]: SROTA ARDUPILOT: severity=2 | Arm: Gyros inconsistent[0m
+[33m[WARN] [1791204515.999142386]: SROTA ARDUPILOT: severity=2 | Arm: AHRS: not using configured AHRS type[0m
+[33m[WARN] [1791204520.519521937]: SROTA ARDUPILOT: severity=2 | Arm: AHRS: not using configured AHRS type[0m
+[33m[WARN] [1791204523.860823672]: SROTA ARDUPILOT: severity=2 | PreArm: AHRS: not using configured AHRS type[0m
+[33m[WARN] [1791204525.044875318]: SROTA ARDUPILOT: severity=2 | Arm: AHRS: not using configured AHRS type[0m
+[33m[WARN] [1791204529.564035130]: SROTA ARDUPILOT: severity=2 | Arm: AHRS: not using configured AHRS type[0m
+[33m[WARN] [1791204534.083839609]: SROTA ARDUPILOT: severity=2 | Arm: AHRS: not using configured AHRS type[0m
+[33m[WARN] [1791204535.401545123]: SROTA ARDUPILOT: severity=6 | EKF3 IMU0 is using GPS[0m
+[33m[WARN] [1791204535.401723124]: SROTA ARDUPILOT: severity=6 | EKF3 IMU1 is using GPS[0m
+[33m[WARN] [1791204535.401894801]: SROTA ARDUPILOT: severity=6 | AHRS: EKF3 active[0m
+[33m[WARN] [1791204538.602966565]: SROTA ARDUPILOT: severity=6 | Throttle armed[0m
+[33m[WARN] [1791204655.735340756]: SROTA ARDUPILOT: severity=6 | EKF3 IMU0 initialised[0m
+[33m[WARN] [1791204655.735432102]: SROTA ARDUPILOT: severity=6 | EKF3 IMU1 initialised[0m
+[33m[WARN] [1791204657.334159599]: SROTA ARDUPILOT: severity=6 | EKF3 IMU0 tilt alignment complete[0m
+[33m[WARN] [1791204657.334901859]: SROTA ARDUPILOT: severity=6 | EKF3 IMU1 tilt alignment complete[0m
+[33m[WARN] [1791204657.422363538]: SROTA ARDUPILOT: severity=6 | EKF3 IMU0 MAG0 initial yaw alignment complete[0m
+[33m[WARN] [1791204657.423843343]: SROTA ARDUPILOT: severity=6 | EKF3 IMU1 MAG0 initial yaw alignment complete[0m
+[33m[WARN] [1791204661.013535468]: SROTA ARDUPILOT: severity=6 | GPS 1: detected as u-blox at 230400 baud[0m
+[33m[WARN] [1791204663.393472926]: SROTA ARDUPILOT: severity=6 | ArduRover V4.5.7 (2a3dc4b7)[0m
+[33m[WARN] [1791204663.394946973]: SROTA ARDUPILOT: severity=6 | 97fdb9de3105441997b62817a3fedd3d[0m
+[33m[WARN] [1791204664.799330636]: SROTA ARDUPILOT: severity=2 | Arm: Gyros inconsistent[0m
+[33m[WARN] [1791204664.799793965]: SROTA ARDUPILOT: severity=2 | Arm: AHRS: not using configured AHRS type[0m
+[33m[WARN] [1791204669.315550315]: SROTA ARDUPILOT: severity=2 | Arm: Gyros inconsistent[0m
+[33m[WARN] [1791204669.316034423]: SROTA ARDUPILOT: severity=2 | Arm: AHRS: not using configured AHRS type[0m
+[33m[WARN] [1791204671.216368417]: SROTA ARDUPILOT: severity=6 | EKF3 IMU0 origin set[0m
+[33m[WARN] [1791204671.217114324]: SROTA ARDUPILOT: severity=6 | EKF3 IMU1 origin set[0m
+[33m[WARN] [1791204671.297424846]: SROTA ARDUPILOT: severity=6 | Field Elevation Set: 584m[0m
+[33m[WARN] [1791204673.834924067]: SROTA ARDUPILOT: severity=2 | Arm: Gyros inconsistent[0m
+[33m[WARN] [1791204673.835779928]: SROTA ARDUPILOT: severity=2 | Arm: AHRS: not using configured AHRS type[0m
+[33m[WARN] [1791204678.354087827]: SROTA ARDUPILOT: severity=2 | Arm: AHRS: not using configured AHRS type[0m
+[33m[WARN] [1791204681.718893484]: SROTA ARDUPILOT: severity=2 | PreArm: AHRS: not using configured AHRS type[0m
+[33m[WARN] [1791204682.880850137]: SROTA ARDUPILOT: severity=2 | Arm: AHRS: not using configured AHRS type[0m
+[33m[WARN] [1791204687.400831913]: SROTA ARDUPILOT: severity=2 | Arm: AHRS: not using configured AHRS type[0m
+[33m[WARN] [1791204691.919386218]: SROTA ARDUPILOT: severity=2 | Arm: AHRS: not using configured AHRS type[0m
+[33m[WARN] [1791204693.260585408]: SROTA ARDUPILOT: severity=6 | EKF3 IMU0 is using GPS[0m
+[33m[WARN] [1791204693.261504088]: SROTA ARDUPILOT: severity=6 | EKF3 IMU1 is using GPS[0m
+[33m[WARN] [1791204693.262123606]: SROTA ARDUPILOT: severity=6 | AHRS: EKF3 active[0m
+[33m[WARN] [1791204696.438995629]: SROTA ARDUPILOT: severity=6 | Throttle armed[0m
+[33m[WARN] [1791204862.669567104]: SROTA ARDUPILOT: severity=7 | INS: alloc 6144 bytes for ISB (free=131072)[0m
+[33m[WARN] [1791204862.670939490]: SROTA ARDUPILOT: severity=6 | ArduPilot Ready[0m
+[33m[WARN] [1791204862.671272251]: SROTA ARDUPILOT: severity=6 | AHRS: DCM active[0m
+[33m[WARN] [1791204864.692889579]: SROTA ARDUPILOT: severity=6 | EKF3 IMU0 initialised[0m
+[33m[WARN] [1791204864.692923600]: SROTA ARDUPILOT: severity=6 | EKF3 IMU1 initialised[0m
+[33m[WARN] [1791204866.290313511]: SROTA ARDUPILOT: severity=6 | EKF3 IMU0 tilt alignment complete[0m
+[33m[WARN] [1791204866.290350760]: SROTA ARDUPILOT: severity=6 | EKF3 IMU1 tilt alignment complete[0m
+[33m[WARN] [1791204866.376448425]: SROTA ARDUPILOT: severity=6 | EKF3 IMU0 MAG0 initial yaw alignment complete[0m
+[33m[WARN] [1791204866.376721938]: SROTA ARDUPILOT: severity=6 | EKF3 IMU1 MAG0 initial yaw alignment complete[0m
+[33m[WARN] [1791204869.970595932]: SROTA ARDUPILOT: severity=6 | GPS 1: detected as u-blox at 230400 baud[0m
+[33m[WARN] [1791204872.350318015]: SROTA ARDUPILOT: severity=6 | ArduRover V4.5.7 (2a3dc4b7)[0m
+[33m[WARN] [1791204872.350854167]: SROTA ARDUPILOT: severity=6 | 97fdb9de3105441997b62817a3fedd3d[0m
+[33m[WARN] [1791204873.750433013]: SROTA ARDUPILOT: severity=2 | Arm: Gyros inconsistent[0m
+[33m[WARN] [1791204873.750649665]: SROTA ARDUPILOT: severity=2 | Arm: AHRS: not using configured AHRS type[0m
+[33m[WARN] [1791204878.269996812]: SROTA ARDUPILOT: severity=2 | Arm: Gyros inconsistent[0m
+[33m[WARN] [1791204878.270222868]: SROTA ARDUPILOT: severity=2 | Arm: AHRS: not using configured AHRS type[0m
+[33m[WARN] [1791204880.171176897]: SROTA ARDUPILOT: severity=6 | EKF3 IMU0 origin set[0m
+[33m[WARN] [1791204880.171223740]: SROTA ARDUPILOT: severity=6 | EKF3 IMU1 origin set[0m
+[33m[WARN] [1791204880.252887817]: SROTA ARDUPILOT: severity=6 | Field Elevation Set: 584m[0m
+[33m[WARN] [1791204882.789939410]: SROTA ARDUPILOT: severity=2 | Arm: Gyros inconsistent[0m
+[33m[WARN] [1791204882.790174859]: SROTA ARDUPILOT: severity=2 | Arm: AHRS: not using configured AHRS type[0m
+[33m[WARN] [1791204887.315047447]: SROTA ARDUPILOT: severity=2 | Arm: AHRS: not using configured AHRS type[0m
+[33m[WARN] [1791204890.674124161]: SROTA ARDUPILOT: severity=2 | PreArm: AHRS: not using configured AHRS type[0m
+[33m[WARN] [1791204891.835003240]: SROTA ARDUPILOT: severity=2 | Arm: AHRS: not using configured AHRS type[0m
+[33m[WARN] [1791204896.354405538]: SROTA ARDUPILOT: severity=2 | Arm: AHRS: not using configured AHRS type[0m

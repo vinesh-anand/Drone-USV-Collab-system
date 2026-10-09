@@ -1,0 +1,1853 @@
+Setting top to                           : /home/kunal/ardupilot 
+Setting out to                           : /home/kunal/ardupilot/build 
+Autoconfiguration                        : enabled 
+Checking for program 'python'            : /usr/bin/python 
+Checking for python version >= 3.6.9     : 3.8.10 
+Setting board to                         : sitl 
+Using toolchain                          : native 
+Checking for 'g++' (C++ compiler)        : /usr/bin/g++ 
+Checking for 'gcc' (C compiler)          : /usr/bin/gcc 
+Checking for c flags '-MMD'              : yes 
+Checking for cxx flags '-MMD'            : yes 
+CXX Compiler                             : g++ 9.4.0 
+Checking for need to link with librt     : not necessary 
+Checking for feenableexcept              : yes 
+Enabling -Werror                         : no 
+Enabled OpenDroneID                      : no 
+Enabled firmware ID checking             : no 
+GPS Debug Logging                        : no 
+Enabled custom controller                : yes 
+Checking for HAVE_CMATH_ISFINITE         : yes 
+Checking for HAVE_CMATH_ISINF            : yes 
+Checking for HAVE_CMATH_ISNAN            : yes 
+Checking for NEED_CMATH_ISFINITE_STD_NAMESPACE : yes 
+Checking for NEED_CMATH_ISINF_STD_NAMESPACE    : yes 
+Checking for NEED_CMATH_ISNAN_STD_NAMESPACE    : yes 
+Checking for header endian.h                   : yes 
+Checking for header byteswap.h                 : yes 
+Checking for HAVE_MEMRCHR                      : yes 
+Configured VSCode Intellisense:                : no 
+DC_DSDL compiler                               : /home/kunal/ardupilot/modules/DroneCAN/dronecan_dsdlc/dronecan_dsdlc.py 
+Source is git repository                       : yes 
+Update submodules                              : yes 
+Checking for program 'git'                     : /usr/bin/git 
+Checking for program 'size'                    : /usr/bin/size 
+Benchmarks                                     : disabled 
+Unit tests                                     : enabled 
+Scripting                                      : maybe 
+Scripting runtime checks                       : enabled 
+Debug build                                    : disabled 
+Coverage build                                 : disabled 
+Force 32-bit build                             : disabled 
+Checking for program 'rsync'                   : /usr/bin/rsync 
+'configure' finished successfully (0.637s)
+Waf: Entering directory `/home/kunal/ardupilot/build/sitl'
+Embedding file locations.txt:Tools/autotest/locations.txt
+Embedding file models/Callisto.json:Tools/autotest/models/Callisto.json
+Embedding file models/plane-3d.parm:Tools/autotest/models/plane-3d.parm
+Embedding file models/plane.parm:Tools/autotest/models/plane.parm
+Embedding file models/xplane_heli.json:Tools/autotest/models/xplane_heli.json
+Embedding file models/xplane_plane.json:Tools/autotest/models/xplane_plane.json
+Waf: Leaving directory `/home/kunal/ardupilot/build/sitl'
+
+BUILD SUMMARY
+Build directory: /home/kunal/ardupilot/build/sitl
+Target         Text (B)  Data (B)  BSS (B)  Total Flash Used (B)  Free Flash (B)  External Flash Used (B)
+---------------------------------------------------------------------------------------------------------
+bin/ardurover   3713167    165213   217928               3878380  Not Applicable  Not Applicable         
+
+'build' finished successfully (1.017s)
+RiTW: Starting Rover : /home/kunal/ardupilot/build/sitl/bin/ardurover -S --model rover --speedup 1 --sysid 2 --slave 0 --defaults Tools/autotest/default_params/rover.parm --sim-address=127.0.0.1 -I1 --home 19.1685,73.00389999999999,584.0,0.0
+Connect tcp:127.0.0.1:5770 source_system=255
+Log Directory: 
+Telemetry log: mav.tlog
+Waiting for heartbeat from tcp:127.0.0.1:5770
+MAV> Unloading module link
+Unloading module signing
+Unloading module log
+Unloading module wp
+Unloading module rally
+Unloading module fence
+Unloading module ftp
+Unloading module param
+Unloading module relay
+Unloading module tuneopt
+Unloading module arm
+Unloading module mode
+Unloading module calibration
+Unloading module rc
+Unloading module auxopt
+Unloading module misc
+Unloading module cmdlong
+Unloading module battery
+Unloading module terrain
+Unloading module output
+Unloading module adsb
+Unloading module layout
+SIM_VEHICLE: Start
+SIM_VEHICLE: Starting up at [19.1685, 73.0039, 584.0, 0.0]
+SIM_VEHICLE: WAF build
+SIM_VEHICLE: Configure waf
+SIM_VEHICLE: "/home/kunal/ardupilot/modules/waf/waf-light" "configure" "--board" "sitl"
+{'waf_target': 'bin/ardurover', 'default_params_filename': 'default_params/rover.parm', 'model': 'rover', 'sitl-port': True}
+SIM_VEHICLE: Building
+SIM_VEHICLE: "/home/kunal/ardupilot/modules/waf/waf-light" "build" "--target" "bin/ardurover"
+SIM_VEHICLE: Using defaults from (Tools/autotest/default_params/rover.parm)
+SIM_VEHICLE: Run Rover
+SIM_VEHICLE: "/home/kunal/ardupilot/Tools/autotest/run_in_terminal_window.sh" "Rover" "/home/kunal/ardupilot/build/sitl/bin/ardurover" "-S" "--model" "rover" "--speedup" "1" "--sysid" "2" "--slave" "0" "--defaults" "Tools/autotest/default_params/rover.parm" "--sim-address=127.0.0.1" "-I1" "--home" "19.1685,73.00389999999999,584.0,0.0"
+SIM_VEHICLE: Run MavProxy
+SIM_VEHICLE: "mavproxy.py" "--out" "172.26.96.1:14560" "--master" "tcp:127.0.0.1:5770" "--sitl" "127.0.0.1:5511" "--out" "udp:127.0.0.1:14552"
+SIM_VEHICLE: MAVProxy exited
+SIM_VEHICLE: Killing tasks
+Setting top to                           : /home/potential/ardupilot 
+Setting out to                           : /home/potential/ardupilot/build 
+Autoconfiguration                        : enabled 
+Checking for program 'python'            : /usr/bin/python 
+Checking for python version >= 3.6.9     : 3.8.10 
+Setting board to                         : sitl 
+Using toolchain                          : native 
+Checking for 'g++' (C++ compiler)        : /usr/lib/ccache/g++ 
+Checking for 'gcc' (C compiler)          : /usr/lib/ccache/gcc 
+Checking for c flags '-MMD'              : yes 
+Checking for cxx flags '-MMD'            : yes 
+CXX Compiler                             : g++ 9.4.0 
+Checking for need to link with librt     : not necessary 
+Checking for feenableexcept              : yes 
+Enabling -Werror                         : no 
+Enabled OpenDroneID                      : no 
+Enabled firmware ID checking             : no 
+GPS Debug Logging                        : no 
+Enabled custom controller                : yes 
+Checking for HAVE_CMATH_ISFINITE         : yes 
+Checking for HAVE_CMATH_ISINF            : yes 
+Checking for HAVE_CMATH_ISNAN            : yes 
+Checking for NEED_CMATH_ISFINITE_STD_NAMESPACE : yes 
+Checking for NEED_CMATH_ISINF_STD_NAMESPACE    : yes 
+Checking for NEED_CMATH_ISNAN_STD_NAMESPACE    : yes 
+Checking for header endian.h                   : yes 
+Checking for header byteswap.h                 : yes 
+Checking for HAVE_MEMRCHR                      : yes 
+Configured VSCode Intellisense:                : no 
+DC_DSDL compiler                               : /home/potential/ardupilot/modules/DroneCAN/dronecan_dsdlc/dronecan_dsdlc.py 
+Source is git repository                       : yes 
+Update submodules                              : yes 
+Checking for program 'git'                     : /usr/bin/git 
+Checking for program 'size'                    : /usr/bin/size 
+Benchmarks                                     : disabled 
+Unit tests                                     : enabled 
+Scripting                                      : maybe 
+Scripting runtime checks                       : enabled 
+Debug build                                    : disabled 
+Coverage build                                 : disabled 
+Force 32-bit build                             : disabled 
+Checking for program 'rsync'                   : /usr/bin/rsync 
+'configure' finished successfully (0.516s)
+Waf: Entering directory `/home/potential/ardupilot/build/sitl'
+Embedding file locations.txt:Tools/autotest/locations.txt
+Embedding file models/Callisto.json:Tools/autotest/models/Callisto.json
+Embedding file models/plane-3d.parm:Tools/autotest/models/plane-3d.parm
+Embedding file models/plane.parm:Tools/autotest/models/plane.parm
+Embedding file models/xplane_heli.json:Tools/autotest/models/xplane_heli.json
+Embedding file models/xplane_plane.json:Tools/autotest/models/xplane_plane.json
+Waf: Leaving directory `/home/potential/ardupilot/build/sitl'
+
+BUILD SUMMARY
+Build directory: /home/potential/ardupilot/build/sitl
+Target         Text (B)  Data (B)  BSS (B)  Total Flash Used (B)  Free Flash (B)  External Flash Used (B)
+---------------------------------------------------------------------------------------------------------
+bin/ardurover   3713199    165213   217928               3878412  Not Applicable  Not Applicable         
+
+'build' finished successfully (0.937s)
+RiTW: Starting Rover : /home/potential/ardupilot/build/sitl/bin/ardurover -S --model rover --speedup 1 --sysid 2 --slave 0 --defaults Tools/autotest/default_params/rover.parm --sim-address=127.0.0.1 -I1 --home 19.1685,73.00389999999999,584.0,0.0
+Connect tcp:127.0.0.1:5770 source_system=255
+Loaded module console
+Log Directory: 
+Telemetry log: mav.tlog
+Waiting for heartbeat from tcp:127.0.0.1:5770
+MAV> Unloading module link
+Unloading module log
+Unloading module signing
+Unloading module wp
+Unloading module rally
+Unloading module fence
+Unloading module ftp
+Unloading module param
+Unloading module relay
+Unloading module tuneopt
+Unloading module arm
+Unloading module mode
+Unloading module calibration
+Unloading module rc
+Unloading module auxopt
+Unloading module misc
+Unloading module cmdlong
+Unloading module battery
+Unloading module terrain
+Unloading module output
+Unloading module adsb
+Unloading module layout
+Unloading module console
+SIM_VEHICLE: Start
+SIM_VEHICLE: Starting up at [19.1685, 73.0039, 584.0, 0.0]
+SIM_VEHICLE: WAF build
+SIM_VEHICLE: Configure waf
+SIM_VEHICLE: "/home/potential/ardupilot/modules/waf/waf-light" "configure" "--board" "sitl"
+{'waf_target': 'bin/ardurover', 'default_params_filename': 'default_params/rover.parm', 'model': 'rover', 'sitl-port': True}
+SIM_VEHICLE: Building
+SIM_VEHICLE: "/home/potential/ardupilot/modules/waf/waf-light" "build" "--target" "bin/ardurover"
+SIM_VEHICLE: Using defaults from (Tools/autotest/default_params/rover.parm)
+SIM_VEHICLE: Run Rover
+SIM_VEHICLE: "/home/potential/ardupilot/Tools/autotest/run_in_terminal_window.sh" "Rover" "/home/potential/ardupilot/build/sitl/bin/ardurover" "-S" "--model" "rover" "--speedup" "1" "--sysid" "2" "--slave" "0" "--defaults" "Tools/autotest/default_params/rover.parm" "--sim-address=127.0.0.1" "-I1" "--home" "19.1685,73.00389999999999,584.0,0.0"
+SIM_VEHICLE: Run MavProxy
+SIM_VEHICLE: "mavproxy.py" "--out" "127.0.0.1:14560" "--master" "tcp:127.0.0.1:5770" "--sitl" "127.0.0.1:5511" "--console"
+SIM_VEHICLE: MAVProxy exited
+SIM_VEHICLE: Killing tasks
+Setting top to                           : /home/potential/ardupilot 
+Setting out to                           : /home/potential/ardupilot/build 
+Autoconfiguration                        : enabled 
+Checking for program 'python'            : /usr/bin/python 
+Checking for python version >= 3.6.9     : 3.8.10 
+Setting board to                         : sitl 
+Using toolchain                          : native 
+Checking for 'g++' (C++ compiler)        : /usr/lib/ccache/g++ 
+Checking for 'gcc' (C compiler)          : /usr/lib/ccache/gcc 
+Checking for c flags '-MMD'              : yes 
+Checking for cxx flags '-MMD'            : yes 
+CXX Compiler                             : g++ 9.4.0 
+Checking for need to link with librt     : not necessary 
+Checking for feenableexcept              : yes 
+Enabling -Werror                         : no 
+Enabled OpenDroneID                      : no 
+Enabled firmware ID checking             : no 
+GPS Debug Logging                        : no 
+Enabled custom controller                : yes 
+Checking for HAVE_CMATH_ISFINITE         : yes 
+Checking for HAVE_CMATH_ISINF            : yes 
+Checking for HAVE_CMATH_ISNAN            : yes 
+Checking for NEED_CMATH_ISFINITE_STD_NAMESPACE : yes 
+Checking for NEED_CMATH_ISINF_STD_NAMESPACE    : yes 
+Checking for NEED_CMATH_ISNAN_STD_NAMESPACE    : yes 
+Checking for header endian.h                   : yes 
+Checking for header byteswap.h                 : yes 
+Checking for HAVE_MEMRCHR                      : yes 
+Configured VSCode Intellisense:                : no 
+DC_DSDL compiler                               : /home/potential/ardupilot/modules/DroneCAN/dronecan_dsdlc/dronecan_dsdlc.py 
+Source is git repository                       : yes 
+Update submodules                              : yes 
+Checking for program 'git'                     : /usr/bin/git 
+Checking for program 'size'                    : /usr/bin/size 
+Benchmarks                                     : disabled 
+Unit tests                                     : enabled 
+Scripting                                      : maybe 
+Scripting runtime checks                       : enabled 
+Debug build                                    : disabled 
+Coverage build                                 : disabled 
+Force 32-bit build                             : disabled 
+Checking for program 'rsync'                   : /usr/bin/rsync 
+'configure' finished successfully (0.507s)
+Waf: Entering directory `/home/potential/ardupilot/build/sitl'
+Embedding file locations.txt:Tools/autotest/locations.txt
+Embedding file models/Callisto.json:Tools/autotest/models/Callisto.json
+Embedding file models/plane-3d.parm:Tools/autotest/models/plane-3d.parm
+Embedding file models/plane.parm:Tools/autotest/models/plane.parm
+Embedding file models/xplane_heli.json:Tools/autotest/models/xplane_heli.json
+Embedding file models/xplane_plane.json:Tools/autotest/models/xplane_plane.json
+Waf: Leaving directory `/home/potential/ardupilot/build/sitl'
+
+BUILD SUMMARY
+Build directory: /home/potential/ardupilot/build/sitl
+Target         Text (B)  Data (B)  BSS (B)  Total Flash Used (B)  Free Flash (B)  External Flash Used (B)
+---------------------------------------------------------------------------------------------------------
+bin/ardurover   3713199    165213   217928               3878412  Not Applicable  Not Applicable         
+
+'build' finished successfully (0.914s)
+RiTW: Starting Rover : /home/potential/ardupilot/build/sitl/bin/ardurover -S --model rover --speedup 1 --sysid 2 --slave 0 --defaults Tools/autotest/default_params/rover.parm --sim-address=127.0.0.1 -I1 --home 19.1685,73.00389999999999,584.0,0.0
+Connect tcp:127.0.0.1:5770 source_system=255
+Loaded module console
+Log Directory: 
+Telemetry log: mav.tlog
+Waiting for heartbeat from tcp:127.0.0.1:5770
+MAV> Unloading module link
+Unloading module log
+Unloading module signing
+Unloading module wp
+Unloading module rally
+Unloading module fence
+Unloading module ftp
+Unloading module param
+Unloading module relay
+Unloading module tuneopt
+Unloading module arm
+Unloading module mode
+Unloading module calibration
+Unloading module rc
+Unloading module auxopt
+Unloading module misc
+Unloading module cmdlong
+Unloading module battery
+Unloading module terrain
+Unloading module output
+Unloading module adsb
+Unloading module layout
+Unloading module console
+SIM_VEHICLE: Start
+SIM_VEHICLE: Starting up at [19.1685, 73.0039, 584.0, 0.0]
+SIM_VEHICLE: WAF build
+SIM_VEHICLE: Configure waf
+SIM_VEHICLE: "/home/potential/ardupilot/modules/waf/waf-light" "configure" "--board" "sitl"
+{'waf_target': 'bin/ardurover', 'default_params_filename': 'default_params/rover.parm', 'model': 'rover', 'sitl-port': True}
+SIM_VEHICLE: Building
+SIM_VEHICLE: "/home/potential/ardupilot/modules/waf/waf-light" "build" "--target" "bin/ardurover"
+SIM_VEHICLE: Using defaults from (Tools/autotest/default_params/rover.parm)
+SIM_VEHICLE: Run Rover
+SIM_VEHICLE: "/home/potential/ardupilot/Tools/autotest/run_in_terminal_window.sh" "Rover" "/home/potential/ardupilot/build/sitl/bin/ardurover" "-S" "--model" "rover" "--speedup" "1" "--sysid" "2" "--slave" "0" "--defaults" "Tools/autotest/default_params/rover.parm" "--sim-address=127.0.0.1" "-I1" "--home" "19.1685,73.00389999999999,584.0,0.0"
+SIM_VEHICLE: Run MavProxy
+SIM_VEHICLE: "mavproxy.py" "--out" "127.0.0.1:14560" "--master" "tcp:127.0.0.1:5770" "--sitl" "127.0.0.1:5511" "--console"
+SIM_VEHICLE: MAVProxy exited
+SIM_VEHICLE: Killing tasks
+Setting top to                           : /home/potential/ardupilot 
+Setting out to                           : /home/potential/ardupilot/build 
+Autoconfiguration                        : enabled 
+Checking for program 'python'            : /usr/bin/python 
+Checking for python version >= 3.6.9     : 3.8.10 
+Setting board to                         : sitl 
+Using toolchain                          : native 
+Checking for 'g++' (C++ compiler)        : /usr/lib/ccache/g++ 
+Checking for 'gcc' (C compiler)          : /usr/lib/ccache/gcc 
+Checking for c flags '-MMD'              : yes 
+Checking for cxx flags '-MMD'            : yes 
+CXX Compiler                             : g++ 9.4.0 
+Checking for need to link with librt     : not necessary 
+Checking for feenableexcept              : yes 
+Enabling -Werror                         : no 
+Enabled OpenDroneID                      : no 
+Enabled firmware ID checking             : no 
+GPS Debug Logging                        : no 
+Enabled custom controller                : yes 
+Checking for HAVE_CMATH_ISFINITE         : yes 
+Checking for HAVE_CMATH_ISINF            : yes 
+Checking for HAVE_CMATH_ISNAN            : yes 
+Checking for NEED_CMATH_ISFINITE_STD_NAMESPACE : yes 
+Checking for NEED_CMATH_ISINF_STD_NAMESPACE    : yes 
+Checking for NEED_CMATH_ISNAN_STD_NAMESPACE    : yes 
+Checking for header endian.h                   : yes 
+Checking for header byteswap.h                 : yes 
+Checking for HAVE_MEMRCHR                      : yes 
+Configured VSCode Intellisense:                : no 
+DC_DSDL compiler                               : /home/potential/ardupilot/modules/DroneCAN/dronecan_dsdlc/dronecan_dsdlc.py 
+Source is git repository                       : yes 
+Update submodules                              : yes 
+Checking for program 'git'                     : /usr/bin/git 
+Checking for program 'size'                    : /usr/bin/size 
+Benchmarks                                     : disabled 
+Unit tests                                     : enabled 
+Scripting                                      : maybe 
+Scripting runtime checks                       : enabled 
+Debug build                                    : disabled 
+Coverage build                                 : disabled 
+Force 32-bit build                             : disabled 
+Checking for program 'rsync'                   : /usr/bin/rsync 
+'configure' finished successfully (0.485s)
+Waf: Entering directory `/home/potential/ardupilot/build/sitl'
+Embedding file locations.txt:Tools/autotest/locations.txt
+Embedding file models/Callisto.json:Tools/autotest/models/Callisto.json
+Embedding file models/plane-3d.parm:Tools/autotest/models/plane-3d.parm
+Embedding file models/plane.parm:Tools/autotest/models/plane.parm
+Embedding file models/xplane_heli.json:Tools/autotest/models/xplane_heli.json
+Embedding file models/xplane_plane.json:Tools/autotest/models/xplane_plane.json
+Waf: Leaving directory `/home/potential/ardupilot/build/sitl'
+
+BUILD SUMMARY
+Build directory: /home/potential/ardupilot/build/sitl
+Target         Text (B)  Data (B)  BSS (B)  Total Flash Used (B)  Free Flash (B)  External Flash Used (B)
+---------------------------------------------------------------------------------------------------------
+bin/ardurover   3713199    165213   217928               3878412  Not Applicable  Not Applicable         
+
+'build' finished successfully (0.917s)
+RiTW: Starting Rover : /home/potential/ardupilot/build/sitl/bin/ardurover -S --model rover --speedup 1 --sysid 2 --slave 0 --defaults Tools/autotest/default_params/rover.parm --sim-address=127.0.0.1 -I1 --home 19.1685,73.00389999999999,584.0,0.0
+Connect tcp:127.0.0.1:5770 source_system=255
+Loaded module console
+Log Directory: 
+Telemetry log: mav.tlog
+Waiting for heartbeat from tcp:127.0.0.1:5770
+MAV> Unloading module link
+Unloading module log
+Unloading module signing
+Unloading module wp
+Unloading module rally
+Unloading module fence
+Unloading module ftp
+Unloading module param
+Unloading module relay
+Unloading module tuneopt
+Unloading module arm
+Unloading module mode
+Unloading module calibration
+Unloading module rc
+Unloading module auxopt
+Unloading module misc
+Unloading module cmdlong
+Unloading module battery
+Unloading module terrain
+Unloading module output
+Unloading module adsb
+Unloading module layout
+Unloading module console
+SIM_VEHICLE: Start
+SIM_VEHICLE: Starting up at [19.1685, 73.0039, 584.0, 0.0]
+SIM_VEHICLE: WAF build
+SIM_VEHICLE: Configure waf
+SIM_VEHICLE: "/home/potential/ardupilot/modules/waf/waf-light" "configure" "--board" "sitl"
+{'waf_target': 'bin/ardurover', 'default_params_filename': 'default_params/rover.parm', 'model': 'rover', 'sitl-port': True}
+SIM_VEHICLE: Building
+SIM_VEHICLE: "/home/potential/ardupilot/modules/waf/waf-light" "build" "--target" "bin/ardurover"
+SIM_VEHICLE: Using defaults from (Tools/autotest/default_params/rover.parm)
+SIM_VEHICLE: Run Rover
+SIM_VEHICLE: "/home/potential/ardupilot/Tools/autotest/run_in_terminal_window.sh" "Rover" "/home/potential/ardupilot/build/sitl/bin/ardurover" "-S" "--model" "rover" "--speedup" "1" "--sysid" "2" "--slave" "0" "--defaults" "Tools/autotest/default_params/rover.parm" "--sim-address=127.0.0.1" "-I1" "--home" "19.1685,73.00389999999999,584.0,0.0"
+SIM_VEHICLE: Run MavProxy
+SIM_VEHICLE: "mavproxy.py" "--out" "127.0.0.1:14560" "--master" "tcp:127.0.0.1:5770" "--sitl" "127.0.0.1:5511" "--console"
+SIM_VEHICLE: MAVProxy exited
+SIM_VEHICLE: Killing tasks
+Setting top to                           : /home/potential/ardupilot 
+Setting out to                           : /home/potential/ardupilot/build 
+Autoconfiguration                        : enabled 
+Checking for program 'python'            : /usr/bin/python 
+Checking for python version >= 3.6.9     : 3.8.10 
+Setting board to                         : sitl 
+Using toolchain                          : native 
+Checking for 'g++' (C++ compiler)        : /usr/lib/ccache/g++ 
+Checking for 'gcc' (C compiler)          : /usr/lib/ccache/gcc 
+Checking for c flags '-MMD'              : yes 
+Checking for cxx flags '-MMD'            : yes 
+CXX Compiler                             : g++ 9.4.0 
+Checking for need to link with librt     : not necessary 
+Checking for feenableexcept              : yes 
+Enabling -Werror                         : no 
+Enabled OpenDroneID                      : no 
+Enabled firmware ID checking             : no 
+GPS Debug Logging                        : no 
+Enabled custom controller                : yes 
+Checking for HAVE_CMATH_ISFINITE         : yes 
+Checking for HAVE_CMATH_ISINF            : yes 
+Checking for HAVE_CMATH_ISNAN            : yes 
+Checking for NEED_CMATH_ISFINITE_STD_NAMESPACE : yes 
+Checking for NEED_CMATH_ISINF_STD_NAMESPACE    : yes 
+Checking for NEED_CMATH_ISNAN_STD_NAMESPACE    : yes 
+Checking for header endian.h                   : yes 
+Checking for header byteswap.h                 : yes 
+Checking for HAVE_MEMRCHR                      : yes 
+Configured VSCode Intellisense:                : no 
+DC_DSDL compiler                               : /home/potential/ardupilot/modules/DroneCAN/dronecan_dsdlc/dronecan_dsdlc.py 
+Source is git repository                       : yes 
+Update submodules                              : yes 
+Checking for program 'git'                     : /usr/bin/git 
+Checking for program 'size'                    : /usr/bin/size 
+Benchmarks                                     : disabled 
+Unit tests                                     : enabled 
+Scripting                                      : maybe 
+Scripting runtime checks                       : enabled 
+Debug build                                    : disabled 
+Coverage build                                 : disabled 
+Force 32-bit build                             : disabled 
+Checking for program 'rsync'                   : /usr/bin/rsync 
+'configure' finished successfully (0.493s)
+Waf: Entering directory `/home/potential/ardupilot/build/sitl'
+Embedding file locations.txt:Tools/autotest/locations.txt
+Embedding file models/Callisto.json:Tools/autotest/models/Callisto.json
+Embedding file models/plane-3d.parm:Tools/autotest/models/plane-3d.parm
+Embedding file models/plane.parm:Tools/autotest/models/plane.parm
+Embedding file models/xplane_heli.json:Tools/autotest/models/xplane_heli.json
+Embedding file models/xplane_plane.json:Tools/autotest/models/xplane_plane.json
+Waf: Leaving directory `/home/potential/ardupilot/build/sitl'
+
+BUILD SUMMARY
+Build directory: /home/potential/ardupilot/build/sitl
+Target         Text (B)  Data (B)  BSS (B)  Total Flash Used (B)  Free Flash (B)  External Flash Used (B)
+---------------------------------------------------------------------------------------------------------
+bin/ardurover   3713199    165213   217928               3878412  Not Applicable  Not Applicable         
+
+'build' finished successfully (0.915s)
+RiTW: Starting Rover : /home/potential/ardupilot/build/sitl/bin/ardurover -S --model rover --speedup 1 --sysid 2 --slave 0 --defaults Tools/autotest/default_params/rover.parm --sim-address=127.0.0.1 -I1 --home 19.1685,73.00389999999999,584.0,0.0
+Connect tcp:127.0.0.1:5770 source_system=255
+Loaded module console
+Log Directory: 
+Telemetry log: mav.tlog
+Waiting for heartbeat from tcp:127.0.0.1:5770
+MAV> Unloading module link
+Unloading module log
+Unloading module signing
+Unloading module wp
+Unloading module rally
+Unloading module fence
+Unloading module ftp
+Unloading module param
+Unloading module relay
+Unloading module tuneopt
+Unloading module arm
+Unloading module mode
+Unloading module calibration
+Unloading module rc
+Unloading module auxopt
+Unloading module misc
+Unloading module cmdlong
+Unloading module battery
+Unloading module terrain
+Unloading module output
+Unloading module adsb
+Unloading module layout
+Unloading module console
+SIM_VEHICLE: Start
+SIM_VEHICLE: Starting up at [19.1685, 73.0039, 584.0, 0.0]
+SIM_VEHICLE: WAF build
+SIM_VEHICLE: Configure waf
+SIM_VEHICLE: "/home/potential/ardupilot/modules/waf/waf-light" "configure" "--board" "sitl"
+{'waf_target': 'bin/ardurover', 'default_params_filename': 'default_params/rover.parm', 'model': 'rover', 'sitl-port': True}
+SIM_VEHICLE: Building
+SIM_VEHICLE: "/home/potential/ardupilot/modules/waf/waf-light" "build" "--target" "bin/ardurover"
+SIM_VEHICLE: Using defaults from (Tools/autotest/default_params/rover.parm)
+SIM_VEHICLE: Run Rover
+SIM_VEHICLE: "/home/potential/ardupilot/Tools/autotest/run_in_terminal_window.sh" "Rover" "/home/potential/ardupilot/build/sitl/bin/ardurover" "-S" "--model" "rover" "--speedup" "1" "--sysid" "2" "--slave" "0" "--defaults" "Tools/autotest/default_params/rover.parm" "--sim-address=127.0.0.1" "-I1" "--home" "19.1685,73.00389999999999,584.0,0.0"
+SIM_VEHICLE: Run MavProxy
+SIM_VEHICLE: "mavproxy.py" "--out" "127.0.0.1:14560" "--master" "tcp:127.0.0.1:5770" "--sitl" "127.0.0.1:5511" "--console"
+SIM_VEHICLE: MAVProxy exited
+SIM_VEHICLE: Killing tasks
+Setting top to                           : /home/potential/ardupilot 
+Setting out to                           : /home/potential/ardupilot/build 
+Autoconfiguration                        : enabled 
+Checking for program 'python'            : /usr/bin/python 
+Checking for python version >= 3.6.9     : 3.8.10 
+Setting board to                         : sitl 
+Using toolchain                          : native 
+Checking for 'g++' (C++ compiler)        : /usr/lib/ccache/g++ 
+Checking for 'gcc' (C compiler)          : /usr/lib/ccache/gcc 
+Checking for c flags '-MMD'              : yes 
+Checking for cxx flags '-MMD'            : yes 
+CXX Compiler                             : g++ 9.4.0 
+Checking for need to link with librt     : not necessary 
+Checking for feenableexcept              : yes 
+Enabling -Werror                         : no 
+Enabled OpenDroneID                      : no 
+Enabled firmware ID checking             : no 
+GPS Debug Logging                        : no 
+Enabled custom controller                : yes 
+Checking for HAVE_CMATH_ISFINITE         : yes 
+Checking for HAVE_CMATH_ISINF            : yes 
+Checking for HAVE_CMATH_ISNAN            : yes 
+Checking for NEED_CMATH_ISFINITE_STD_NAMESPACE : yes 
+Checking for NEED_CMATH_ISINF_STD_NAMESPACE    : yes 
+Checking for NEED_CMATH_ISNAN_STD_NAMESPACE    : yes 
+Checking for header endian.h                   : yes 
+Checking for header byteswap.h                 : yes 
+Checking for HAVE_MEMRCHR                      : yes 
+Configured VSCode Intellisense:                : no 
+DC_DSDL compiler                               : /home/potential/ardupilot/modules/DroneCAN/dronecan_dsdlc/dronecan_dsdlc.py 
+Source is git repository                       : yes 
+Update submodules                              : yes 
+Checking for program 'git'                     : /usr/bin/git 
+Checking for program 'size'                    : /usr/bin/size 
+Benchmarks                                     : disabled 
+Unit tests                                     : enabled 
+Scripting                                      : maybe 
+Scripting runtime checks                       : enabled 
+Debug build                                    : disabled 
+Coverage build                                 : disabled 
+Force 32-bit build                             : disabled 
+Checking for program 'rsync'                   : /usr/bin/rsync 
+'configure' finished successfully (0.496s)
+Waf: Entering directory `/home/potential/ardupilot/build/sitl'
+Embedding file locations.txt:Tools/autotest/locations.txt
+Embedding file models/Callisto.json:Tools/autotest/models/Callisto.json
+Embedding file models/plane-3d.parm:Tools/autotest/models/plane-3d.parm
+Embedding file models/plane.parm:Tools/autotest/models/plane.parm
+Embedding file models/xplane_heli.json:Tools/autotest/models/xplane_heli.json
+Embedding file models/xplane_plane.json:Tools/autotest/models/xplane_plane.json
+Waf: Leaving directory `/home/potential/ardupilot/build/sitl'
+
+BUILD SUMMARY
+Build directory: /home/potential/ardupilot/build/sitl
+Target         Text (B)  Data (B)  BSS (B)  Total Flash Used (B)  Free Flash (B)  External Flash Used (B)
+---------------------------------------------------------------------------------------------------------
+bin/ardurover   3713199    165213   217928               3878412  Not Applicable  Not Applicable         
+
+'build' finished successfully (0.892s)
+RiTW: Starting Rover : /home/potential/ardupilot/build/sitl/bin/ardurover -S --model rover --speedup 1 --sysid 2 --slave 0 --defaults Tools/autotest/default_params/rover.parm --sim-address=127.0.0.1 -I1 --home 19.1685,73.00389999999999,584.0,0.0
+Connect tcp:127.0.0.1:5770 source_system=255
+Loaded module console
+Log Directory: 
+Telemetry log: mav.tlog
+Waiting for heartbeat from tcp:127.0.0.1:5770
+MAV> Setting top to                           : /home/potential/ardupilot 
+Setting out to                           : /home/potential/ardupilot/build 
+Autoconfiguration                        : enabled 
+Checking for program 'python'            : /usr/bin/python 
+Checking for python version >= 3.6.9     : 3.8.10 
+Setting board to                         : sitl 
+Using toolchain                          : native 
+Checking for 'g++' (C++ compiler)        : /usr/lib/ccache/g++ 
+Checking for 'gcc' (C compiler)          : /usr/lib/ccache/gcc 
+Checking for c flags '-MMD'              : yes 
+Checking for cxx flags '-MMD'            : yes 
+CXX Compiler                             : g++ 9.4.0 
+Checking for need to link with librt     : not necessary 
+Checking for feenableexcept              : yes 
+Enabling -Werror                         : no 
+Enabled OpenDroneID                      : no 
+Enabled firmware ID checking             : no 
+GPS Debug Logging                        : no 
+Enabled custom controller                : yes 
+Checking for HAVE_CMATH_ISFINITE         : yes 
+Checking for HAVE_CMATH_ISINF            : yes 
+Checking for HAVE_CMATH_ISNAN            : yes 
+Checking for NEED_CMATH_ISFINITE_STD_NAMESPACE : yes 
+Checking for NEED_CMATH_ISINF_STD_NAMESPACE    : yes 
+Checking for NEED_CMATH_ISNAN_STD_NAMESPACE    : yes 
+Checking for header endian.h                   : yes 
+Checking for header byteswap.h                 : yes 
+Checking for HAVE_MEMRCHR                      : yes 
+Configured VSCode Intellisense:                : no 
+DC_DSDL compiler                               : /home/potential/ardupilot/modules/DroneCAN/dronecan_dsdlc/dronecan_dsdlc.py 
+Source is git repository                       : yes 
+Update submodules                              : yes 
+Checking for program 'git'                     : /usr/bin/git 
+Checking for program 'size'                    : /usr/bin/size 
+Benchmarks                                     : disabled 
+Unit tests                                     : enabled 
+Scripting                                      : maybe 
+Scripting runtime checks                       : enabled 
+Debug build                                    : disabled 
+Coverage build                                 : disabled 
+Force 32-bit build                             : disabled 
+Checking for program 'rsync'                   : /usr/bin/rsync 
+'configure' finished successfully (0.494s)
+Waf: Entering directory `/home/potential/ardupilot/build/sitl'
+Embedding file locations.txt:Tools/autotest/locations.txt
+Embedding file models/Callisto.json:Tools/autotest/models/Callisto.json
+Embedding file models/plane-3d.parm:Tools/autotest/models/plane-3d.parm
+Embedding file models/plane.parm:Tools/autotest/models/plane.parm
+Embedding file models/xplane_heli.json:Tools/autotest/models/xplane_heli.json
+Embedding file models/xplane_plane.json:Tools/autotest/models/xplane_plane.json
+Waf: Leaving directory `/home/potential/ardupilot/build/sitl'
+
+BUILD SUMMARY
+Build directory: /home/potential/ardupilot/build/sitl
+Target         Text (B)  Data (B)  BSS (B)  Total Flash Used (B)  Free Flash (B)  External Flash Used (B)
+---------------------------------------------------------------------------------------------------------
+bin/ardurover   3713199    165213   217928               3878412  Not Applicable  Not Applicable         
+
+'build' finished successfully (0.927s)
+RiTW: Starting Rover : /home/potential/ardupilot/build/sitl/bin/ardurover -S --model rover --speedup 1 --sysid 2 --slave 0 --defaults Tools/autotest/default_params/rover.parm --sim-address=127.0.0.1 -I1 --home 19.1685,73.00389999999999,584.0,0.0
+Connect tcp:127.0.0.1:5770 source_system=255
+Loaded module console
+Log Directory: 
+Telemetry log: mav.tlog
+Waiting for heartbeat from tcp:127.0.0.1:5770
+MAV> Setting top to                           : /home/potential/ardupilot 
+Setting out to                           : /home/potential/ardupilot/build 
+Autoconfiguration                        : enabled 
+Checking for program 'python'            : /usr/bin/python 
+Checking for python version >= 3.6.9     : 3.8.10 
+Setting board to                         : sitl 
+Using toolchain                          : native 
+Checking for 'g++' (C++ compiler)        : /usr/lib/ccache/g++ 
+Checking for 'gcc' (C compiler)          : /usr/lib/ccache/gcc 
+Checking for c flags '-MMD'              : yes 
+Checking for cxx flags '-MMD'            : yes 
+CXX Compiler                             : g++ 9.4.0 
+Checking for need to link with librt     : not necessary 
+Checking for feenableexcept              : yes 
+Enabling -Werror                         : no 
+Enabled OpenDroneID                      : no 
+Enabled firmware ID checking             : no 
+GPS Debug Logging                        : no 
+Enabled custom controller                : yes 
+Checking for HAVE_CMATH_ISFINITE         : yes 
+Checking for HAVE_CMATH_ISINF            : yes 
+Checking for HAVE_CMATH_ISNAN            : yes 
+Checking for NEED_CMATH_ISFINITE_STD_NAMESPACE : yes 
+Checking for NEED_CMATH_ISINF_STD_NAMESPACE    : yes 
+Checking for NEED_CMATH_ISNAN_STD_NAMESPACE    : yes 
+Checking for header endian.h                   : yes 
+Checking for header byteswap.h                 : yes 
+Checking for HAVE_MEMRCHR                      : yes 
+Configured VSCode Intellisense:                : no 
+DC_DSDL compiler                               : /home/potential/ardupilot/modules/DroneCAN/dronecan_dsdlc/dronecan_dsdlc.py 
+Source is git repository                       : yes 
+Update submodules                              : yes 
+Checking for program 'git'                     : /usr/bin/git 
+Checking for program 'size'                    : /usr/bin/size 
+Benchmarks                                     : disabled 
+Unit tests                                     : enabled 
+Scripting                                      : maybe 
+Scripting runtime checks                       : enabled 
+Debug build                                    : disabled 
+Coverage build                                 : disabled 
+Force 32-bit build                             : disabled 
+Checking for program 'rsync'                   : /usr/bin/rsync 
+'configure' finished successfully (0.587s)
+Waf: Entering directory `/home/potential/ardupilot/build/sitl'
+Embedding file locations.txt:Tools/autotest/locations.txt
+Embedding file models/Callisto.json:Tools/autotest/models/Callisto.json
+Embedding file models/plane-3d.parm:Tools/autotest/models/plane-3d.parm
+Embedding file models/plane.parm:Tools/autotest/models/plane.parm
+Embedding file models/xplane_heli.json:Tools/autotest/models/xplane_heli.json
+Embedding file models/xplane_plane.json:Tools/autotest/models/xplane_plane.json
+Waf: Leaving directory `/home/potential/ardupilot/build/sitl'
+
+BUILD SUMMARY
+Build directory: /home/potential/ardupilot/build/sitl
+Target         Text (B)  Data (B)  BSS (B)  Total Flash Used (B)  Free Flash (B)  External Flash Used (B)
+---------------------------------------------------------------------------------------------------------
+bin/ardurover   3713199    165213   217928               3878412  Not Applicable  Not Applicable         
+
+'build' finished successfully (1.038s)
+RiTW: Starting Rover : /home/potential/ardupilot/build/sitl/bin/ardurover -S --model rover --speedup 1 --sysid 2 --slave 0 --defaults Tools/autotest/default_params/rover.parm --sim-address=127.0.0.1 -I1 --home 19.1685,73.00389999999999,584.0,0.0
+Connect tcp:127.0.0.1:5770 source_system=255
+Loaded module console
+Log Directory: 
+Telemetry log: mav.tlog
+Waiting for heartbeat from tcp:127.0.0.1:5770
+MAV> Setting top to                           : /home/potential/ardupilot 
+Setting out to                           : /home/potential/ardupilot/build 
+Autoconfiguration                        : enabled 
+Checking for program 'python'            : /usr/bin/python 
+Checking for python version >= 3.6.9     : 3.8.10 
+Setting board to                         : sitl 
+Using toolchain                          : native 
+Checking for 'g++' (C++ compiler)        : /usr/lib/ccache/g++ 
+Checking for 'gcc' (C compiler)          : /usr/lib/ccache/gcc 
+Checking for c flags '-MMD'              : yes 
+Checking for cxx flags '-MMD'            : yes 
+CXX Compiler                             : g++ 9.4.0 
+Checking for need to link with librt     : not necessary 
+Checking for feenableexcept              : yes 
+Enabling -Werror                         : no 
+Enabled OpenDroneID                      : no 
+Enabled firmware ID checking             : no 
+GPS Debug Logging                        : no 
+Enabled custom controller                : yes 
+Checking for HAVE_CMATH_ISFINITE         : yes 
+Checking for HAVE_CMATH_ISINF            : yes 
+Checking for HAVE_CMATH_ISNAN            : yes 
+Checking for NEED_CMATH_ISFINITE_STD_NAMESPACE : yes 
+Checking for NEED_CMATH_ISINF_STD_NAMESPACE    : yes 
+Checking for NEED_CMATH_ISNAN_STD_NAMESPACE    : yes 
+Checking for header endian.h                   : yes 
+Checking for header byteswap.h                 : yes 
+Checking for HAVE_MEMRCHR                      : yes 
+Configured VSCode Intellisense:                : no 
+DC_DSDL compiler                               : /home/potential/ardupilot/modules/DroneCAN/dronecan_dsdlc/dronecan_dsdlc.py 
+Source is git repository                       : yes 
+Update submodules                              : yes 
+Checking for program 'git'                     : /usr/bin/git 
+Checking for program 'size'                    : /usr/bin/size 
+Benchmarks                                     : disabled 
+Unit tests                                     : enabled 
+Scripting                                      : maybe 
+Scripting runtime checks                       : enabled 
+Debug build                                    : disabled 
+Coverage build                                 : disabled 
+Force 32-bit build                             : disabled 
+Checking for program 'rsync'                   : /usr/bin/rsync 
+'configure' finished successfully (0.513s)
+Waf: Entering directory `/home/potential/ardupilot/build/sitl'
+Embedding file locations.txt:Tools/autotest/locations.txt
+Embedding file models/Callisto.json:Tools/autotest/models/Callisto.json
+Embedding file models/plane-3d.parm:Tools/autotest/models/plane-3d.parm
+Embedding file models/plane.parm:Tools/autotest/models/plane.parm
+Embedding file models/xplane_heli.json:Tools/autotest/models/xplane_heli.json
+Embedding file models/xplane_plane.json:Tools/autotest/models/xplane_plane.json
+Waf: Leaving directory `/home/potential/ardupilot/build/sitl'
+
+BUILD SUMMARY
+Build directory: /home/potential/ardupilot/build/sitl
+Target         Text (B)  Data (B)  BSS (B)  Total Flash Used (B)  Free Flash (B)  External Flash Used (B)
+---------------------------------------------------------------------------------------------------------
+bin/ardurover   3713199    165213   217928               3878412  Not Applicable  Not Applicable         
+
+'build' finished successfully (0.912s)
+RiTW: Starting Rover : /home/potential/ardupilot/build/sitl/bin/ardurover -S --model rover --speedup 1 --sysid 2 --slave 0 --defaults Tools/autotest/default_params/rover.parm --sim-address=127.0.0.1 -I1 --home 19.1685,73.00389999999999,584.0,0.0
+Connect tcp:127.0.0.1:5770 source_system=255
+Loaded module console
+Log Directory: 
+Telemetry log: mav.tlog
+Waiting for heartbeat from tcp:127.0.0.1:5770
+MAV> Setting top to                           : /home/potential/ardupilot 
+Setting out to                           : /home/potential/ardupilot/build 
+Autoconfiguration                        : enabled 
+Checking for program 'python'            : /usr/bin/python 
+Checking for python version >= 3.6.9     : 3.8.10 
+Setting board to                         : sitl 
+Using toolchain                          : native 
+Checking for 'g++' (C++ compiler)        : /usr/lib/ccache/g++ 
+Checking for 'gcc' (C compiler)          : /usr/lib/ccache/gcc 
+Checking for c flags '-MMD'              : yes 
+Checking for cxx flags '-MMD'            : yes 
+CXX Compiler                             : g++ 9.4.0 
+Checking for need to link with librt     : not necessary 
+Checking for feenableexcept              : yes 
+Enabling -Werror                         : no 
+Enabled OpenDroneID                      : no 
+Enabled firmware ID checking             : no 
+GPS Debug Logging                        : no 
+Enabled custom controller                : yes 
+Checking for HAVE_CMATH_ISFINITE         : yes 
+Checking for HAVE_CMATH_ISINF            : yes 
+Checking for HAVE_CMATH_ISNAN            : yes 
+Checking for NEED_CMATH_ISFINITE_STD_NAMESPACE : yes 
+Checking for NEED_CMATH_ISINF_STD_NAMESPACE    : yes 
+Checking for NEED_CMATH_ISNAN_STD_NAMESPACE    : yes 
+Checking for header endian.h                   : yes 
+Checking for header byteswap.h                 : yes 
+Checking for HAVE_MEMRCHR                      : yes 
+Configured VSCode Intellisense:                : no 
+DC_DSDL compiler                               : /home/potential/ardupilot/modules/DroneCAN/dronecan_dsdlc/dronecan_dsdlc.py 
+Source is git repository                       : yes 
+Update submodules                              : yes 
+Checking for program 'git'                     : /usr/bin/git 
+Checking for program 'size'                    : /usr/bin/size 
+Benchmarks                                     : disabled 
+Unit tests                                     : enabled 
+Scripting                                      : maybe 
+Scripting runtime checks                       : enabled 
+Debug build                                    : disabled 
+Coverage build                                 : disabled 
+Force 32-bit build                             : disabled 
+Checking for program 'rsync'                   : /usr/bin/rsync 
+'configure' finished successfully (0.506s)
+Waf: Entering directory `/home/potential/ardupilot/build/sitl'
+Embedding file locations.txt:Tools/autotest/locations.txt
+Embedding file models/Callisto.json:Tools/autotest/models/Callisto.json
+Embedding file models/plane-3d.parm:Tools/autotest/models/plane-3d.parm
+Embedding file models/plane.parm:Tools/autotest/models/plane.parm
+Embedding file models/xplane_heli.json:Tools/autotest/models/xplane_heli.json
+Embedding file models/xplane_plane.json:Tools/autotest/models/xplane_plane.json
+Waf: Leaving directory `/home/potential/ardupilot/build/sitl'
+
+BUILD SUMMARY
+Build directory: /home/potential/ardupilot/build/sitl
+Target         Text (B)  Data (B)  BSS (B)  Total Flash Used (B)  Free Flash (B)  External Flash Used (B)
+---------------------------------------------------------------------------------------------------------
+bin/ardurover   3713199    165213   217928               3878412  Not Applicable  Not Applicable         
+
+'build' finished successfully (0.913s)
+RiTW: Starting Rover : /home/potential/ardupilot/build/sitl/bin/ardurover -S --model rover --speedup 1 --sysid 2 --slave 0 --defaults Tools/autotest/default_params/rover.parm --sim-address=127.0.0.1 -I1 --home 19.1685,73.00389999999999,584.0,0.0
+Connect tcp:127.0.0.1:5770 source_system=255
+Log Directory: 
+Telemetry log: mav.tlog
+Waiting for heartbeat from tcp:127.0.0.1:5770
+MAV> Detected vehicle 2:1 on link 0
+online system 2
+INITIALISING> Mode INITIALISING
+AP: Barometer 1 calibration complete
+AP: Barometer 2 calibration complete
+AP: Beginning INS calibration. Do not move vehicle
+Init Gyro*AP: ArduRover V4.5.7 (2a3dc4b7)
+AP: 97fdb9de3105441997b62817a3fedd3d
+*
+AP: INS: alloc 6144 bytes for ISB (free=131072)
+MANUAL> AP: ArduPilot Ready
+AP: AHRS: DCM active
+fence present
+Received 1281 parameters (ftp)
+Saved 1281 parameters to mav_2_1.parm
+Flight battery 100 percent
+Mode MANUAL
+AP: EKF3 IMU0 initialised
+AP: EKF3 IMU1 initialised
+Got COMMAND_ACK: REQUEST_AUTOPILOT_CAPABILITIES: ACCEPTED
+AP: EKF3 IMU0 tilt alignment complete
+AP: EKF3 IMU1 tilt alignment complete
+AP: EKF3 IMU0 MAG0 initial yaw alignment complete
+AP: EKF3 IMU1 MAG0 initial yaw alignment complete
+AP: GPS 1: detected as u-blox at 230400 baud
+Got MAVLink msg: COMMAND_ACK {command : 11, result : 0, progress : 0, result_param2 : 0, target_system : 1, target_component : 240}
+GUIDED> Mode GUIDED
+Got COMMAND_ACK: COMPONENT_ARM_DISARM: FAILED
+AP: Arm: Gyros inconsistent
+AP: Arm: AHRS: not using configured AHRS type
+AP: ArduRover V4.5.7 (2a3dc4b7)
+AP: 97fdb9de3105441997b62817a3fedd3d
+Got COMMAND_ACK: COMPONENT_ARM_DISARM: FAILED
+AP: Arm: Gyros inconsistent
+AP: Arm: AHRS: not using configured AHRS type
+AP: EKF3 IMU0 origin set
+AP: EKF3 IMU1 origin set
+AP: Field Elevation Set: 584m
+Got COMMAND_ACK: COMPONENT_ARM_DISARM: FAILED
+AP: Arm: Gyros inconsistent
+AP: Arm: AHRS: not using configured AHRS type
+Got COMMAND_ACK: COMPONENT_ARM_DISARM: FAILED
+AP: Arm: AHRS: not using configured AHRS type
+AP: PreArm: AHRS: not using configured AHRS type
+Got COMMAND_ACK: COMPONENT_ARM_DISARM: FAILED
+AP: Arm: AHRS: not using configured AHRS type
+Got COMMAND_ACK: COMPONENT_ARM_DISARM: FAILED
+AP: Arm: AHRS: not using configured AHRS type
+Got COMMAND_ACK: COMPONENT_ARM_DISARM: FAILED
+AP: Arm: AHRS: not using configured AHRS type
+AP: EKF3 IMU0 is using GPS
+AP: EKF3 IMU1 is using GPS
+AP: AHRS: EKF3 active
+height 589
+Got COMMAND_ACK: COMPONENT_ARM_DISARM: ACCEPTED
+AP: Throttle armed
+ARMED
+Got MAVLink msg: COMMAND_ACK {command : 11, result : 0, progress : 0, result_param2 : 0, target_system : 1, target_component : 240}
+HOLD> Mode HOLD
+Flight battery 100 percent
+Flight battery 100 percent
+Flight battery 100 percent
+Flight battery 100 percent
+Setting top to                           : /home/potential/ardupilot 
+Setting out to                           : /home/potential/ardupilot/build 
+Autoconfiguration                        : enabled 
+Checking for program 'python'            : /usr/bin/python 
+Checking for python version >= 3.6.9     : 3.8.10 
+Setting board to                         : sitl 
+Using toolchain                          : native 
+Checking for 'g++' (C++ compiler)        : /usr/lib/ccache/g++ 
+Checking for 'gcc' (C compiler)          : /usr/lib/ccache/gcc 
+Checking for c flags '-MMD'              : yes 
+Checking for cxx flags '-MMD'            : yes 
+CXX Compiler                             : g++ 9.4.0 
+Checking for need to link with librt     : not necessary 
+Checking for feenableexcept              : yes 
+Enabling -Werror                         : no 
+Enabled OpenDroneID                      : no 
+Enabled firmware ID checking             : no 
+GPS Debug Logging                        : no 
+Enabled custom controller                : yes 
+Checking for HAVE_CMATH_ISFINITE         : yes 
+Checking for HAVE_CMATH_ISINF            : yes 
+Checking for HAVE_CMATH_ISNAN            : yes 
+Checking for NEED_CMATH_ISFINITE_STD_NAMESPACE : yes 
+Checking for NEED_CMATH_ISINF_STD_NAMESPACE    : yes 
+Checking for NEED_CMATH_ISNAN_STD_NAMESPACE    : yes 
+Checking for header endian.h                   : yes 
+Checking for header byteswap.h                 : yes 
+Checking for HAVE_MEMRCHR                      : yes 
+Configured VSCode Intellisense:                : no 
+DC_DSDL compiler                               : /home/potential/ardupilot/modules/DroneCAN/dronecan_dsdlc/dronecan_dsdlc.py 
+Source is git repository                       : yes 
+Update submodules                              : yes 
+Checking for program 'git'                     : /usr/bin/git 
+Checking for program 'size'                    : /usr/bin/size 
+Benchmarks                                     : disabled 
+Unit tests                                     : enabled 
+Scripting                                      : maybe 
+Scripting runtime checks                       : enabled 
+Debug build                                    : disabled 
+Coverage build                                 : disabled 
+Force 32-bit build                             : disabled 
+Checking for program 'rsync'                   : /usr/bin/rsync 
+'configure' finished successfully (0.519s)
+Waf: Entering directory `/home/potential/ardupilot/build/sitl'
+Embedding file locations.txt:Tools/autotest/locations.txt
+Embedding file models/Callisto.json:Tools/autotest/models/Callisto.json
+Embedding file models/plane-3d.parm:Tools/autotest/models/plane-3d.parm
+Embedding file models/plane.parm:Tools/autotest/models/plane.parm
+Embedding file models/xplane_heli.json:Tools/autotest/models/xplane_heli.json
+Embedding file models/xplane_plane.json:Tools/autotest/models/xplane_plane.json
+Waf: Leaving directory `/home/potential/ardupilot/build/sitl'
+
+BUILD SUMMARY
+Build directory: /home/potential/ardupilot/build/sitl
+Target         Text (B)  Data (B)  BSS (B)  Total Flash Used (B)  Free Flash (B)  External Flash Used (B)
+---------------------------------------------------------------------------------------------------------
+bin/ardurover   3713199    165213   217928               3878412  Not Applicable  Not Applicable         
+
+'build' finished successfully (0.912s)
+RiTW: Starting Rover : /home/potential/ardupilot/build/sitl/bin/ardurover -S --model rover --speedup 1 --sysid 2 --slave 0 --defaults Tools/autotest/default_params/rover.parm --sim-address=127.0.0.1 -I1 --home 19.1685,73.00389999999999,584.0,0.0
+SIM_VEHICLE: Start
+SIM_VEHICLE: 
+** Is (ardupilot) really your vehicle type?
+Perhaps you could try -v ArduCopter|Helicopter|Blimp|ArduPlane|Rover|ArduSub|AntennaTracker|sitl_periph_universal
+You could also try changing directory to e.g. the ArduCopter subdirectory
+
+SIM_VEHICLE: Killing tasks
+Setting top to                           : /home/potential/ardupilot 
+Setting out to                           : /home/potential/ardupilot/build 
+Autoconfiguration                        : enabled 
+Checking for program 'python'            : /usr/bin/python 
+Checking for python version >= 3.6.9     : 3.8.10 
+Setting board to                         : sitl 
+Using toolchain                          : native 
+Checking for 'g++' (C++ compiler)        : /usr/lib/ccache/g++ 
+Checking for 'gcc' (C compiler)          : /usr/lib/ccache/gcc 
+Checking for c flags '-MMD'              : yes 
+Checking for cxx flags '-MMD'            : yes 
+CXX Compiler                             : g++ 9.4.0 
+Checking for need to link with librt     : not necessary 
+Checking for feenableexcept              : yes 
+Enabling -Werror                         : no 
+Enabled OpenDroneID                      : no 
+Enabled firmware ID checking             : no 
+GPS Debug Logging                        : no 
+Enabled custom controller                : yes 
+Checking for HAVE_CMATH_ISFINITE         : yes 
+Checking for HAVE_CMATH_ISINF            : yes 
+Checking for HAVE_CMATH_ISNAN            : yes 
+Checking for NEED_CMATH_ISFINITE_STD_NAMESPACE : yes 
+Checking for NEED_CMATH_ISINF_STD_NAMESPACE    : yes 
+Checking for NEED_CMATH_ISNAN_STD_NAMESPACE    : yes 
+Checking for header endian.h                   : yes 
+Checking for header byteswap.h                 : yes 
+Checking for HAVE_MEMRCHR                      : yes 
+Configured VSCode Intellisense:                : no 
+DC_DSDL compiler                               : /home/potential/ardupilot/modules/DroneCAN/dronecan_dsdlc/dronecan_dsdlc.py 
+Source is git repository                       : yes 
+Update submodules                              : yes 
+Checking for program 'git'                     : /usr/bin/git 
+Checking for program 'size'                    : /usr/bin/size 
+Benchmarks                                     : disabled 
+Unit tests                                     : enabled 
+Scripting                                      : maybe 
+Scripting runtime checks                       : enabled 
+Debug build                                    : disabled 
+Coverage build                                 : disabled 
+Force 32-bit build                             : disabled 
+Checking for program 'rsync'                   : /usr/bin/rsync 
+'configure' finished successfully (0.510s)
+Waf: Entering directory `/home/potential/ardupilot/build/sitl'
+Embedding file locations.txt:Tools/autotest/locations.txt
+Embedding file models/Callisto.json:Tools/autotest/models/Callisto.json
+Embedding file models/plane-3d.parm:Tools/autotest/models/plane-3d.parm
+Embedding file models/plane.parm:Tools/autotest/models/plane.parm
+Embedding file models/xplane_heli.json:Tools/autotest/models/xplane_heli.json
+Embedding file models/xplane_plane.json:Tools/autotest/models/xplane_plane.json
+Waf: Leaving directory `/home/potential/ardupilot/build/sitl'
+
+BUILD SUMMARY
+Build directory: /home/potential/ardupilot/build/sitl
+Target         Text (B)  Data (B)  BSS (B)  Total Flash Used (B)  Free Flash (B)  External Flash Used (B)
+---------------------------------------------------------------------------------------------------------
+bin/ardurover   3713199    165213   217928               3878412  Not Applicable  Not Applicable         
+
+'build' finished successfully (0.909s)
+RiTW: Starting Rover : /home/potential/ardupilot/build/sitl/bin/ardurover -S --model rover --speedup 1 --sysid 2 --slave 0 --defaults Tools/autotest/default_params/rover.parm --sim-address=127.0.0.1 -I1 --home 19.1685,73.00389999999999,584.0,0.0
+Connect tcp:127.0.0.1:5770 source_system=255
+Log Directory: 
+Telemetry log: mav.tlog
+Waiting for heartbeat from tcp:127.0.0.1:5770
+MAV> Detected vehicle 2:1 on link 0
+online system 2
+INITIALISING> Mode INITIALISING
+AP: Barometer 1 calibration complete
+AP: Barometer 2 calibration complete
+AP: Beginning INS calibration. Do not move vehicle
+Init Gyro*AP: ArduRover V4.5.7 (2a3dc4b7)
+AP: 97fdb9de3105441997b62817a3fedd3d
+*
+AP: INS: alloc 6144 bytes for ISB (free=131072)
+MANUAL> AP: ArduPilot Ready
+AP: AHRS: DCM active
+fence present
+Received 1281 parameters (ftp)
+Saved 1281 parameters to mav_2_1.parm
+Flight battery 100 percent
+Mode MANUAL
+AP: EKF3 IMU0 initialised
+AP: EKF3 IMU1 initialised
+Got COMMAND_ACK: REQUEST_AUTOPILOT_CAPABILITIES: ACCEPTED
+AP: EKF3 IMU0 tilt alignment complete
+AP: EKF3 IMU1 tilt alignment complete
+AP: EKF3 IMU0 MAG0 initial yaw alignment complete
+AP: EKF3 IMU1 MAG0 initial yaw alignment complete
+AP: GPS 1: detected as u-blox at 230400 baud
+Got MAVLink msg: COMMAND_ACK {command : 11, result : 0, progress : 0, result_param2 : 0, target_system : 1, target_component : 240}
+GUIDED> Mode GUIDED
+Got COMMAND_ACK: COMPONENT_ARM_DISARM: FAILED
+AP: Arm: Gyros inconsistent
+AP: Arm: AHRS: not using configured AHRS type
+AP: ArduRover V4.5.7 (2a3dc4b7)
+AP: 97fdb9de3105441997b62817a3fedd3d
+Got COMMAND_ACK: COMPONENT_ARM_DISARM: FAILED
+AP: Arm: Gyros inconsistent
+AP: Arm: AHRS: not using configured AHRS type
+AP: EKF3 IMU0 origin set
+AP: EKF3 IMU1 origin set
+AP: Field Elevation Set: 584m
+Got COMMAND_ACK: COMPONENT_ARM_DISARM: FAILED
+AP: Arm: Gyros inconsistent
+AP: Arm: AHRS: not using configured AHRS type
+Setting top to                           : /home/potential/ardupilot 
+Setting out to                           : /home/potential/ardupilot/build 
+Autoconfiguration                        : enabled 
+Checking for program 'python'            : /usr/bin/python 
+Checking for python version >= 3.6.9     : 3.8.10 
+Setting board to                         : sitl 
+Using toolchain                          : native 
+Checking for 'g++' (C++ compiler)        : /usr/lib/ccache/g++ 
+Checking for 'gcc' (C compiler)          : /usr/lib/ccache/gcc 
+Checking for c flags '-MMD'              : yes 
+Checking for cxx flags '-MMD'            : yes 
+CXX Compiler                             : g++ 9.4.0 
+Checking for need to link with librt     : not necessary 
+Checking for feenableexcept              : yes 
+Enabling -Werror                         : no 
+Enabled OpenDroneID                      : no 
+Enabled firmware ID checking             : no 
+GPS Debug Logging                        : no 
+Enabled custom controller                : yes 
+Checking for HAVE_CMATH_ISFINITE         : yes 
+Checking for HAVE_CMATH_ISINF            : yes 
+Checking for HAVE_CMATH_ISNAN            : yes 
+Checking for NEED_CMATH_ISFINITE_STD_NAMESPACE : yes 
+Checking for NEED_CMATH_ISINF_STD_NAMESPACE    : yes 
+Checking for NEED_CMATH_ISNAN_STD_NAMESPACE    : yes 
+Checking for header endian.h                   : yes 
+Checking for header byteswap.h                 : yes 
+Checking for HAVE_MEMRCHR                      : yes 
+Configured VSCode Intellisense:                : no 
+DC_DSDL compiler                               : /home/potential/ardupilot/modules/DroneCAN/dronecan_dsdlc/dronecan_dsdlc.py 
+Source is git repository                       : yes 
+Update submodules                              : yes 
+Checking for program 'git'                     : /usr/bin/git 
+Checking for program 'size'                    : /usr/bin/size 
+Benchmarks                                     : disabled 
+Unit tests                                     : enabled 
+Scripting                                      : maybe 
+Scripting runtime checks                       : enabled 
+Debug build                                    : disabled 
+Coverage build                                 : disabled 
+Force 32-bit build                             : disabled 
+Checking for program 'rsync'                   : /usr/bin/rsync 
+'configure' finished successfully (0.546s)
+Waf: Entering directory `/home/potential/ardupilot/build/sitl'
+Embedding file locations.txt:Tools/autotest/locations.txt
+Embedding file models/Callisto.json:Tools/autotest/models/Callisto.json
+Embedding file models/plane-3d.parm:Tools/autotest/models/plane-3d.parm
+Embedding file models/plane.parm:Tools/autotest/models/plane.parm
+Embedding file models/xplane_heli.json:Tools/autotest/models/xplane_heli.json
+Embedding file models/xplane_plane.json:Tools/autotest/models/xplane_plane.json
+Waf: Leaving directory `/home/potential/ardupilot/build/sitl'
+
+BUILD SUMMARY
+Build directory: /home/potential/ardupilot/build/sitl
+Target         Text (B)  Data (B)  BSS (B)  Total Flash Used (B)  Free Flash (B)  External Flash Used (B)
+---------------------------------------------------------------------------------------------------------
+bin/ardurover   3713199    165213   217928               3878412  Not Applicable  Not Applicable         
+
+'build' finished successfully (0.949s)
+RiTW: Starting Rover : /home/potential/ardupilot/build/sitl/bin/ardurover -S --model rover --speedup 1 --sysid 2 --slave 0 --defaults Tools/autotest/default_params/rover.parm --sim-address=127.0.0.1 -I1 --home 19.1685,73.00389999999999,584.0,0.0
+Connect tcp:127.0.0.1:5770 source_system=255
+Loaded module console
+Log Directory: 
+Telemetry log: mav.tlog
+Waiting for heartbeat from tcp:127.0.0.1:5770
+MAV> Setting top to                           : /home/potential/ardupilot 
+Setting out to                           : /home/potential/ardupilot/build 
+Autoconfiguration                        : enabled 
+Checking for program 'python'            : /usr/bin/python 
+Checking for python version >= 3.6.9     : 3.8.10 
+Setting board to                         : sitl 
+Using toolchain                          : native 
+Checking for 'g++' (C++ compiler)        : /usr/lib/ccache/g++ 
+Checking for 'gcc' (C compiler)          : /usr/lib/ccache/gcc 
+Checking for c flags '-MMD'              : yes 
+Checking for cxx flags '-MMD'            : yes 
+CXX Compiler                             : g++ 9.4.0 
+Checking for need to link with librt     : not necessary 
+Checking for feenableexcept              : yes 
+Enabling -Werror                         : no 
+Enabled OpenDroneID                      : no 
+Enabled firmware ID checking             : no 
+GPS Debug Logging                        : no 
+Enabled custom controller                : yes 
+Checking for HAVE_CMATH_ISFINITE         : yes 
+Checking for HAVE_CMATH_ISINF            : yes 
+Checking for HAVE_CMATH_ISNAN            : yes 
+Checking for NEED_CMATH_ISFINITE_STD_NAMESPACE : yes 
+Checking for NEED_CMATH_ISINF_STD_NAMESPACE    : yes 
+Checking for NEED_CMATH_ISNAN_STD_NAMESPACE    : yes 
+Checking for header endian.h                   : yes 
+Checking for header byteswap.h                 : yes 
+Checking for HAVE_MEMRCHR                      : yes 
+Configured VSCode Intellisense:                : no 
+DC_DSDL compiler                               : /home/potential/ardupilot/modules/DroneCAN/dronecan_dsdlc/dronecan_dsdlc.py 
+Source is git repository                       : yes 
+Update submodules                              : yes 
+Checking for program 'git'                     : /usr/bin/git 
+Checking for program 'size'                    : /usr/bin/size 
+Benchmarks                                     : disabled 
+Unit tests                                     : enabled 
+Scripting                                      : maybe 
+Scripting runtime checks                       : enabled 
+Debug build                                    : disabled 
+Coverage build                                 : disabled 
+Force 32-bit build                             : disabled 
+Checking for program 'rsync'                   : /usr/bin/rsync 
+'configure' finished successfully (0.568s)
+Waf: Entering directory `/home/potential/ardupilot/build/sitl'
+Embedding file locations.txt:Tools/autotest/locations.txt
+Embedding file models/Callisto.json:Tools/autotest/models/Callisto.json
+Embedding file models/plane-3d.parm:Tools/autotest/models/plane-3d.parm
+Embedding file models/plane.parm:Tools/autotest/models/plane.parm
+Embedding file models/xplane_heli.json:Tools/autotest/models/xplane_heli.json
+Embedding file models/xplane_plane.json:Tools/autotest/models/xplane_plane.json
+Waf: Leaving directory `/home/potential/ardupilot/build/sitl'
+
+BUILD SUMMARY
+Build directory: /home/potential/ardupilot/build/sitl
+Target         Text (B)  Data (B)  BSS (B)  Total Flash Used (B)  Free Flash (B)  External Flash Used (B)
+---------------------------------------------------------------------------------------------------------
+bin/ardurover   3713199    165213   217928               3878412  Not Applicable  Not Applicable         
+
+'build' finished successfully (0.967s)
+RiTW: Starting Rover : /home/potential/ardupilot/build/sitl/bin/ardurover -S --model rover --speedup 1 --sysid 2 --slave 0 --defaults Tools/autotest/default_params/rover.parm --sim-address=127.0.0.1 -I1 --home 19.1685,73.00389999999999,584.0,0.0
+Connect tcp:127.0.0.1:5770 source_system=255
+Loaded module console
+Log Directory: 
+Telemetry log: mav.tlog
+Waiting for heartbeat from tcp:127.0.0.1:5770
+MAV> Setting top to                           : /home/potential/ardupilot 
+Setting out to                           : /home/potential/ardupilot/build 
+Autoconfiguration                        : enabled 
+Checking for program 'python'            : /usr/bin/python 
+Checking for python version >= 3.6.9     : 3.8.10 
+Setting board to                         : sitl 
+Using toolchain                          : native 
+Checking for 'g++' (C++ compiler)        : /usr/lib/ccache/g++ 
+Checking for 'gcc' (C compiler)          : /usr/lib/ccache/gcc 
+Checking for c flags '-MMD'              : yes 
+Checking for cxx flags '-MMD'            : yes 
+CXX Compiler                             : g++ 9.4.0 
+Checking for need to link with librt     : not necessary 
+Checking for feenableexcept              : yes 
+Enabling -Werror                         : no 
+Enabled OpenDroneID                      : no 
+Enabled firmware ID checking             : no 
+GPS Debug Logging                        : no 
+Enabled custom controller                : yes 
+Checking for HAVE_CMATH_ISFINITE         : yes 
+Checking for HAVE_CMATH_ISINF            : yes 
+Checking for HAVE_CMATH_ISNAN            : yes 
+Checking for NEED_CMATH_ISFINITE_STD_NAMESPACE : yes 
+Checking for NEED_CMATH_ISINF_STD_NAMESPACE    : yes 
+Checking for NEED_CMATH_ISNAN_STD_NAMESPACE    : yes 
+Checking for header endian.h                   : yes 
+Checking for header byteswap.h                 : yes 
+Checking for HAVE_MEMRCHR                      : yes 
+Configured VSCode Intellisense:                : no 
+DC_DSDL compiler                               : /home/potential/ardupilot/modules/DroneCAN/dronecan_dsdlc/dronecan_dsdlc.py 
+Source is git repository                       : yes 
+Update submodules                              : yes 
+Checking for program 'git'                     : /usr/bin/git 
+Checking for program 'size'                    : /usr/bin/size 
+Benchmarks                                     : disabled 
+Unit tests                                     : enabled 
+Scripting                                      : maybe 
+Scripting runtime checks                       : enabled 
+Debug build                                    : disabled 
+Coverage build                                 : disabled 
+Force 32-bit build                             : disabled 
+Checking for program 'rsync'                   : /usr/bin/rsync 
+'configure' finished successfully (0.504s)
+Waf: Entering directory `/home/potential/ardupilot/build/sitl'
+Embedding file locations.txt:Tools/autotest/locations.txt
+Embedding file models/Callisto.json:Tools/autotest/models/Callisto.json
+Embedding file models/plane-3d.parm:Tools/autotest/models/plane-3d.parm
+Embedding file models/plane.parm:Tools/autotest/models/plane.parm
+Embedding file models/xplane_heli.json:Tools/autotest/models/xplane_heli.json
+Embedding file models/xplane_plane.json:Tools/autotest/models/xplane_plane.json
+Waf: Leaving directory `/home/potential/ardupilot/build/sitl'
+
+BUILD SUMMARY
+Build directory: /home/potential/ardupilot/build/sitl
+Target         Text (B)  Data (B)  BSS (B)  Total Flash Used (B)  Free Flash (B)  External Flash Used (B)
+---------------------------------------------------------------------------------------------------------
+bin/ardurover   3713199    165213   217928               3878412  Not Applicable  Not Applicable         
+
+'build' finished successfully (0.913s)
+RiTW: Starting Rover : /home/potential/ardupilot/build/sitl/bin/ardurover -S --model rover --speedup 1 --sysid 2 --slave 0 --defaults Tools/autotest/default_params/rover.parm --sim-address=127.0.0.1 -I1 --home 19.1685,73.00389999999999,584.0,0.0
+Connect tcp:127.0.0.1:5770 source_system=255
+Loaded module console
+Log Directory: 
+Telemetry log: mav.tlog
+Waiting for heartbeat from tcp:127.0.0.1:5770
+MAV> Setting top to                           : /home/potential/ardupilot 
+Setting out to                           : /home/potential/ardupilot/build 
+Autoconfiguration                        : enabled 
+Checking for program 'python'            : /usr/bin/python 
+Checking for python version >= 3.6.9     : 3.8.10 
+Setting board to                         : sitl 
+Using toolchain                          : native 
+Checking for 'g++' (C++ compiler)        : /usr/lib/ccache/g++ 
+Checking for 'gcc' (C compiler)          : /usr/lib/ccache/gcc 
+Checking for c flags '-MMD'              : yes 
+Checking for cxx flags '-MMD'            : yes 
+CXX Compiler                             : g++ 9.4.0 
+Checking for need to link with librt     : not necessary 
+Checking for feenableexcept              : yes 
+Enabling -Werror                         : no 
+Enabled OpenDroneID                      : no 
+Enabled firmware ID checking             : no 
+GPS Debug Logging                        : no 
+Enabled custom controller                : yes 
+Checking for HAVE_CMATH_ISFINITE         : yes 
+Checking for HAVE_CMATH_ISINF            : yes 
+Checking for HAVE_CMATH_ISNAN            : yes 
+Checking for NEED_CMATH_ISFINITE_STD_NAMESPACE : yes 
+Checking for NEED_CMATH_ISINF_STD_NAMESPACE    : yes 
+Checking for NEED_CMATH_ISNAN_STD_NAMESPACE    : yes 
+Checking for header endian.h                   : yes 
+Checking for header byteswap.h                 : yes 
+Checking for HAVE_MEMRCHR                      : yes 
+Configured VSCode Intellisense:                : no 
+DC_DSDL compiler                               : /home/potential/ardupilot/modules/DroneCAN/dronecan_dsdlc/dronecan_dsdlc.py 
+Source is git repository                       : yes 
+Update submodules                              : yes 
+Checking for program 'git'                     : /usr/bin/git 
+Checking for program 'size'                    : /usr/bin/size 
+Benchmarks                                     : disabled 
+Unit tests                                     : enabled 
+Scripting                                      : maybe 
+Scripting runtime checks                       : enabled 
+Debug build                                    : disabled 
+Coverage build                                 : disabled 
+Force 32-bit build                             : disabled 
+Checking for program 'rsync'                   : /usr/bin/rsync 
+'configure' finished successfully (0.575s)
+Waf: Entering directory `/home/potential/ardupilot/build/sitl'
+Embedding file locations.txt:Tools/autotest/locations.txt
+Embedding file models/Callisto.json:Tools/autotest/models/Callisto.json
+Embedding file models/plane-3d.parm:Tools/autotest/models/plane-3d.parm
+Embedding file models/plane.parm:Tools/autotest/models/plane.parm
+Embedding file models/xplane_heli.json:Tools/autotest/models/xplane_heli.json
+Embedding file models/xplane_plane.json:Tools/autotest/models/xplane_plane.json
+Waf: Leaving directory `/home/potential/ardupilot/build/sitl'
+
+BUILD SUMMARY
+Build directory: /home/potential/ardupilot/build/sitl
+Target         Text (B)  Data (B)  BSS (B)  Total Flash Used (B)  Free Flash (B)  External Flash Used (B)
+---------------------------------------------------------------------------------------------------------
+bin/ardurover   3713199    165213   217928               3878412  Not Applicable  Not Applicable         
+
+'build' finished successfully (0.968s)
+RiTW: Starting Rover : /home/potential/ardupilot/build/sitl/bin/ardurover -S --model rover --speedup 1 --sysid 2 --slave 0 --defaults Tools/autotest/default_params/rover.parm --sim-address=127.0.0.1 -I1 --home 19.1685,73.00389999999999,584.0,0.0
+Connect tcp:127.0.0.1:5770 source_system=255
+Loaded module console
+Log Directory: 
+Telemetry log: mav.tlog
+Waiting for heartbeat from tcp:127.0.0.1:5770
+MAV> Setting top to                           : /home/potential/ardupilot 
+Setting out to                           : /home/potential/ardupilot/build 
+Autoconfiguration                        : enabled 
+Checking for program 'python'            : /usr/bin/python 
+Checking for python version >= 3.6.9     : 3.8.10 
+Setting board to                         : sitl 
+Using toolchain                          : native 
+Checking for 'g++' (C++ compiler)        : /usr/lib/ccache/g++ 
+Checking for 'gcc' (C compiler)          : /usr/lib/ccache/gcc 
+Checking for c flags '-MMD'              : yes 
+Checking for cxx flags '-MMD'            : yes 
+CXX Compiler                             : g++ 9.4.0 
+Checking for need to link with librt     : not necessary 
+Checking for feenableexcept              : yes 
+Enabling -Werror                         : no 
+Enabled OpenDroneID                      : no 
+Enabled firmware ID checking             : no 
+GPS Debug Logging                        : no 
+Enabled custom controller                : yes 
+Checking for HAVE_CMATH_ISFINITE         : yes 
+Checking for HAVE_CMATH_ISINF            : yes 
+Checking for HAVE_CMATH_ISNAN            : yes 
+Checking for NEED_CMATH_ISFINITE_STD_NAMESPACE : yes 
+Checking for NEED_CMATH_ISINF_STD_NAMESPACE    : yes 
+Checking for NEED_CMATH_ISNAN_STD_NAMESPACE    : yes 
+Checking for header endian.h                   : yes 
+Checking for header byteswap.h                 : yes 
+Checking for HAVE_MEMRCHR                      : yes 
+Configured VSCode Intellisense:                : no 
+DC_DSDL compiler                               : /home/potential/ardupilot/modules/DroneCAN/dronecan_dsdlc/dronecan_dsdlc.py 
+Source is git repository                       : yes 
+Update submodules                              : yes 
+Checking for program 'git'                     : /usr/bin/git 
+Checking for program 'size'                    : /usr/bin/size 
+Benchmarks                                     : disabled 
+Unit tests                                     : enabled 
+Scripting                                      : maybe 
+Scripting runtime checks                       : enabled 
+Debug build                                    : disabled 
+Coverage build                                 : disabled 
+Force 32-bit build                             : disabled 
+Checking for program 'rsync'                   : /usr/bin/rsync 
+'configure' finished successfully (0.567s)
+Waf: Entering directory `/home/potential/ardupilot/build/sitl'
+Embedding file locations.txt:Tools/autotest/locations.txt
+Embedding file models/Callisto.json:Tools/autotest/models/Callisto.json
+Embedding file models/plane-3d.parm:Tools/autotest/models/plane-3d.parm
+Embedding file models/plane.parm:Tools/autotest/models/plane.parm
+Embedding file models/xplane_heli.json:Tools/autotest/models/xplane_heli.json
+Embedding file models/xplane_plane.json:Tools/autotest/models/xplane_plane.json
+Waf: Leaving directory `/home/potential/ardupilot/build/sitl'
+
+BUILD SUMMARY
+Build directory: /home/potential/ardupilot/build/sitl
+Target         Text (B)  Data (B)  BSS (B)  Total Flash Used (B)  Free Flash (B)  External Flash Used (B)
+---------------------------------------------------------------------------------------------------------
+bin/ardurover   3713199    165213   217928               3878412  Not Applicable  Not Applicable         
+
+'build' finished successfully (0.988s)
+RiTW: Starting Rover : /home/potential/ardupilot/build/sitl/bin/ardurover -S --model rover --speedup 1 --sysid 2 --slave 0 --defaults Tools/autotest/default_params/rover.parm --sim-address=127.0.0.1 -I1 --home 19.1685,73.00389999999999,584.0,0.0
+Connect tcp:127.0.0.1:5770 source_system=255
+Loaded module console
+Log Directory: 
+Telemetry log: mav.tlog
+Waiting for heartbeat from tcp:127.0.0.1:5770
+MAV> Setting top to                           : /home/potential/ardupilot 
+Setting out to                           : /home/potential/ardupilot/build 
+Autoconfiguration                        : enabled 
+Checking for program 'python'            : /usr/bin/python 
+Checking for python version >= 3.6.9     : 3.8.10 
+Setting board to                         : sitl 
+Using toolchain                          : native 
+Checking for 'g++' (C++ compiler)        : /usr/lib/ccache/g++ 
+Checking for 'gcc' (C compiler)          : /usr/lib/ccache/gcc 
+Checking for c flags '-MMD'              : yes 
+Checking for cxx flags '-MMD'            : yes 
+CXX Compiler                             : g++ 9.4.0 
+Checking for need to link with librt     : not necessary 
+Checking for feenableexcept              : yes 
+Enabling -Werror                         : no 
+Enabled OpenDroneID                      : no 
+Enabled firmware ID checking             : no 
+GPS Debug Logging                        : no 
+Enabled custom controller                : yes 
+Checking for HAVE_CMATH_ISFINITE         : yes 
+Checking for HAVE_CMATH_ISINF            : yes 
+Checking for HAVE_CMATH_ISNAN            : yes 
+Checking for NEED_CMATH_ISFINITE_STD_NAMESPACE : yes 
+Checking for NEED_CMATH_ISINF_STD_NAMESPACE    : yes 
+Checking for NEED_CMATH_ISNAN_STD_NAMESPACE    : yes 
+Checking for header endian.h                   : yes 
+Checking for header byteswap.h                 : yes 
+Checking for HAVE_MEMRCHR                      : yes 
+Configured VSCode Intellisense:                : no 
+DC_DSDL compiler                               : /home/potential/ardupilot/modules/DroneCAN/dronecan_dsdlc/dronecan_dsdlc.py 
+Source is git repository                       : yes 
+Update submodules                              : yes 
+Checking for program 'git'                     : /usr/bin/git 
+Checking for program 'size'                    : /usr/bin/size 
+Benchmarks                                     : disabled 
+Unit tests                                     : enabled 
+Scripting                                      : maybe 
+Scripting runtime checks                       : enabled 
+Debug build                                    : disabled 
+Coverage build                                 : disabled 
+Force 32-bit build                             : disabled 
+Checking for program 'rsync'                   : /usr/bin/rsync 
+'configure' finished successfully (0.585s)
+Waf: Entering directory `/home/potential/ardupilot/build/sitl'
+Embedding file locations.txt:Tools/autotest/locations.txt
+Embedding file models/Callisto.json:Tools/autotest/models/Callisto.json
+Embedding file models/plane-3d.parm:Tools/autotest/models/plane-3d.parm
+Embedding file models/plane.parm:Tools/autotest/models/plane.parm
+Embedding file models/xplane_heli.json:Tools/autotest/models/xplane_heli.json
+Embedding file models/xplane_plane.json:Tools/autotest/models/xplane_plane.json
+Waf: Leaving directory `/home/potential/ardupilot/build/sitl'
+
+BUILD SUMMARY
+Build directory: /home/potential/ardupilot/build/sitl
+Target         Text (B)  Data (B)  BSS (B)  Total Flash Used (B)  Free Flash (B)  External Flash Used (B)
+---------------------------------------------------------------------------------------------------------
+bin/ardurover   3713199    165213   217928               3878412  Not Applicable  Not Applicable         
+
+'build' finished successfully (0.981s)
+RiTW: Starting Rover : /home/potential/ardupilot/build/sitl/bin/ardurover -S --model rover --speedup 1 --sysid 2 --slave 0 --defaults Tools/autotest/default_params/rover.parm --sim-address=127.0.0.1 -I1 --home 19.1685,73.00389999999999,584.0,0.0
+Connect tcp:127.0.0.1:5770 source_system=255
+Loaded module console
+Log Directory: 
+Telemetry log: mav.tlog
+Waiting for heartbeat from tcp:127.0.0.1:5770
+MAV> Setting top to                           : /home/potential/ardupilot 
+Setting out to                           : /home/potential/ardupilot/build 
+Autoconfiguration                        : enabled 
+Checking for program 'python'            : /usr/bin/python 
+Checking for python version >= 3.6.9     : 3.8.10 
+Setting board to                         : sitl 
+Using toolchain                          : native 
+Checking for 'g++' (C++ compiler)        : /usr/lib/ccache/g++ 
+Checking for 'gcc' (C compiler)          : /usr/lib/ccache/gcc 
+Checking for c flags '-MMD'              : yes 
+Checking for cxx flags '-MMD'            : yes 
+CXX Compiler                             : g++ 9.4.0 
+Checking for need to link with librt     : not necessary 
+Checking for feenableexcept              : yes 
+Enabling -Werror                         : no 
+Enabled OpenDroneID                      : no 
+Enabled firmware ID checking             : no 
+GPS Debug Logging                        : no 
+Enabled custom controller                : yes 
+Checking for HAVE_CMATH_ISFINITE         : yes 
+Checking for HAVE_CMATH_ISINF            : yes 
+Checking for HAVE_CMATH_ISNAN            : yes 
+Checking for NEED_CMATH_ISFINITE_STD_NAMESPACE : yes 
+Checking for NEED_CMATH_ISINF_STD_NAMESPACE    : yes 
+Checking for NEED_CMATH_ISNAN_STD_NAMESPACE    : yes 
+Checking for header endian.h                   : yes 
+Checking for header byteswap.h                 : yes 
+Checking for HAVE_MEMRCHR                      : yes 
+Configured VSCode Intellisense:                : no 
+DC_DSDL compiler                               : /home/potential/ardupilot/modules/DroneCAN/dronecan_dsdlc/dronecan_dsdlc.py 
+Source is git repository                       : yes 
+Update submodules                              : yes 
+Checking for program 'git'                     : /usr/bin/git 
+Checking for program 'size'                    : /usr/bin/size 
+Benchmarks                                     : disabled 
+Unit tests                                     : enabled 
+Scripting                                      : maybe 
+Scripting runtime checks                       : enabled 
+Debug build                                    : disabled 
+Coverage build                                 : disabled 
+Force 32-bit build                             : disabled 
+Checking for program 'rsync'                   : /usr/bin/rsync 
+'configure' finished successfully (0.516s)
+Waf: Entering directory `/home/potential/ardupilot/build/sitl'
+Embedding file locations.txt:Tools/autotest/locations.txt
+Embedding file models/Callisto.json:Tools/autotest/models/Callisto.json
+Embedding file models/plane-3d.parm:Tools/autotest/models/plane-3d.parm
+Embedding file models/plane.parm:Tools/autotest/models/plane.parm
+Embedding file models/xplane_heli.json:Tools/autotest/models/xplane_heli.json
+Embedding file models/xplane_plane.json:Tools/autotest/models/xplane_plane.json
+Waf: Leaving directory `/home/potential/ardupilot/build/sitl'
+
+BUILD SUMMARY
+Build directory: /home/potential/ardupilot/build/sitl
+Target         Text (B)  Data (B)  BSS (B)  Total Flash Used (B)  Free Flash (B)  External Flash Used (B)
+---------------------------------------------------------------------------------------------------------
+bin/ardurover   3713199    165213   217928               3878412  Not Applicable  Not Applicable         
+
+'build' finished successfully (0.918s)
+RiTW: Starting Rover : /home/potential/ardupilot/build/sitl/bin/ardurover -S --model rover --speedup 1 --sysid 2 --slave 0 --defaults Tools/autotest/default_params/rover.parm --sim-address=127.0.0.1 -I1 --home 19.1685,73.00389999999999,584.0,0.0
+Connect tcp:127.0.0.1:5770 source_system=255
+Loaded module console
+Log Directory: 
+Telemetry log: mav.tlog
+Waiting for heartbeat from tcp:127.0.0.1:5770
+MAV> Setting top to                           : /home/potential/ardupilot 
+Setting out to                           : /home/potential/ardupilot/build 
+Autoconfiguration                        : enabled 
+Checking for program 'python'            : /usr/bin/python 
+Checking for python version >= 3.6.9     : 3.8.10 
+Setting board to                         : sitl 
+Using toolchain                          : native 
+Checking for 'g++' (C++ compiler)        : /usr/lib/ccache/g++ 
+Checking for 'gcc' (C compiler)          : /usr/lib/ccache/gcc 
+Checking for c flags '-MMD'              : yes 
+Checking for cxx flags '-MMD'            : yes 
+CXX Compiler                             : g++ 9.4.0 
+Checking for need to link with librt     : not necessary 
+Checking for feenableexcept              : yes 
+Enabling -Werror                         : no 
+Enabled OpenDroneID                      : no 
+Enabled firmware ID checking             : no 
+GPS Debug Logging                        : no 
+Enabled custom controller                : yes 
+Checking for HAVE_CMATH_ISFINITE         : yes 
+Checking for HAVE_CMATH_ISINF            : yes 
+Checking for HAVE_CMATH_ISNAN            : yes 
+Checking for NEED_CMATH_ISFINITE_STD_NAMESPACE : yes 
+Checking for NEED_CMATH_ISINF_STD_NAMESPACE    : yes 
+Checking for NEED_CMATH_ISNAN_STD_NAMESPACE    : yes 
+Checking for header endian.h                   : yes 
+Checking for header byteswap.h                 : yes 
+Checking for HAVE_MEMRCHR                      : yes 
+Configured VSCode Intellisense:                : no 
+DC_DSDL compiler                               : /home/potential/ardupilot/modules/DroneCAN/dronecan_dsdlc/dronecan_dsdlc.py 
+Source is git repository                       : yes 
+Update submodules                              : yes 
+Checking for program 'git'                     : /usr/bin/git 
+Checking for program 'size'                    : /usr/bin/size 
+Benchmarks                                     : disabled 
+Unit tests                                     : enabled 
+Scripting                                      : maybe 
+Scripting runtime checks                       : enabled 
+Debug build                                    : disabled 
+Coverage build                                 : disabled 
+Force 32-bit build                             : disabled 
+Checking for program 'rsync'                   : /usr/bin/rsync 
+'configure' finished successfully (0.522s)
+Waf: Entering directory `/home/potential/ardupilot/build/sitl'
+Embedding file locations.txt:Tools/autotest/locations.txt
+Embedding file models/Callisto.json:Tools/autotest/models/Callisto.json
+Embedding file models/plane-3d.parm:Tools/autotest/models/plane-3d.parm
+Embedding file models/plane.parm:Tools/autotest/models/plane.parm
+Embedding file models/xplane_heli.json:Tools/autotest/models/xplane_heli.json
+Embedding file models/xplane_plane.json:Tools/autotest/models/xplane_plane.json
+Waf: Leaving directory `/home/potential/ardupilot/build/sitl'
+
+BUILD SUMMARY
+Build directory: /home/potential/ardupilot/build/sitl
+Target         Text (B)  Data (B)  BSS (B)  Total Flash Used (B)  Free Flash (B)  External Flash Used (B)
+---------------------------------------------------------------------------------------------------------
+bin/ardurover   3713199    165213   217928               3878412  Not Applicable  Not Applicable         
+
+'build' finished successfully (0.970s)
+RiTW: Starting Rover : /home/potential/ardupilot/build/sitl/bin/ardurover -S --model rover --speedup 1 --sysid 2 --slave 0 --defaults Tools/autotest/default_params/rover.parm --sim-address=127.0.0.1 -I1 --home 19.1685,73.00389999999999,584.0,0.0
+Connect tcp:127.0.0.1:5770 source_system=255
+Loaded module console
+Log Directory: 
+Telemetry log: mav.tlog
+Waiting for heartbeat from tcp:127.0.0.1:5770
+MAV> Setting top to                           : /home/potential/ardupilot 
+Setting out to                           : /home/potential/ardupilot/build 
+Autoconfiguration                        : enabled 
+Checking for program 'python'            : /usr/bin/python 
+Checking for python version >= 3.6.9     : 3.8.10 
+Setting board to                         : sitl 
+Using toolchain                          : native 
+Checking for 'g++' (C++ compiler)        : /usr/lib/ccache/g++ 
+Checking for 'gcc' (C compiler)          : /usr/lib/ccache/gcc 
+Checking for c flags '-MMD'              : yes 
+Checking for cxx flags '-MMD'            : yes 
+CXX Compiler                             : g++ 9.4.0 
+Checking for need to link with librt     : not necessary 
+Checking for feenableexcept              : yes 
+Enabling -Werror                         : no 
+Enabled OpenDroneID                      : no 
+Enabled firmware ID checking             : no 
+GPS Debug Logging                        : no 
+Enabled custom controller                : yes 
+Checking for HAVE_CMATH_ISFINITE         : yes 
+Checking for HAVE_CMATH_ISINF            : yes 
+Checking for HAVE_CMATH_ISNAN            : yes 
+Checking for NEED_CMATH_ISFINITE_STD_NAMESPACE : yes 
+Checking for NEED_CMATH_ISINF_STD_NAMESPACE    : yes 
+Checking for NEED_CMATH_ISNAN_STD_NAMESPACE    : yes 
+Checking for header endian.h                   : yes 
+Checking for header byteswap.h                 : yes 
+Checking for HAVE_MEMRCHR                      : yes 
+Configured VSCode Intellisense:                : no 
+DC_DSDL compiler                               : /home/potential/ardupilot/modules/DroneCAN/dronecan_dsdlc/dronecan_dsdlc.py 
+Source is git repository                       : yes 
+Update submodules                              : yes 
+Checking for program 'git'                     : /usr/bin/git 
+Checking for program 'size'                    : /usr/bin/size 
+Benchmarks                                     : disabled 
+Unit tests                                     : enabled 
+Scripting                                      : maybe 
+Scripting runtime checks                       : enabled 
+Debug build                                    : disabled 
+Coverage build                                 : disabled 
+Force 32-bit build                             : disabled 
+Checking for program 'rsync'                   : /usr/bin/rsync 
+'configure' finished successfully (0.499s)
+Waf: Entering directory `/home/potential/ardupilot/build/sitl'
+Embedding file locations.txt:Tools/autotest/locations.txt
+Embedding file models/Callisto.json:Tools/autotest/models/Callisto.json
+Embedding file models/plane-3d.parm:Tools/autotest/models/plane-3d.parm
+Embedding file models/plane.parm:Tools/autotest/models/plane.parm
+Embedding file models/xplane_heli.json:Tools/autotest/models/xplane_heli.json
+Embedding file models/xplane_plane.json:Tools/autotest/models/xplane_plane.json
+Waf: Leaving directory `/home/potential/ardupilot/build/sitl'
+
+BUILD SUMMARY
+Build directory: /home/potential/ardupilot/build/sitl
+Target         Text (B)  Data (B)  BSS (B)  Total Flash Used (B)  Free Flash (B)  External Flash Used (B)
+---------------------------------------------------------------------------------------------------------
+bin/ardurover   3713199    165213   217928               3878412  Not Applicable  Not Applicable         
+
+'build' finished successfully (0.926s)
+RiTW: Starting Rover : /home/potential/ardupilot/build/sitl/bin/ardurover -S --model rover --speedup 1 --sysid 2 --slave 0 --defaults Tools/autotest/default_params/rover.parm --sim-address=127.0.0.1 -I1 --home 19.1685,73.00389999999999,584.0,0.0
+Connect tcp:127.0.0.1:5770 source_system=255
+Loaded module console
+Log Directory: 
+Telemetry log: mav.tlog
+Waiting for heartbeat from tcp:127.0.0.1:5770
+MAV> Setting top to                           : /home/potential/ardupilot 
+Setting out to                           : /home/potential/ardupilot/build 
+Autoconfiguration                        : enabled 
+Checking for program 'python'            : /usr/bin/python 
+Checking for python version >= 3.6.9     : 3.8.10 
+Setting board to                         : sitl 
+Using toolchain                          : native 
+Checking for 'g++' (C++ compiler)        : /usr/lib/ccache/g++ 
+Checking for 'gcc' (C compiler)          : /usr/lib/ccache/gcc 
+Checking for c flags '-MMD'              : yes 
+Checking for cxx flags '-MMD'            : yes 
+CXX Compiler                             : g++ 9.4.0 
+Checking for need to link with librt     : not necessary 
+Checking for feenableexcept              : yes 
+Enabling -Werror                         : no 
+Enabled OpenDroneID                      : no 
+Enabled firmware ID checking             : no 
+GPS Debug Logging                        : no 
+Enabled custom controller                : yes 
+Checking for HAVE_CMATH_ISFINITE         : yes 
+Checking for HAVE_CMATH_ISINF            : yes 
+Checking for HAVE_CMATH_ISNAN            : yes 
+Checking for NEED_CMATH_ISFINITE_STD_NAMESPACE : yes 
+Checking for NEED_CMATH_ISINF_STD_NAMESPACE    : yes 
+Checking for NEED_CMATH_ISNAN_STD_NAMESPACE    : yes 
+Checking for header endian.h                   : yes 
+Checking for header byteswap.h                 : yes 
+Checking for HAVE_MEMRCHR                      : yes 
+Configured VSCode Intellisense:                : no 
+DC_DSDL compiler                               : /home/potential/ardupilot/modules/DroneCAN/dronecan_dsdlc/dronecan_dsdlc.py 
+Source is git repository                       : yes 
+Update submodules                              : yes 
+Checking for program 'git'                     : /usr/bin/git 
+Checking for program 'size'                    : /usr/bin/size 
+Benchmarks                                     : disabled 
+Unit tests                                     : enabled 
+Scripting                                      : maybe 
+Scripting runtime checks                       : enabled 
+Debug build                                    : disabled 
+Coverage build                                 : disabled 
+Force 32-bit build                             : disabled 
+Checking for program 'rsync'                   : /usr/bin/rsync 
+'configure' finished successfully (0.504s)
+Waf: Entering directory `/home/potential/ardupilot/build/sitl'
+Embedding file locations.txt:Tools/autotest/locations.txt
+Embedding file models/Callisto.json:Tools/autotest/models/Callisto.json
+Embedding file models/plane-3d.parm:Tools/autotest/models/plane-3d.parm
+Embedding file models/plane.parm:Tools/autotest/models/plane.parm
+Embedding file models/xplane_heli.json:Tools/autotest/models/xplane_heli.json
+Embedding file models/xplane_plane.json:Tools/autotest/models/xplane_plane.json
+Waf: Leaving directory `/home/potential/ardupilot/build/sitl'
+
+BUILD SUMMARY
+Build directory: /home/potential/ardupilot/build/sitl
+Target         Text (B)  Data (B)  BSS (B)  Total Flash Used (B)  Free Flash (B)  External Flash Used (B)
+---------------------------------------------------------------------------------------------------------
+bin/ardurover   3713199    165213   217928               3878412  Not Applicable  Not Applicable         
+
+'build' finished successfully (0.930s)
+RiTW: Starting Rover : /home/potential/ardupilot/build/sitl/bin/ardurover -S --model rover --speedup 1 --sysid 2 --slave 0 --defaults Tools/autotest/default_params/rover.parm --sim-address=127.0.0.1 -I1 --home 19.1685,73.00389999999999,584.0,0.0
+Connect tcp:127.0.0.1:5770 source_system=255
+Loaded module console
+Log Directory: 
+Telemetry log: mav.tlog
+Waiting for heartbeat from tcp:127.0.0.1:5770
+MAV> Setting top to                           : /home/potential/ardupilot 
+Setting out to                           : /home/potential/ardupilot/build 
+Autoconfiguration                        : enabled 
+Checking for program 'python'            : /usr/bin/python 
+Checking for python version >= 3.6.9     : 3.8.10 
+Setting board to                         : sitl 
+Using toolchain                          : native 
+Checking for 'g++' (C++ compiler)        : /usr/lib/ccache/g++ 
+Checking for 'gcc' (C compiler)          : /usr/lib/ccache/gcc 
+Checking for c flags '-MMD'              : yes 
+Checking for cxx flags '-MMD'            : yes 
+CXX Compiler                             : g++ 9.4.0 
+Checking for need to link with librt     : not necessary 
+Checking for feenableexcept              : yes 
+Enabling -Werror                         : no 
+Enabled OpenDroneID                      : no 
+Enabled firmware ID checking             : no 
+GPS Debug Logging                        : no 
+Enabled custom controller                : yes 
+Checking for HAVE_CMATH_ISFINITE         : yes 
+Checking for HAVE_CMATH_ISINF            : yes 
+Checking for HAVE_CMATH_ISNAN            : yes 
+Checking for NEED_CMATH_ISFINITE_STD_NAMESPACE : yes 
+Checking for NEED_CMATH_ISINF_STD_NAMESPACE    : yes 
+Checking for NEED_CMATH_ISNAN_STD_NAMESPACE    : yes 
+Checking for header endian.h                   : yes 
+Checking for header byteswap.h                 : yes 
+Checking for HAVE_MEMRCHR                      : yes 
+Configured VSCode Intellisense:                : no 
+DC_DSDL compiler                               : /home/potential/ardupilot/modules/DroneCAN/dronecan_dsdlc/dronecan_dsdlc.py 
+Source is git repository                       : yes 
+Update submodules                              : yes 
+Checking for program 'git'                     : /usr/bin/git 
+Checking for program 'size'                    : /usr/bin/size 
+Benchmarks                                     : disabled 
+Unit tests                                     : enabled 
+Scripting                                      : maybe 
+Scripting runtime checks                       : enabled 
+Debug build                                    : disabled 
+Coverage build                                 : disabled 
+Force 32-bit build                             : disabled 
+Checking for program 'rsync'                   : /usr/bin/rsync 
+'configure' finished successfully (0.520s)
+Waf: Entering directory `/home/potential/ardupilot/build/sitl'
+Embedding file locations.txt:Tools/autotest/locations.txt
+Embedding file models/Callisto.json:Tools/autotest/models/Callisto.json
+Embedding file models/plane-3d.parm:Tools/autotest/models/plane-3d.parm
+Embedding file models/plane.parm:Tools/autotest/models/plane.parm
+Embedding file models/xplane_heli.json:Tools/autotest/models/xplane_heli.json
+Embedding file models/xplane_plane.json:Tools/autotest/models/xplane_plane.json
+Waf: Leaving directory `/home/potential/ardupilot/build/sitl'
+
+BUILD SUMMARY
+Build directory: /home/potential/ardupilot/build/sitl
+Target         Text (B)  Data (B)  BSS (B)  Total Flash Used (B)  Free Flash (B)  External Flash Used (B)
+---------------------------------------------------------------------------------------------------------
+bin/ardurover   3713199    165213   217928               3878412  Not Applicable  Not Applicable         
+
+'build' finished successfully (0.968s)
+RiTW: Starting Rover : /home/potential/ardupilot/build/sitl/bin/ardurover -S --model rover --speedup 1 --sysid 2 --slave 0 --defaults Tools/autotest/default_params/rover.parm --sim-address=127.0.0.1 -I1 --home 19.1685,73.00389999999999,584.0,0.0
+Connect tcp:127.0.0.1:5770 source_system=255
+Loaded module console
+Log Directory: 
+Telemetry log: mav.tlog
+Waiting for heartbeat from tcp:127.0.0.1:5770
+MAV> Setting top to                           : /home/potential/ardupilot 
+Setting out to                           : /home/potential/ardupilot/build 
+Autoconfiguration                        : enabled 
+Checking for program 'python'            : /usr/bin/python 
+Checking for python version >= 3.6.9     : 3.8.10 
+Setting board to                         : sitl 
+Using toolchain                          : native 
+Checking for 'g++' (C++ compiler)        : /usr/lib/ccache/g++ 
+Checking for 'gcc' (C compiler)          : /usr/lib/ccache/gcc 
+Checking for c flags '-MMD'              : yes 
+Checking for cxx flags '-MMD'            : yes 
+CXX Compiler                             : g++ 9.4.0 
+Checking for need to link with librt     : not necessary 
+Checking for feenableexcept              : yes 
+Enabling -Werror                         : no 
+Enabled OpenDroneID                      : no 
+Enabled firmware ID checking             : no 
+GPS Debug Logging                        : no 
+Enabled custom controller                : yes 
+Checking for HAVE_CMATH_ISFINITE         : yes 
+Checking for HAVE_CMATH_ISINF            : yes 
+Checking for HAVE_CMATH_ISNAN            : yes 
+Checking for NEED_CMATH_ISFINITE_STD_NAMESPACE : yes 
+Checking for NEED_CMATH_ISINF_STD_NAMESPACE    : yes 
+Checking for NEED_CMATH_ISNAN_STD_NAMESPACE    : yes 
+Checking for header endian.h                   : yes 
+Checking for header byteswap.h                 : yes 
+Checking for HAVE_MEMRCHR                      : yes 
+Configured VSCode Intellisense:                : no 
+DC_DSDL compiler                               : /home/potential/ardupilot/modules/DroneCAN/dronecan_dsdlc/dronecan_dsdlc.py 
+Source is git repository                       : yes 
+Update submodules                              : yes 
+Checking for program 'git'                     : /usr/bin/git 
+Checking for program 'size'                    : /usr/bin/size 
+Benchmarks                                     : disabled 
+Unit tests                                     : enabled 
+Scripting                                      : maybe 
+Scripting runtime checks                       : enabled 
+Debug build                                    : disabled 
+Coverage build                                 : disabled 
+Force 32-bit build                             : disabled 
+Checking for program 'rsync'                   : /usr/bin/rsync 
+'configure' finished successfully (0.514s)
+Waf: Entering directory `/home/potential/ardupilot/build/sitl'
+Embedding file locations.txt:Tools/autotest/locations.txt
+Embedding file models/Callisto.json:Tools/autotest/models/Callisto.json
+Embedding file models/plane-3d.parm:Tools/autotest/models/plane-3d.parm
+Embedding file models/plane.parm:Tools/autotest/models/plane.parm
+Embedding file models/xplane_heli.json:Tools/autotest/models/xplane_heli.json
+Embedding file models/xplane_plane.json:Tools/autotest/models/xplane_plane.json
+Waf: Leaving directory `/home/potential/ardupilot/build/sitl'
+
+BUILD SUMMARY
+Build directory: /home/potential/ardupilot/build/sitl
+Target         Text (B)  Data (B)  BSS (B)  Total Flash Used (B)  Free Flash (B)  External Flash Used (B)
+---------------------------------------------------------------------------------------------------------
+bin/ardurover   3713199    165213   217928               3878412  Not Applicable  Not Applicable         
+
+'build' finished successfully (0.957s)
+RiTW: Starting Rover : /home/potential/ardupilot/build/sitl/bin/ardurover -S --model rover --speedup 1 --sysid 2 --slave 0 --defaults Tools/autotest/default_params/rover.parm --sim-address=127.0.0.1 -I1 --home 19.1685,73.00389999999999,584.0,0.0
+Connect tcp:127.0.0.1:5770 source_system=255
+Loaded module console
+Log Directory: 
+Telemetry log: mav.tlog
+Waiting for heartbeat from tcp:127.0.0.1:5770
+MAV> 

@@ -1,0 +1,327 @@
+@import "tailwindcss" source(none);
+@source "../src";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+/*
+ * DRONE + FASTY (SROTA) — cockpit design system.
+ *
+ * Medium-dark industrial GCS palette with increased readability.
+ * Designed for desktop operator use without losing the
+ * aerospace / robotics ground-control appearance.
+ */
+
+@theme inline {
+  --radius-sm: 2px;
+  --radius-md: 3px;
+  --radius-lg: 4px;
+  --radius-xl: 6px;
+
+  --font-sans: "Barlow", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-panel: var(--panel);
+  --color-panel-header: var(--panel-header);
+  --color-drone: var(--drone);
+  --color-drone-dim: var(--drone-dim);
+  --color-fasty: var(--fasty);
+  --color-fasty-dim: var(--fasty-dim);
+  --color-ok: var(--ok);
+  --color-warn: var(--warn);
+  --color-fault: var(--fault);
+  --color-mission: var(--mission);
+  --color-neutral: var(--neutral);
+}
+
+:root {
+  --radius: 3px;
+
+  /* Core surfaces */
+  --background: oklch(0.205 0.018 255);
+  --foreground: oklch(0.965 0.008 250);
+  --panel: oklch(0.255 0.022 255);
+  --panel-header: oklch(0.325 0.026 255);
+  --card: oklch(0.295 0.024 255);
+  --card-foreground: oklch(0.955 0.008 250);
+  --popover: oklch(0.285 0.024 255);
+  --popover-foreground: oklch(0.965 0.008 250);
+
+  /* Interaction */
+  --primary: oklch(0.75 0.15 232);
+  --primary-foreground: oklch(0.19 0.018 255);
+  --secondary: oklch(0.36 0.026 255);
+  --secondary-foreground: oklch(0.95 0.008 250);
+  --muted: oklch(0.32 0.024 255);
+  --muted-foreground: oklch(0.78 0.018 252);
+  --accent: oklch(0.39 0.032 250);
+  --accent-foreground: oklch(0.97 0.008 250);
+
+  /* Borders / inputs */
+  --border: oklch(0.43 0.028 252);
+  --input: oklch(0.39 0.026 252);
+  --ring: oklch(0.72 0.13 232);
+
+  /* Status */
+  --destructive: oklch(0.62 0.20 25);
+  --destructive-foreground: oklch(0.98 0.01 250);
+
+  /* Vehicle colors */
+  --drone: oklch(0.80 0.15 232);
+  --drone-dim: oklch(0.50 0.09 235);
+  --fasty: oklch(0.78 0.17 55);
+  --fasty-dim: oklch(0.50 0.10 55);
+
+  /* Mission / system status */
+  --ok: oklch(0.80 0.18 150);
+  --warn: oklch(0.84 0.16 85);
+  --fault: oklch(0.68 0.21 25);
+  --mission: oklch(0.88 0.17 95);
+  --neutral: oklch(0.68 0.025 252);
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+
+  html,
+  body {
+    min-height: 100%;
+    font-size: 16px;
+  }
+
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+    font-size: 14px;
+    line-height: 1.45;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  button,
+  input,
+  select,
+  textarea {
+    font: inherit;
+  }
+
+  input,
+  select,
+  textarea {
+    color: var(--color-foreground);
+  }
+
+  select {
+    background-color: var(--color-input);
+  }
+
+  ::placeholder {
+    color: var(--color-muted-foreground);
+    opacity: 0.8;
+  }
+
+  ::selection {
+    background-color: color-mix(
+      in oklab,
+      var(--drone) 30%,
+      transparent
+    );
+    color: var(--foreground);
+  }
+}
+
+/* General readable labels */
+@utility label-xs {
+  font-size: 11px;
+  line-height: 16px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted-foreground);
+  font-weight: 600;
+}
+
+@utility value-mono {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  line-height: 1.35;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Panels */
+@utility panel-frame {
+  background-color: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 3px;
+}
+
+@utility panel-elevated {
+  background-color: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 3px;
+}
+
+/* Vehicle colors */
+@utility text-drone {
+  color: var(--drone);
+}
+
+@utility text-fasty {
+  color: var(--fasty);
+}
+
+@utility text-ok {
+  color: var(--ok);
+}
+
+@utility text-warn {
+  color: var(--warn);
+}
+
+@utility text-fault {
+  color: var(--fault);
+}
+
+/* Restrained technical glows */
+@utility glow-drone {
+  box-shadow:
+    0 0 0 1px color-mix(in oklab, var(--drone) 45%, transparent),
+    0 0 12px -5px color-mix(in oklab, var(--drone) 45%, transparent);
+}
+
+@utility glow-fasty {
+  box-shadow:
+    0 0 0 1px color-mix(in oklab, var(--fasty) 45%, transparent),
+    0 0 12px -5px color-mix(in oklab, var(--fasty) 45%, transparent);
+}
+
+/* Scrollbars */
+@utility scroll-thin {
+  scrollbar-width: thin;
+  scrollbar-color: var(--border) transparent;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border: 2px solid var(--background);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--neutral);
+}
+
+/* Configuration surfaces */
+@utility config-surface {
+  background-color: var(--panel);
+  border: 1px solid var(--border);
+}
+
+@utility config-header {
+  background-color: var(--panel-header);
+  border-bottom: 1px solid var(--border);
+}
+
+@utility config-row {
+  background-color: var(--card);
+  border-bottom: 1px solid color-mix(
+    in oklab,
+    var(--border) 70%,
+    transparent
+  );
+}
+
+@utility config-row-hover {
+  &:hover {
+    background-color: var(--accent);
+  }
+}
+
+/* Tables */
+@utility data-table {
+  border: 1px solid var(--border);
+  background-color: var(--panel);
+}
+
+@utility data-table-header {
+  background-color: var(--panel-header);
+  color: var(--foreground);
+  font-weight: 600;
+}
+
+@utility data-table-cell {
+  background-color: var(--card);
+  color: var(--card-foreground);
+}
+
+/* Status indicators */
+@utility status-ok {
+  color: var(--ok);
+  border-color: color-mix(
+    in oklab,
+    var(--ok) 55%,
+    var(--border)
+  );
+  background-color: color-mix(
+    in oklab,
+    var(--ok) 10%,
+    var(--panel)
+  );
+}
+
+@utility status-warn {
+  color: var(--warn);
+  border-color: color-mix(
+    in oklab,
+    var(--warn) 55%,
+    var(--border)
+  );
+  background-color: color-mix(
+    in oklab,
+    var(--warn) 10%,
+    var(--panel)
+  );
+}
+
+@utility status-fault {
+  color: var(--fault);
+  border-color: color-mix(
+    in oklab,
+    var(--fault) 55%,
+    var(--border)
+  );
+  background-color: color-mix(
+    in oklab,
+    var(--fault) 10%,
+    var(--panel)
+  );
+}

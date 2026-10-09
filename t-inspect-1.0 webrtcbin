@@ -1,0 +1,274 @@
+[33mFactory Details:[0m
+  [94mRank                     [0mnone (0)[0m
+  [94mLong-name                [0mRTSP packet receiver[0m
+  [94mKlass                    [0mSource/Network[0m
+  [94mDescription              [0mReceive data over the network via RTSP (RFC 2326)[0m
+  [94mAuthor                   [0mWim Taymans <wim@fluendo.com>, Thijs Vermeir <thijs.vermeir@barco.com>, Lutz Mueller <lutz@topfrose.de>[0m
+
+[33mPlugin Details[0m:
+  [94mName                     [0m[0mrtsp[0m
+  [94mDescription              [0m[0mtransfer data via RTSP[0m
+  [94mFilename                 [0m[0m/usr/lib/x86_64-linux-gnu/gstreamer-1.0/libgstrtsp.so[0m
+  [94mVersion                  [0m[0m1.16.3[0m
+  [94mLicense                  [0m[0mLGPL[0m
+  [94mSource module            [0m[0mgst-plugins-good[0m
+  [94mSource release date      [0m[0m2020-10-21[0m
+  [94mBinary package           [0m[0mGStreamer Good Plugins (Ubuntu)[0m
+  [94mOrigin URL               [0m[0mhttps://launchpad.net/distros/ubuntu/+source/gst-plugins-good1.0[0m
+
+[32mGObject[0m
+ [95m+----[0m[32mGInitiallyUnowned[0m
+       [95m+----[0m[32mGstObject[0m
+             [95m+----[0m[32mGstElement[0m
+                   [95m+----[0m[32mGstBin[0m
+                         [95m+----[0m[32mGstRTSPSrc[0m
+
+[33mImplemented Interfaces[0m:
+  [32mGstChildProxy[0m
+  [32mGstURIHandler[0m
+
+[33mPad Templates[0m:
+  [94mSRC template[0m: [0m'stream_%u'[0m
+    [94mAvailability[0m: [0mSometimes[0m
+    [94mCapabilities[0m:
+      [33mapplication/x-rtp[0m
+      [33mapplication/x-rdt[0m
+
+[0mElement has no clocking capabilities.[0m
+
+[33mURI handling capabilities:[0m
+  [0mElement can act as source.[0m
+  [0mSupported URI protocols[0m:
+    [36mrtsp[0m
+    [36mrtspu[0m
+    [36mrtspt[0m
+    [36mrtsph[0m
+    [36mrtsp-sdp[0m
+    [36mrtsps[0m
+    [36mrtspsu[0m
+    [36mrtspst[0m
+    [36mrtspsh[0m
+
+[33mPads:[0m
+  [0mnone[0m
+
+[33mElement Properties[0m:
+  [94masync-handling      [0m: [0mThe bin will handle Asynchronous state changes[0m
+                        [33mflags[0m: [36mreadable[0m, [36mwritable[0m
+                        [32mBoolean[0m. [33mDefault[0m: [36mfalse[0m
+  [94mbackchannel         [0m: [0mThe type of backchannel to setup. Default is 'none'.[0m
+                        [33mflags[0m: [36mreadable[0m, [36mwritable[0m
+                        [32mEnum "GstRTSPBackchannel"[0m [33mDefault[0m: [36m0, "none"[0m
+                           [33m(0)[0m: [36mnone            [0m - [0mNo backchannel[0m
+                           [33m(1)[0m: [36monvif           [0m - [0mONVIF audio backchannel[0m
+  [94mbuffer-mode         [0m: [0mControl the buffering algorithm in use[0m
+                        [33mflags[0m: [36mreadable[0m, [36mwritable[0m
+                        [32mEnum "GstRTSPSrcBufferMode"[0m [33mDefault[0m: [36m3, "auto"[0m
+                           [33m(0)[0m: [36mnone            [0m - [0mOnly use RTP timestamps[0m
+                           [33m(1)[0m: [36mslave           [0m - [0mSlave receiver to sender clock[0m
+                           [33m(2)[0m: [36mbuffer          [0m - [0mDo low/high watermark buffering[0m
+                           [33m(3)[0m: [36mauto            [0m - [0mChoose mode depending on stream live[0m
+                           [33m(4)[0m: [36msynced          [0m - [0mSynchronized sender and receiver clocks[0m
+  [94mconnection-speed    [0m: [0mNetwork connection speed in kbps (0 = unknown)[0m
+                        [33mflags[0m: [36mreadable[0m, [36mwritable[0m
+                        [32mUnsigned Integer64[0m. [33mRange[0m: [36m0 - 18446744073709551[0m [33mDefault[0m: [36m0[0m 
+  [94mdebug               [0m: [0mDump request and response messages to stdout(DEPRECATED: Printed all RTSP message to gstreamer log as 'log' level)[0m
+                        [33mflags[0m: [36mreadable[0m, [36mwritable[0m, [36mdeprecated[0m
+                        [32mBoolean[0m. [33mDefault[0m: [36mfalse[0m
+  [94mdefault-rtsp-version[0m: [0mThe RTSP version that should be tried first when negotiating version.[0m
+                        [33mflags[0m: [36mreadable[0m, [36mwritable[0m
+                        [32mEnum "GstRTSPVersion"[0m [33mDefault[0m: [36m16, "1-0"[0m
+                           [33m(0)[0m: [36minvalid         [0m - [0mGST_RTSP_VERSION_INVALID[0m
+                           [33m(16)[0m: [36m1-0             [0m - [0mGST_RTSP_VERSION_1_0[0m
+                           [33m(17)[0m: [36m1-1             [0m - [0mGST_RTSP_VERSION_1_1[0m
+                           [33m(32)[0m: [36m2-0             [0m - [0mGST_RTSP_VERSION_2_0[0m
+  [94mdo-retransmission   [0m: [0mAsk the server to retransmit lost packets[0m
+                        [33mflags[0m: [36mreadable[0m, [36mwritable[0m
+                        [32mBoolean[0m. [33mDefault[0m: [36mtrue[0m
+  [94mdo-rtcp             [0m: [0mSend RTCP packets, disable for old incompatible server.[0m
+                        [33mflags[0m: [36mreadable[0m, [36mwritable[0m
+                        [32mBoolean[0m. [33mDefault[0m: [36mtrue[0m
+  [94mdo-rtsp-keep-alive  [0m: [0mSend RTSP keep alive packets, disable for old incompatible server.[0m
+                        [33mflags[0m: [36mreadable[0m, [36mwritable[0m
+                        [32mBoolean[0m. [33mDefault[0m: [36mtrue[0m
+  [94mdrop-on-latency     [0m: [0mTells the jitterbuffer to never exceed the given latency in size[0m
+                        [33mflags[0m: [36mreadable[0m, [36mwritable[0m
+                        [32mBoolean[0m. [33mDefault[0m: [36mfalse[0m
+  [94mlatency             [0m: [0mAmount of ms to buffer[0m
+                        [33mflags[0m: [36mreadable[0m, [36mwritable[0m
+                        [32mUnsigned Integer[0m. [33mRange[0m: [36m0 - 4294967295[0m [33mDefault[0m: [36m2000[0m 
+  [94mlocation            [0m: [0mLocation of the RTSP url to read[0m
+                        [33mflags[0m: [36mreadable[0m, [36mwritable[0m
+                        [32mString[0m. [33mDefault[0m: [36mnull[0m
+  [94mmax-rtcp-rtp-time-diff[0m: [0mMaximum amount of time in ms that the RTP time in RTCP SRs is allowed to be ahead (-1 disabled)[0m
+                        [33mflags[0m: [36mreadable[0m, [36mwritable[0m
+                        [32mInteger[0m. [33mRange[0m: [36m-1 - 2147483647[0m [33mDefault[0m: [36m1000[0m 
+  [94mmax-ts-offset       [0m: [0mThe maximum absolute value of the time offset in (nanoseconds). Note, if the ntp-sync parameter is set the default value is changed to 0 (no limit)[0m
+                        [33mflags[0m: [36mreadable[0m, [36mwritable[0m
+                        [32mInteger64[0m. [33mRange[0m: [36m0 - 9223372036854775807[0m [33mDefault[0m: [36m3000000000[0m 
+  [94mmax-ts-offset-adjustment[0m: [0mThe maximum number of nanoseconds per frame that time stamp offsets may be adjusted (0 = no limit).[0m
+                        [33mflags[0m: [36mreadable[0m, [36mwritable[0m
+                        [32mUnsigned Integer64[0m. [33mRange[0m: [36m0 - 18446744073709551615[0m [33mDefault[0m: [36m0[0m 
+  [94mmessage-forward     [0m: [0mForwards all children messages[0m
+                        [33mflags[0m: [36mreadable[0m, [36mwritable[0m
+                        [32mBoolean[0m. [33mDefault[0m: [36mfalse[0m
+  [94mmulticast-iface     [0m: [0mThe network interface on which to join the multicast group[0m
+                        [33mflags[0m: [36mreadable[0m, [36mwritable[0m
+                        [32mString[0m. [33mDefault[0m: [36mnull[0m
+  [94mname                [0m: [0mThe name of the object[0m
+                        [33mflags[0m: [36mreadable[0m, [36mwritable[0m
+                        [32mString[0m. [33mDefault[0m: [36m"rtspsrc0"[0m
+  [94mnat-method          [0m: [0mMethod to use for traversing firewalls and NAT[0m
+                        [33mflags[0m: [36mreadable[0m, [36mwritable[0m
+                        [32mEnum "GstRTSPNatMethod"[0m [33mDefault[0m: [36m1, "dummy"[0m
+                           [33m(0)[0m: [36mnone            [0m - [0mNone[0m
+                           [33m(1)[0m: [36mdummy           [0m - [0mSend Dummy packets[0m
+  [94mntp-sync            [0m: [0mSynchronize received streams to the NTP clock[0m
+                        [33mflags[0m: [36mreadable[0m, [36mwritable[0m
+                        [32mBoolean[0m. [33mDefault[0m: [36mfalse[0m
+  [94mntp-time-source     [0m: [0mNTP time source for RTCP packets[0m
+                        [33mflags[0m: [36mreadable[0m, [36mwritable[0m
+                        [32mEnum "GstRTSPSrcNtpTimeSource"[0m [33mDefault[0m: [36m0, "ntp"[0m
+                           [33m(0)[0m: [36mntp             [0m - [0mNTP time based on realtime clock[0m
+                           [33m(1)[0m: [36munix            [0m - [0mUNIX time based on realtime clock[0m
+                           [33m(2)[0m: [36mrunning-time    [0m - [0mRunning time based on pipeline clock[0m
+                           [33m(3)[0m: [36mclock-time      [0m - [0mPipeline clock time[0m
+  [94mparent              [0m: [0mThe parent of the object[0m
+                        [33mflags[0m: [36mreadable[0m, [36mwritable[0m
+                        [0mObject of type[0m [32m"GstObject"[0m
+  [94mport-range          [0m: [0mClient port range that can be used to receive RTP and RTCP data, eg. 3000-3005 (NULL = no restrictions)[0m
+                        [33mflags[0m: [36mreadable[0m, [36mwritable[0m
+                        [32mString[0m. [33mDefault[0m: [36mnull[0m
+  [94mprobation           [0m: [0mConsecutive packet sequence numbers to accept the source[0m
+                        [33mflags[0m: [36mreadable[0m, [36mwritable[0m
+                        [32mUnsigned Integer[0m. [33mRange[0m: [36m0 - 4294967295[0m [33mDefault[0m: [36m2[0m 
+  [94mprotocols           [0m: [0mAllowed lower transport protocols[0m
+                        [33mflags[0m: [36mreadable[0m, [36mwritable[0m
+                        [32mFlags "GstRTSPLowerTrans"[0m [33mDefault[0m: [36m0x00000007, "tcp+udp-mcast+udp"[0m
+                           [33m(0x00000000)[0m: [36munknown         [0m - [0mGST_RTSP_LOWER_TRANS_UNKNOWN[0m
+                           [33m(0x00000001)[0m: [36mudp             [0m - [0mGST_RTSP_LOWER_TRANS_UDP[0m
+                           [33m(0x00000002)[0m: [36mudp-mcast       [0m - [0mGST_RTSP_LOWER_TRANS_UDP_MCAST[0m
+                           [33m(0x00000004)[0m: [36mtcp             [0m - [0mGST_RTSP_LOWER_TRANS_TCP[0m
+                           [33m(0x00000010)[0m: [36mhttp            [0m - [0mGST_RTSP_LOWER_TRANS_HTTP[0m
+                           [33m(0x00000020)[0m: [36mtls             [0m - [0mGST_RTSP_LOWER_TRANS_TLS[0m
+  [94mproxy               [0m: [0mProxy settings for HTTP tunneling. Format: [http://][user:passwd@]host[:port][0m
+                        [33mflags[0m: [36mreadable[0m, [36mwritable[0m
+                        [32mString[0m. [33mDefault[0m: [36mnull[0m
+  [94mproxy-id            [0m: [0mHTTP proxy URI user id for authentication[0m
+                        [33mflags[0m: [36mreadable[0m, [36mwritable[0m
+                        [32mString[0m. [33mDefault[0m: [36mnull[0m
+  [94mproxy-pw            [0m: [0mHTTP proxy URI user password for authentication[0m
+                        [33mflags[0m: [36mreadable[0m, [36mwritable[0m
+                        [32mString[0m. [33mDefault[0m: [36mnull[0m
+  [94mretry               [0m: [0mMax number of retries when allocating RTP ports.[0m
+                        [33mflags[0m: [36mreadable[0m, [36mwritable[0m
+                        [32mUnsigned Integer[0m. [33mRange[0m: [36m0 - 65535[0m [33mDefault[0m: [36m20[0m 
+  [94mrfc7273-sync        [0m: [0mSynchronize received streams to the RFC7273 clock (requires clock and offset to be provided)[0m
+                        [33mflags[0m: [36mreadable[0m, [36mwritable[0m
+                        [32mBoolean[0m. [33mDefault[0m: [36mfalse[0m
+  [94mrtp-blocksize       [0m: [0mRTP package size to suggest to server (0 = disabled)[0m
+                        [33mflags[0m: [36mreadable[0m, [36mwritable[0m
+                        [32mUnsigned Integer[0m. [33mRange[0m: [36m0 - 65536[0m [33mDefault[0m: [36m0[0m 
+  [94msdes                [0m: [0mThe SDES items of this session[0m
+                        [33mflags[0m: [36mreadable[0m, [36mwritable[0m
+                        [0mBoxed pointer of type[0m [32m"GstStructure"[0m
+  [94mshort-header        [0m: [0mOnly send the basic RTSP headers for broken encoders[0m
+                        [33mflags[0m: [36mreadable[0m, [36mwritable[0m
+                        [32mBoolean[0m. [33mDefault[0m: [36mfalse[0m
+  [94mtcp-timeout         [0m: [0mFail after timeout microseconds on TCP connections (0 = disabled)[0m
+                        [33mflags[0m: [36mreadable[0m, [36mwritable[0m
+                        [32mUnsigned Integer64[0m. [33mRange[0m: [36m0 - 18446744073709551615[0m [33mDefault[0m: [36m20000000[0m 
+  [94mteardown-timeout    [0m: [0mWhen transitioning PAUSED-READY, allow up to timeout (in nanoseconds) delay in order to send teardown (0 = disabled)[0m
+                        [33mflags[0m: [36mreadable[0m, [36mwritable[0m
+                        [32mUnsigned Integer64[0m. [33mRange[0m: [36m0 - 18446744073709551615[0m [33mDefault[0m: [36m100000000[0m 
+  [94mtimeout             [0m: [0mRetry TCP transport after UDP timeout microseconds (0 = disabled)[0m
+                        [33mflags[0m: [36mreadable[0m, [36mwritable[0m
+                        [32mUnsigned Integer64[0m. [33mRange[0m: [36m0 - 18446744073709551615[0m [33mDefault[0m: [36m5000000[0m 
+  [94mtls-database        [0m: [0mTLS database with anchor certificate authorities used to validate the server certificate[0m
+                        [33mflags[0m: [36mreadable[0m, [36mwritable[0m
+                        [0mObject of type[0m [32m"GTlsDatabase"[0m
+  [94mtls-interaction     [0m: [0mA GTlsInteraction object to promt the user for password or certificate[0m
+                        [33mflags[0m: [36mreadable[0m, [36mwritable[0m
+                        [0mObject of type[0m [32m"GTlsInteraction"[0m
+  [94mtls-validation-flags[0m: [0mTLS certificate validation flags used to validate the server certificate[0m
+                        [33mflags[0m: [36mreadable[0m, [36mwritable[0m
+                        [32mFlags "GTlsCertificateFlags"[0m [33mDefault[0m: [36m0x0000007f, "validate-all"[0m
+                           [33m(0x00000001)[0m: [36munknown-ca      [0m - [0mG_TLS_CERTIFICATE_UNKNOWN_CA[0m
+                           [33m(0x00000002)[0m: [36mbad-identity    [0m - [0mG_TLS_CERTIFICATE_BAD_IDENTITY[0m
+                           [33m(0x00000004)[0m: [36mnot-activated   [0m - [0mG_TLS_CERTIFICATE_NOT_ACTIVATED[0m
+                           [33m(0x00000008)[0m: [36mexpired         [0m - [0mG_TLS_CERTIFICATE_EXPIRED[0m
+                           [33m(0x00000010)[0m: [36mrevoked         [0m - [0mG_TLS_CERTIFICATE_REVOKED[0m
+                           [33m(0x00000020)[0m: [36minsecure        [0m - [0mG_TLS_CERTIFICATE_INSECURE[0m
+                           [33m(0x00000040)[0m: [36mgeneric-error   [0m - [0mG_TLS_CERTIFICATE_GENERIC_ERROR[0m
+                           [33m(0x0000007f)[0m: [36mvalidate-all    [0m - [0mG_TLS_CERTIFICATE_VALIDATE_ALL[0m
+  [94mudp-buffer-size     [0m: [0mSize of the kernel UDP receive buffer in bytes, 0=default[0m
+                        [33mflags[0m: [36mreadable[0m, [36mwritable[0m
+                        [32mInteger[0m. [33mRange[0m: [36m0 - 2147483647[0m [33mDefault[0m: [36m524288[0m 
+  [94mudp-reconnect       [0m: [0mReconnect to the server if RTSP connection is closed when doing UDP[0m
+                        [33mflags[0m: [36mreadable[0m, [36mwritable[0m
+                        [32mBoolean[0m. [33mDefault[0m: [36mtrue[0m
+  [94muse-pipeline-clock  [0m: [0mUse the pipeline running-time to set the NTP time in the RTCP SR messages(DEPRECATED: Use ntp-time-source property)[0m
+                        [33mflags[0m: [36mreadable[0m, [36mwritable[0m, [36mdeprecated[0m
+                        [32mBoolean[0m. [33mDefault[0m: [36mfalse[0m
+  [94muser-agent          [0m: [0mThe User-Agent string to send to the server[0m
+                        [33mflags[0m: [36mreadable[0m, [36mwritable[0m
+                        [32mString[0m. [33mDefault[0m: [36m"GStreamer/1.16.3"[0m
+  [94muser-id             [0m: [0mRTSP location URI user id for authentication[0m
+                        [33mflags[0m: [36mreadable[0m, [36mwritable[0m
+                        [32mString[0m. [33mDefault[0m: [36mnull[0m
+  [94muser-pw             [0m: [0mRTSP location URI user password for authentication[0m
+                        [33mflags[0m: [36mreadable[0m, [36mwritable[0m
+                        [32mString[0m. [33mDefault[0m: [36mnull[0m
+
+[33mElement Signals[0m:
+  [94m"pad-added"[0m :  [32mvoid[0m user_function[0m ([32mGstElement[0m* object[0m,
+                                     [32mGstPad[0m* arg0[0m,
+                                     [32mgpointer [0muser_data[0m);
+  [94m"pad-removed"[0m :  [32mvoid[0m user_function[0m ([32mGstElement[0m* object[0m,
+                                       [32mGstPad[0m* arg0[0m,
+                                       [32mgpointer [0muser_data[0m);
+  [94m"no-more-pads"[0m :  [32mvoid[0m user_function[0m ([32mGstElement[0m* object[0m,
+                                        [32mgpointer [0muser_data[0m);
+  [94m"handle-request"[0m :  [32mvoid[0m user_function[0m ([32mGstElement[0m* object[0m,
+                                          [32mgpointer[0m arg0[0m,
+                                          [32mgpointer[0m arg1[0m,
+                                          [32mgpointer [0muser_data[0m);
+  [94m"on-sdp"[0m :  [32mvoid[0m user_function[0m ([32mGstElement[0m* object[0m,
+                                  [32mGstSDPMessage[0m* arg0[0m,
+                                  [32mgpointer [0muser_data[0m);
+  [94m"select-stream"[0m :  [32mgboolean[0m user_function[0m ([32mGstElement[0m* object[0m,
+                                             [32mguint[0m arg0[0m,
+                                             [32mGstCaps[0m* arg1[0m,
+                                             [32mgpointer [0muser_data[0m);
+  [94m"new-manager"[0m :  [32mvoid[0m user_function[0m ([32mGstElement[0m* object[0m,
+                                       [32mGstElement[0m* arg0[0m,
+                                       [32mgpointer [0muser_data[0m);
+  [94m"request-rtcp-key"[0m :  [32mGstCaps[0m* user_function[0m ([32mGstElement[0m* object[0m,
+                                                 [32mguint[0m arg0[0m,
+                                                 [32mgpointer [0muser_data[0m);
+  [94m"accept-certificate"[0m :  [32mgboolean[0m user_function[0m ([32mGstElement[0m* object[0m,
+                                                  [32mGTlsConnection[0m* arg0[0m,
+                                                  [32mGTlsCertificate[0m* arg1[0m,
+                                                  [32mGTlsCertificateFlags[0m arg2[0m,
+                                                  [32mgpointer [0muser_data[0m);
+  [94m"before-send"[0m :  [32mgboolean[0m user_function[0m ([32mGstElement[0m* object[0m,
+                                           [32mGstRTSPMessage[0m* arg0[0m,
+                                           [32mgpointer [0muser_data[0m);
+
+[33mElement Actions[0m:
+  [94m"push-backchannel-buffer"[0m :  [32mGstFlowReturn[0m user_function[0m ([32mGstElement[0m* object[0m,
+                                                            [32mguint[0m arg0[0m,
+                                                            [32mGstBuffer[0m* arg1[0m);
+  [94m"get-parameter"[0m :  [32mgboolean[0m user_function[0m ([32mGstElement[0m* object[0m,
+                                             [32mgchararray[0m arg0[0m,
+                                             [32mgchararray[0m arg1[0m,
+                                             [32mGstPromise[0m* arg2[0m);
+  [94m"get-parameters"[0m :  [32mgboolean[0m user_function[0m ([32mGstElement[0m* object[0m,
+                                              [32mGStrv[0m* arg0[0m,
+                                              [32mgchararray[0m arg1[0m,
+                                              [32mGstPromise[0m* arg2[0m);
+  [94m"set-parameter"[0m :  [32mgboolean[0m user_function[0m ([32mGstElement[0m* object[0m,
+                                             [32mgchararray[0m arg0[0m,
+                                             [32mgchararray[0m arg1[0m,
+                                             [32mgchararray[0m arg2[0m,
+                                             [32mGstPromise[0m* arg3[0m);
